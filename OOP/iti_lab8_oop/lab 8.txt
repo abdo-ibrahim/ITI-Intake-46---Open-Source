@@ -1,0 +1,12 @@
+اللاب :
+
+1. نعمل Fibonacci Series بالـ Recursion.
+
+
+2. نعمل Copy Constructor باستخدام الـ Stack.
+
+
+3. نعمل كلاس Rectangle فيها Point، وكلاس Circle فيها Point و radius، وكلاس Triangle فيها 3 Points — والعلاقات دي كلها Composition.
+
+
+4. نعمل نفس المطلوب في رقم (3) بس المرة دي نخلي العلاقات Aggregation.

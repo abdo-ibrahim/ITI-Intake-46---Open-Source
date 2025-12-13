@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Zagazig university Electronic system for examination and evaluation system</title>
+    <style>
+      /* Very simple clean style */
+      :root {
+        --bg: #ffffff;
+        --card-bg: #f8fafc;
+        --border: #e6eaf0;
+        --title: #0f1724;
+        --attr-bg: #f1f5f9;
+        --attr-border: #dbe6f0;
+        --muted: #667085;
+        --pk-color: #1e40af;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Inter, system-ui, Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--title);
+        line-height: 1.4;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 28px auto;
+        padding: 18px;
+      }
+
+      .table-block {
+        width: 100%;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 12px 14px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+      }
+
+      .table-title {
+        font-weight: 700;
+        font-size: 16px;
+        margin: 0 0 8px 0;
+      }
+
+      .sep {
+        height: 1px;
+        background: var(--border);
+        margin: 6px 0 10px 0;
+      }
+
+      .attrs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .attr {
+        display: inline-block;
+        padding: 8px 10px;
+        background: var(--attr-bg);
+        border: 1px solid var(--attr-border);
+        border-radius: 6px;
+        font-size: 13px;
+        color: var(--title);
+        white-space: nowrap;
+      }
+
+      .pk {
+        font-weight: 700;
+        border-color: var(--pk-color);
+        color: var(--pk-color);
+      }
+
+      .note {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 8px;
+      }
+
+      /* small responsive */
+      @media (max-width: 520px) {
+        .attr {
+          font-size: 12px;
+          padding: 6px 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="margin: 0 0 6px 0">Tables & Attributes</h2>
+
+      <!-- Student -->
+      <div class="table-block">
+        <div class="table-title">Student</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">student_id</span>
+          <span class="attr">department_id</span>
+          <span class="attr">first_name</span>
+          <span class="attr">last_name</span>
+          <span class="attr">email</span>
+          <span class="attr">password</span>
+          <span class="attr">phone</span>
+          <span class="attr">level</span>
+          <span class="attr">degree</span>
+          <span class="attr">enrollment_date</span>
+          <span class="attr">date_of_birth</span>
+          <span class="attr">gender</span>
+          <span class="attr">city</span>
+        </div>
+      </div>
+
+      <!-- Professor -->
+      <div class="table-block">
+        <div class="table-title">Professor</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">professor_id</span>
+          <span class="attr">department_id</span>
+          <span class="attr">first_name</span>
+          <span class="attr">last_name</span>
+          <span class="attr">email</span>
+          <span class="attr">phone</span>
+          <span class="attr">degree</span>
+          <span class="attr">specialization</span>
+          <span class="attr">office_number</span>
+          <span class="attr">joining_date</span>
+        </div>
+      </div>
+
+      <!-- Course -->
+      <div class="table-block">
+        <div class="table-title">Course</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">course_id</span>
+          <span class="attr">department_id</span>
+          <span class="attr">name</span>
+          <span class="attr">code</span>
+          <span class="attr">credit_hours</span>
+          <span class="attr">semester</span>
+          <span class="attr">level</span>
+          <span class="attr">description</span>
+        </div>
+      </div>
+
+      <!-- Department -->
+      <div class="table-block">
+        <div class="table-title">Department</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">department_id</span>
+          <span class="attr">head_professor_id</span>
+          <span class="attr">name</span>
+          <span class="attr">building</span>
+          <span class="attr">floor</span>
+          <span class="attr">phone</span>
+          <span class="attr">level</span>
+        </div>
+      </div>
+
+      <!-- Question -->
+      <div class="table-block">
+        <div class="table-title">Question</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">question_id</span>
+          <span class="attr">professor_id</span>
+          <span class="attr">text</span>
+          <span class="attr">type</span>
+          <span class="attr">marks</span>
+          <span class="attr">creation_date</span>
+        </div>
+      </div>
+
+      <!-- Exam -->
+      <div class="table-block">
+        <div class="table-title">Exam</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">exam_id</span>
+          <span class="attr">professor_id</span>
+          <span class="attr">course_id</span>
+          <span class="attr">title</span>
+          <span class="attr">exam_date</span>
+          <span class="attr">duration_minutes</span>
+          <span class="attr">total_marks</span>
+          <span class="attr">status</span>
+        </div>
+      </div>
+
+      <!-- Student_Course -->
+      <div class="table-block">
+        <div class="table-title">Student_Course</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">student_id</span>
+          <span class="attr pk">course_id</span>
+          <span class="attr">enroll_date</span>
+          <span class="attr">final_grade</span>
+          <span class="attr">academic_year</span>
+          <span class="attr">semester</span>
+          <span class="attr">status</span>
+        </div>
+      </div>
+
+      <!-- Course_Professor -->
+      <div class="table-block">
+        <div class="table-title">Course_Professor</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">course_id</span>
+          <span class="attr pk">professor_id</span>
+          <span class="attr">semester</span>
+          <span class="attr">year</span>
+          <span class="attr">role</span>
+        </div>
+      </div>
+
+      <!-- Exam_Questions -->
+      <div class="table-block">
+        <div class="table-title">Exam_Questions</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">exam_id</span>
+          <span class="attr pk">question_id</span>
+          <span class="attr">question_order</span>
+          <span class="attr">points</span>
+        </div>
+      </div>
+
+      <!-- Student_Exam -->
+      <div class="table-block">
+        <div class="table-title">Student_Exam</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">student_id</span>
+          <span class="attr pk">exam_id</span>
+          <span class="attr">start_time</span>
+          <span class="attr">end_time</span>
+          <span class="attr">total_score</span>
+          <span class="attr">status</span>
+          <span class="attr">attempt_date</span>
+          <span class="attr">time_taken</span>
+        </div>
+      </div>
+
+      <!-- Exam_Answer -->
+      <div class="table-block">
+        <div class="table-title">Exam_Answer</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">student_id</span>
+          <span class="attr pk">exam_id</span>
+          <span class="attr pk">question_id</span>
+          <span class="attr">answer_text</span>
+          <span class="attr">is_correct</span>
+          <span class="attr">marks_obtained</span>
+        </div>
+      </div>
+
+      <!-- Course_Evaluation -->
+      <div class="table-block">
+        <div class="table-title">Course_Evaluation</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">student_id</span>
+          <span class="attr pk">course_id</span>
+          <span class="attr">rating</span>
+          <span class="attr">comment</span>
+          <span class="attr">evaluation_date</span>
+        </div>
+      </div>
+
+      <!-- Professor_Evaluation -->
+      <div class="table-block">
+        <div class="table-title">Professor_Evaluation</div>
+        <div class="sep"></div>
+        <div class="attrs">
+          <span class="attr pk">student_id</span>
+          <span class="attr pk">professor_id</span>
+          <span class="attr pk">course_id</span>
+          <span class="attr">rating</span>
+          <span class="attr">comment</span>
+          <span class="attr">evaluation_date</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

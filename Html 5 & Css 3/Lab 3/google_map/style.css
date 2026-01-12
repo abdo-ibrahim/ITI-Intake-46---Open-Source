@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #261f2f;
+  font-family: Arial, sans-serif;
+}
+.controls {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  background-color: #3c2f4e;
+  padding: 15px;
+  border-radius: 10px;
+}
+.controls button {
+  background-color: #543f71;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+#map {
+  width: 80%;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+#info {
+  margin: 20px auto;
+  width: 80%;
+  background-color: #3c2f4e;
+  border-radius: 10px;
+}
+
+#info p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.7;
+  padding: 5px 0;
+}

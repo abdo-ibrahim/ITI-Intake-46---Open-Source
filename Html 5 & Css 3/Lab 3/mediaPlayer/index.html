@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mediaPlayer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="videoContainer">
+      <video id="videoPlayer" poster="video-preview1.jpg">
+        <source src="video2.mp4" type="video/mp4" />
+        <track label="English" kind="subtitles" srclang="en" src="subtitles_en.vtt" default />
+      </video>
+      <div class="controls">
+        <div class="row play-time-row">
+          <button class="play-pause">
+            <i class="fa-solid fa-play play"></i>
+            <i class="fa-solid fa-pause pause"></i>
+          </button>
+          <div class="time" style="font-size: 14px">
+            <span id="currentTime">00:00</span>
+            /
+            <span id="duration">00:00</span>
+          </div>
+        </div>
+        <div class="row seekbar-row">
+          <input type="range" id="seekBar" value="0" min="0" max="100" step="any" />
+        </div>
+        <div class="row other">
+          <button class="reset">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </button>
+          <button class="backward">
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+          </button>
+          <button class="forward">
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+          </button>
+          <button class="mute-unmute">
+            <i class="fa-solid fa-volume-high high"></i>
+            <i class="fa-solid fa-volume-off mute"></i>
+          </button>
+          <input type="range" id="volume" value="100" min="0" max="100" step="any" />
+          <select name="quality" id="quality">
+            <option value="1080">1080p</option>
+            <option value="720">720p</option>
+            <option value="480">480p</option>
+            <option value="360">360p</option>
+          </select>
+          <select name="speed" id="speed">
+            <option value="0.5">0.5x</option>
+            <option value="0.75">0.75x</option>
+            <option value="1" selected>1x</option>
+            <option value="1.5">1.5x</option>
+            <option value="1.75">1.75x</option>
+            <option value="2">2x</option>
+          </select>
+          <button class="fullscreen">
+            <i class="fa-solid fa-expand"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

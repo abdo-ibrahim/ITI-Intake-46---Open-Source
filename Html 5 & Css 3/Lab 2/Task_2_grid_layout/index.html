@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Grid Layout</title>
+  </head>
+  <body>
+    <button class="toggle-sidebar">
+      <img src="./images//menu.png" alt="">
+    </button>
+    <div class="grid-container">
+      <div class="sidebar">
+        <div class="logo">
+          <img src="./images/Logo.png" alt="" srcset="" />
+        </div>
+        <h3>Portfolio</h3>
+        <ul>
+          <li>About us</li>
+          <li>Blog</li>
+          <li>Buy This Theme</li>
+        </ul>
+        <div class="icons">
+          <a href="#">
+            <img src="./images/fb.png" alt="" srcset="" />
+          </a>
+          <a href="#">
+            <img src="./images/instagram.png" alt="" srcset="" />
+          </a>
+          <a href="#">
+            <img src="./images/linkedin.png" alt="" srcset="" />
+          </a>
+        </div>
+        <h3>A Text Widget</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi neque inventore reiciendis libero maiores ipsam unde.</p>
+        <h3>Flicker</h3>
+        <div class="flicker">
+          <img src="./images/row1-3.png" alt="" srcset="" />
+          <img src="./images/row2-1.png" alt="" srcset="" />
+          <img src="./images/row2-2.png" alt="" srcset="" />
+          <img src="./images/row3-3.jpg" alt="" srcset="" />
+          <img src="./images/row1-2.png" alt="" srcset="" />
+          <img src="./images/row2-3.png" alt="" srcset="" />
+        </div>
+      </div>
+      <div class="header">
+        <ul>
+          <li class="active">All</li>
+          <li>Illustrations</li>
+          <li>Photography</li>
+          <li>Motion</li>
+          <li>Print</li>
+        </ul>
+      </div>
+      <div class="item item1">
+        <img src="./images/cat-01.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item2 img">
+        <img src="./images/cat-02.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item3 img">
+        <img src="./images/cat-03.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item4 img">
+        <img src="./images/cat-04.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item5 img">
+        <img src="./images/cat-05.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item6 img">
+        <img src="./images/cat-06.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item7 img">
+        <img src="./images/cat-07.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item8 img">
+        <img src="./images/cat-08.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item9 img">
+        <img src="./images/team-01.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item10 img">
+        <img src="./images/team-02.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item11 img">
+        <img src="./images/team-03.jpg" alt="" srcset="" />
+      </div>
+      <div class="item item12 img">
+        <img src="./images/team-05.png" alt="" srcset="" />
+      </div>
+    </div>
+    <script>
+      let sidebar = document.querySelector(".sidebar");
+      // button to toggle sidebar
+      let toggleBtn = document.querySelector(".toggle-sidebar");
+      toggleBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

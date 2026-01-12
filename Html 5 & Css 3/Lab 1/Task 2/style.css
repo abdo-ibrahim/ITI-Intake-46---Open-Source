@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+p {
+  line-height: 1.5;
+  font-size: 15px;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url("images/herojpg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero .content {
+  position: relative;
+  margin: auto;
+  max-width: 600px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ff6643;
+}
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.2s;
+  border: 1px solid white;
+}
+.hero .btn:hover {
+  background-color: #ff5733;
+}
+
+.main-heading {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 40px;
+  position: relative;
+}
+.main-heading::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: black;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* start activites */
+.activities {
+  padding: 40px 0;
+  overflow: hidden;
+}
+.activities .activity {
+  position: relative;
+  width: calc((100% - 60px) / 3);
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .activities .activity {
+    float: none;
+    width: 100%;
+  }
+}
+.activities .activity:last-child {
+  margin-right: 0;
+}
+.activities .activity .img-social {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.activities .activity > img {
+  width: 100%;
+}
+.activities .activity .social {
+  list-style: none;
+  width: 100%;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff6643;
+  transition: 0.2s;
+}
+.activities .activity:hover .social {
+  bottom: 0px;
+}
+.activities .activity .social li {
+  margin: 0 5px;
+  display: inline-block;
+  padding: 5px;
+}
+.activities .activity .social li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  transition: 0.2s;
+}
+.activities .activity .social li a:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+.activities .activity .social li a img {
+  width: 30px;
+  height: 30px;
+}
+/* end activities */
+
+/* start gallery */
+
+.gallery {
+  padding: 60px 0;
+}
+.gallery .gal {
+  width: 25%;
+  float: left;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .gallery .gal {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .gallery .gal {
+    width: 100%;
+    float: none;
+  }
+}
+.gallery .gal img {
+  width: 100%;
+  transition: all 0.2s;
+}
+.gallery .gal:hover img {
+  transform: scale(1.05);
+  opacity: 0.85;
+  cursor: pointer;
+}
+.gallery .gal .overlay {
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+.gallery .gal p {
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: all 0.2s;
+  left: 0;
+  bottom: -100px;
+}
+.gallery .gal:hover p {
+  bottom: 0;
+}
+/* End gallery */

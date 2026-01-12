@@ -1,0 +1,43 @@
+button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgba(20, 125, 252, 0.797);
+  border: none;
+  color: white;
+}
+button:hover {
+  background-color: rgb(11, 92, 189);
+}
+
+.animation-box {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  animation: moveAndColorChange 4s infinite;
+  animation-play-state: running;
+}
+
+@keyframes moveAndColorChange {
+  0% {
+    transform: translateX(0);
+    background-color: coral;
+  }
+  25% {
+    transform: translateX(200px);
+    background-color: lightgreen;
+  }
+  50% {
+    transform: translate(200px, 200px);
+    background-color: lightblue;
+  }
+  75% {
+    transform: translate(0, 200px);
+    background-color: gold;
+  }
+  100% {
+    transform: translateX(0);
+    background-color: coral;
+  }
+}

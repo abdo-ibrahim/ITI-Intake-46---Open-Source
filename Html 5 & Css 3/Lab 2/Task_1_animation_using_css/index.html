@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animations</title>
+  </head>
+  <body>
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+    <button id="pauseBtn">Pause</button>
+    <div class="animation-box"></div>
+
+    <script>
+      const startBtn = document.getElementById("startBtn");
+      const stopBtn = document.getElementById("stopBtn");
+      const pauseBtn = document.getElementById("pauseBtn");
+      const animationBox = document.querySelector(".animation-box");
+
+      startBtn.addEventListener("click", startAnimation);
+      pauseBtn.addEventListener("click", pauseAnimation);
+      stopBtn.addEventListener("click", stopAnimation);
+
+      function startAnimation() {
+        animationBox.style.animation = "moveAndColorChange 4s infinite";
+        animationBox.style.animationPlayState = "running";
+      }
+      function pauseAnimation() {
+        animationBox.style.animation = "moveAndColorChange 4s infinite";
+        animationBox.style.animationPlayState = "paused";
+      }
+      function stopAnimation() {
+        animationBox.style.animation = "none";
+      }
+    </script>
+  </body>
+</html>

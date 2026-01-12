@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.forest,
+.canyon,
+.desert,
+.glacier {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: white;
+  font-size: 100px;
+  z-index: 1;
+}
+
+.forest {
+  background-image: url("./images/forest.jpg");
+}
+.canyon {
+  background-image: url("./images/canyon.jpg");
+}
+.desert {
+  background-image: url("./images/desert.jpg");
+}
+.glacier {
+  background-image: url("./images/glacier.jpg");
+}
+
+.forest h2 {
+  animation: bounce 2s infinite;
+}
+.canyon h2 {
+  animation: spin 2s linear infinite;
+}
+.desert h2 {
+  animation: pulse 4s infinite;
+}
+.glacier h2 {
+  animation: scale 3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes scale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0);
+  }
+}

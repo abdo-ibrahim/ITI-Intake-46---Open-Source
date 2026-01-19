@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"firstName":{"$numberInt":"1"},"lastName":{"$numberInt":"1"}},"name":"IX_Name"}],"uuid":"0a63451972e045f59b658eefab59f497","collectionName":"trainningCenter1","type":"collection"}

@@ -1,0 +1,164 @@
+.campaign-details-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.cd-header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.cd-img {
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #f3f3f3;
+}
+.cd-info {
+  flex: 1;
+}
+.cd-title {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+.cd-desc {
+  color: #555;
+  margin-bottom: 1rem;
+}
+.cd-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.cd-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f6f8fa;
+  border-radius: 6px;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  color: #333;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+.cd-meta-icon {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+.cd-meta-label {
+  font-weight: 500;
+  color: #666;
+}
+.cd-meta-value {
+  font-weight: 600;
+  color: #222;
+}
+.cd-progress {
+  margin-top: 1rem;
+}
+.progress-bar {
+  width: 100%;
+  height: 16px;
+  background: #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), #6ee7b7);
+  width: 0;
+  transition: width 0.4s;
+}
+.progress-bar-label {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.donate-section {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+.donate-section h2 {
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+}
+.donate-form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.donate-controls {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex: 1 1 0;
+}
+.donate-input {
+  padding: 0.7rem 1rem;
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  .donate-controls {
+    flex-direction: column;
+  }
+  .donate-input {
+    width: 100%;
+  }
+  .donate-btn {
+    width: 100%;
+  }
+}
+
+.pledge-history-section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+.pledge-history-section h2 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .cd-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .cd-img {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    border-radius: 8px;
+  }
+  .cd-info {
+    width: 100%;
+  }
+  .cd-meta {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+  }
+  .cd-meta-item {
+    width: 100%;
+    flex: unset;
+    justify-content: flex-start;
+  }
+  .cd-title {
+    font-size: 1.6rem;
+  }
+  .progress-bar {
+    height: 12px;
+  }
+  .campaign-details-card {
+    padding: 1.2rem;
+  }
+}

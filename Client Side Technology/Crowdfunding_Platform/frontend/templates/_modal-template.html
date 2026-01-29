@@ -1,0 +1,25 @@
+<!-- button -->
+<button id="openModalBtn">Create Campaign</button>
+
+<!-- modal -->
+<div class="modal-overlay" id="myModal">
+  <div class="modal">
+    <button class="modal-close">&times;</button>
+    <h2>Create Campaign</h2>
+    <div class="modal-content">
+      <form>
+        <div class="form-group">
+          <label for="campaignName">Campaign Name</label>
+          <input type="text" id="campaignName" placeholder="Enter campaign name" required />
+        </div>
+        <button type="submit">Create</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- script -->
+<script type="module">
+  import { initModal } from "./js/components/modal.js";
+  initModal("myModal", "openModalBtn");
+</script>

@@ -1,0 +1,15 @@
+.campaigns-section {
+  padding: 40px 0;
+}
+.campaigns-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 0 20px 40px;
+  color: var(--primary);
+}
+.create-campaign {
+  margin-bottom: 30px;
+}
+/* modal */
+
+/* modal */

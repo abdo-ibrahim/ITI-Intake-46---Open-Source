@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/campaigns.css" />
+    <title>Campaigns - Fundly</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Fundly Logo" />
+        </div>
+        <button class="menu">
+          <img src="./images/menu.png" />
+        </button>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li class="campaigns-link">
+              <a href="campaigns.html">My Campaigns</a>
+            </li>
+            <li class="dashboard-link">
+              <a href="admin.html">Dashboard</a>
+            </li>
+          </ul>
+          <div class="controls">
+            <a href="login.html">
+              <button>Login</button>
+            </a>
+            <a href="register.html">
+              <button class="btn-outline">Sign Up</button>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <main>
+      <section class="campaigns-section">
+        <div class="container">
+          <h2>My Campaigns</h2>
+          <!-- create button campaign -->
+          <button class="create-campaign" id="openModalBtn">+ Create New Campaign</button>
+          <!-- modal -->
+          <div class="modal-overlay" id="myModal">
+            <div class="modal">
+              <button class="modal-close">&times;</button>
+              <h2>Create Campaign</h2>
+              <div class="modal-content">
+                <form>
+                  <div class="form-group">
+                    <label for="campaignName">Campaign Name</label>
+                    <input type="text" id="campaignName" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="campaignDescription">Description</label>
+                    <textarea id="campaignDescription" required></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="campaignGoal">Goal ($)</label>
+                    <input type="number" id="campaignGoal" required min="1" />
+                  </div>
+                  <div class="form-group">
+                    <label for="campaignDeadline">Deadline</label>
+                    <input type="date" id="campaignDeadline" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="campaignImage">Image</label>
+                    <input type="file" id="campaignImage" accept="image/*" required />
+                    <input type="hidden" id="campaignImageBase64" name="campaignImageBase64" />
+                  </div>
+                  <button type="submit">Create</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- modal -->
+          <div class="table-container shadow-box">
+            <table class="campaigns-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Campaign Name</th>
+                  <th>Description</th>
+                  <th>Goal</th>
+                  <th>Status</th>
+                  <th>Deadline</th>
+                  <th>Image</th>
+                </tr>
+              </thead>
+              <tbody id="campaigns-table-body">
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Start Footer -->
+    <footer>
+      <div class="container footer-grid">
+        <div class="col1">
+          <div class="logo">
+            <img src="./images/logo.png" alt="Fundly Logo" />
+          </div>
+          <p>Generate outside the box thinking with the possibility to target the low.</p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="col2">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="campaigns.html">Campaigns</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; 2026 <span style="color: var(--primary)">Fundly.</span> All rights reserved.</p>
+    </footer>
+    <!-- End Footer -->
+    <script type="module" src="./dist/pages/campaigns.js"></script>
+  </body>
+</html>

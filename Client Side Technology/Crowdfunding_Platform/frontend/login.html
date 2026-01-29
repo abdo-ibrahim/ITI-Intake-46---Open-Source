@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>Login - Fundly</title>
+  </head>
+  <body>
+    <main class="login-page">
+      <div class="login-left">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Fundly Logo" />
+          <p>Turn your ideas into reality</p>
+        </div>
+      </div>
+      <div class="login-right">
+        <div class="login-form">
+          <h2>Welcome Back</h2>
+          <p class="login-form-description">Please enter your email and password to login</p>
+          <form action="#">
+            <div class="form-group">
+              <label for="email"
+                >Email
+                <span class="required">*</span></label>
+              </label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="password">Password
+                <span class="required">*</span></label>
+              <input type="password" id="password" required />
+            </div>
+            <button type="submit">Login</button>
+          </form>
+          <span class="line-or">
+            <hr class="line" />
+            <span class="or-text">or</span>
+            <hr class="line" />
+          </span>
+          <div clas="signup-link" style="font-size: 14px; text-align: center;">Don't have an account? <a href="register.html" style="color: var(--primary);">Sign Up</a></div>
+        </div>
+      </div>
+    </main>
+  </body>
+    <script type="module" src="./dist/pages/login.js"></script>
+</html>

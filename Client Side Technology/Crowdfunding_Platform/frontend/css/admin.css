@@ -1,0 +1,88 @@
+.admin-nav {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 32px;
+}
+.admin-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.admin-nav a {
+  display: block;
+  padding: 16px 28px;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px 8px 0 0;
+  text-decoration: none;
+  transition: 0.2s;
+  margin-top: 30px;
+}
+.admin-nav a:hover,
+.admin-nav a.active {
+  background: var(--primary);
+  color: #fff;
+}
+.admin-stats-section {
+  padding-top: 40px;
+}
+.stats-grid {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.stat-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 32px 40px;
+  text-align: center;
+  min-width: 180px;
+}
+.stat-card h3 {
+  color: var(--primary);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.stat-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary);
+}
+.admin-welcome-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.admin-table-section {
+  padding: 20px 0;
+}
+.admin-table th,
+.admin-table td {
+  text-align: center;
+}
+.status-inactive {
+  background: #aaa;
+  color: #fff;
+  border-radius: 16px;
+  padding: 4px 16px;
+  display: inline-block;
+  min-width: 70px;
+}
+@media (max-width: 900px) {
+  .stats-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .admin-table th,
+  .admin-table td {
+    padding: 10px 4px;
+    font-size: 13px;
+  }
+  .stat-card {
+    min-width: 120px;
+    padding: 20px 10px;
+  }
+}

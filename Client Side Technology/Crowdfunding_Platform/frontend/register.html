@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+    <title>Register - Fundly</title>
+  </head>
+  <body>
+    <main class="register-page">
+      <div class="register-left">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Fundly Logo" />
+          <p>Turn your ideas into reality</p>
+        </div>
+      </div>
+      <div class="register-right">
+        <div class="register-form">
+          <h2>Create Account</h2>
+          <p class="register-form-description">Fill in your details to get started</p>
+          <form action="#">
+            <div class="form-group">
+              <label for="fullName">Full Name <span class="required">*</span></label>
+              <input type="text" id="fullName" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span class="required">*</span></label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" />
+            </div>
+            <div class="form-group">
+              <label for="password">Password <span class="required">*</span></label>
+              <input type="password" id="password" required minlength="8" />
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword">Confirm Password <span class="required">*</span></label>
+              <input type="password" id="confirmPassword" required />
+            </div>
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="terms" required />
+              <label for="terms">I agree to the <a href="#">Terms & Conditions</a> <span class="required">*</span></label>
+            </div>
+            <button type="submit">Create Account</button>
+          </form>
+          <span class="line-or">
+            <hr class="line" />
+            <span class="or-text">or</span>
+            <hr class="line" />
+          </span>
+          <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./dist/pages/register.js"></script>
+  </body>
+</html>

@@ -1,0 +1,241 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* Global Classes */
+
+/* global classes */
+.grid-col-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.grid-col-2-sm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .grid-col-1-md {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .grid-col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .grid-col-2-lg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .grid-col-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .grid-col-4-md {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .grid-col-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+}
+
+/* start header */
+header {
+  padding: 15px 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header nav ul li a {
+  color: var(--text-main);
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+header nav ul li a:hover {
+  color: var(--primary);
+}
+header nav .controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.menu {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.menu img {
+  width: 28px;
+}
+
+/* Mobile header */
+@media (max-width: 767px) {
+  .menu {
+    display: block;
+  }
+  header .container {
+    flex-wrap: wrap;
+  }
+  header nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 0;
+  }
+  header nav.active {
+    display: flex;
+  }
+  header nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+  header nav ul li a {
+    display: block;
+    transition: all 0.2s ease;
+    padding: 12px 0 !important;
+    margin: 0 auto;
+  }
+  header nav ul li a:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+  header nav .controls {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  header nav .controls button {
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+}
+/* End header */
+
+/* Start Footer */
+footer {
+  background-color: var(--bg);
+  padding: 40px 0 20px;
+  margin-top: 40px;
+}
+footer .footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+footer .col1 {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .col1 p {
+  color: var(--text-gray);
+  line-height: 1.5;
+}
+footer .col1 form {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+footer .col1 form input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+footer .col1 form button {
+  width: 100px;
+}
+footer .col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .col2 h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+footer .col2 ul li {
+  padding: 5px 0;
+}
+footer .col2 ul li a {
+  color: var(--text-gray);
+}
+footer .col2 ul li a:hover {
+  color: var(--text-main);
+}
+footer > p {
+  text-align: center;
+  color: var(--text-gray);
+  margin-top: 30px;
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  footer .footer-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer .col1 form {
+    flex-direction: column;
+    gap: 15px;
+  }
+  footer .col1 form input {
+    width: 100%;
+  }
+  footer .col1 form button {
+    width: 100%;
+  }
+}
+/* End Footer */

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/admin.css" />
+    <title>Pledges Management - Fundly</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Fundly Logo" />
+        </div>
+        <button class="menu">
+          <img src="./images/menu.png" />
+        </button>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li class="campaigns-link">
+              <a href="campaigns.html">My Campaigns</a>
+            </li>
+            <li class="dashboard-link">
+              <a href="admin.html">Dashboard</a>
+            </li>
+          </ul>
+          <div class="controls">
+            <a href="login.html">
+              <button>Login</button>
+            </a>
+            <a href="register.html">
+              <button class="btn-outline">Sign Up</button>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+    <main>
+      <nav class="admin-nav">
+        <ul>
+          <li><a href="admin-users.html">Users Management</a></li>
+          <li><a href="admin-campaigns.html">Campaigns Management</a></li>
+          <li><a href="admin-pledges.html" class="active">Pledges Management</a></li>
+        </ul>
+      </nav>
+      <section class="admin-table-section">
+        <div class="container">
+         <h2 style="margin-bottom: 15px;">Pledges Management</h2>
+          <div class="table-container shadow-box">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Campaign</th>
+                  <th>User</th>
+                  <th>Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./dist/pages/admin-pledges.js"></script>
+  </body>
+</html>

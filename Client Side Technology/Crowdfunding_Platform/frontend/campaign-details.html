@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/campaign-details.css" />
+    <title>Campaign Details - Fundly</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Fundly Logo" />
+        </div>
+        <button class="menu">
+          <img src="./images/menu.png" />
+        </button>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li class="campaigns-link">
+              <a href="campaigns.html">My Campaigns</a>
+            </li>
+            <li class="dashboard-link">
+              <a href="admin.html">Dashboard</a>
+            </li>
+          </ul>
+          <div class="controls">
+            <a href="login.html">
+              <button>Login</button>
+            </a>
+            <a href="register.html">
+              <button class="btn-outline">Sign Up</button>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+    <main>
+      <section class="campaign-details-section">
+        <div class="container">
+          <div class="campaign-details-card">
+     
+          </div>
+
+          <section class="donate-section">
+            <h2>Support this Campaign</h2>
+            <form class="donate-form" autocomplete="off">
+              <div class="donate-controls">
+                <input type="number" id="donate-amount" name="amount" min="1" placeholder="Enter amount" required class="donate-input" />
+                <button type="button" id="donate-btn" class="donate-btn">Donate</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="pledge-history-section">
+            <h2>Pledge History</h2>
+            <div class="pledge-table-container">
+        
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <!-- Start Footer -->
+    <footer>
+      <div class="container footer-grid">
+        <div class="col1">
+          <div class="logo">
+            <img src="./images/logo.png" alt="Fundly Logo" />
+          </div>
+          <p>Generate outside the box thinking with the possibility to target the low.</p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="col2">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="campaigns.html">My Campaigns</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; 2026 <span style="color: var(--primary)">Fundly.</span> All rights reserved.</p>
+    </footer>
+    <!-- End Footer -->
+    <script type="module" src="./dist/pages/campaign-details.js"></script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+button {
+  font-family: inherit;
+  font-size: 15px;
+  background-color: var(--primary);
+  color: #ffffff;
+  border: 1px solid transparent;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+button:hover {
+  background-color: var(--primary-light);
+}
+button.btn-outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+button.btn-outline:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+button.btn-secondary {
+  background-color: var(--bg);
+  color: var(--text-main);
+}
+button.btn-secondary:hover {
+  background-color: #e5e7eb;
+}
+button.btn-danger {
+  background-color: var(--danger);
+}
+button.btn-warning {
+  background-color: var(--warning);
+}
+.card {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px 0;
+}
+.logo img {
+  width: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form label {
+  font-size: 14px;
+  color: var(--text-main);
+}
+form input {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+form input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+form textarea {
+  outline: none;
+  border: 1px solid #eee;
+  width: 100%;
+  height: 100px;
+  font-size: 14px;
+  padding: 10px 14px;
+  caret-color: var(--primary);
+  border-radius: 8px;
+  resize: none;
+}
+
+.line-or {
+  display: flex;
+  align-items: center;
+}
+
+hr.line {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0 10px;
+}
+
+.or-text {
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+.shadow-box {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+/*
+  ================================
+  Table Component (Reusable)
+  ================================
+*/
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+thead {
+  background-color: var(--primary);
+  color: white;
+}
+th {
+  padding: 12px;
+}
+tbody tr:hover {
+  background-color: rgba(63, 81, 181, 0.05);
+}
+td {
+  padding: 12px;
+  border: 1px solid #eee;
+  font-size: 14px;
+}
+tbody td.status button {
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 25px;
+  cursor: default;
+}
+tbody td.status button:hover {
+  cursor: default;
+}
+tbody td.date {
+  font-size: 13px;
+  color: var(--text-gray);
+}
+
+/*
+  ================================
+  Modal Component (Reusable)
+  ================================
+*/
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  transform: scale(0.9);
+  transition: transform 0.3s;
+}
+
+.modal-overlay.active .modal {
+  transform: scale(1);
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  font-size: 28px;
+  color: #666;
+  padding: 0;
+}
+.modal-close:hover {
+  color: var(--danger);
+  background: none;
+}

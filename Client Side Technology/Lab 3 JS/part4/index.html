@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Lab 1</title>
+  </head>
+  <body>
+    <h1>JS Lab 1</h1>
+    <script>
+      const number1 = 6;
+      const number2 = 5;
+      const flag = true;
+      const firstName = "Abdulrahman";
+      const middleName = "Ibrahim";
+      const lastName = "Elias";
+
+      console.log("Numeric Addition", number1 + number2);
+      console.log("Boolean + Number", flag + number1);
+      console.log("String + Boolean", firstName + flag);
+      console.log("Number + String", number1 + firstName);
+      console.log("Mixed Addition", number1 + number2 + firstName);
+      console.log("String Concatenation Order", number1 + firstName + number2);
+      console.log("Number × Boolean", number1 * flag);
+      console.log("Number ÷ String", number1 / lastName);
+
+      console.log(`Full Name: ${firstName} ${middleName} ${lastName}`);
+
+      const data = [
+        { id: 1, name: "Alice" },
+        { id: 2, name: "Bob" },
+      ];
+      console.table(data);
+    </script>
+  </body>
+</html>

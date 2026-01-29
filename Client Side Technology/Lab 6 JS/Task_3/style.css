@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 100vh;
+}
+
+.gallery {
+  width: 840px;
+  overflow: hidden;
+}
+
+.gallery-track {
+  display: flex;
+  gap: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  opacity: 0.3;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2846a7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a3380;
+}

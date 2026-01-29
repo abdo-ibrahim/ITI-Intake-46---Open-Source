@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 1.7;
+  color: #777;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+#load-products {
+  display: block;
+}
+#load-products,
+#load-details {
+  border: none;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+select {
+  display: inline-block;
+  border: 1px solid rgba(231, 231, 231, 0.652);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 200px;
+}
+select:hover {
+  background: rgba(148, 234, 102, 0.071);
+  border-color: #75ea66;
+}
+#load-details.disabled {
+  cursor: not-allowed;
+  background-color: #94eaa6;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 6px;
+  max-width: 400px;
+  background-color: #fbfbfb;
+  transition: 0.3s all ease-in-out;
+}
+.product-details:not(:empty) {
+  padding: 15px;
+  border: 1px solid rgba(231, 231, 231, 0 652);
+}
+.product-details:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-details .image-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.product-details img {
+  width: 100%;
+  object-fit: contain;
+}
+.product-details h3 {
+  color: #28a745;
+  margin-bottom: 15px;
+}
+.product-details p {
+  color: #555;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.product-details span {
+  font-weight: bold;
+  color: #28a745;
+  font-size: 20px;
+}

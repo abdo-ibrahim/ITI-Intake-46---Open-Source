@@ -1,0 +1,4079 @@
+1, Kabul,1780000, AFG
+2, Qandahar,237500, AFG
+3, Herat,186800, AFG
+4, Mazar-e-Sharif,127800, AFG
+5, Amsterdam,731200, NLD
+6, Rotterdam,593321, NLD
+7, Haag,440900, NLD
+8, Utrecht,234323, NLD
+9, Eindhoven,201843, NLD
+10, Tilburg,193238, NLD
+11, Groningen,172701, NLD
+12, Breda,160398, NLD
+13, Apeldoorn,153491, NLD
+14, Nijmegen,152463, NLD
+15, Enschede,149544, NLD
+16, Haarlem,148772, NLD
+17, Almere,142465, NLD
+18, Arnhem,138020, NLD
+19, Zaanstad,135621, NLD
+20, Ã¯s-Hertogenbosch,129170, NLD
+21, Amersfoort,126270, NLD
+22, Maastricht,122087, NLD
+23, Dordrecht,119811, NLD
+24, Leiden,117196, NLD
+25, Haarlemmermeer,110722, NLD
+26, Zoetermeer,110214, NLD
+27, Emmen,105853, NLD
+28, Zwolle,105819, NLD
+29, Ede,101574, NLD
+30, Delft,95268, NLD
+31, Heerlen,95052, NLD
+32, Alkmaar,92713, NLD
+33, Willemstad,2345, ANT
+34, Tirana,270000, ALB
+35, Alger,2168000, DZA
+36, Oran,609823, DZA
+37, Constantine,443727, DZA
+38, Annaba,222518, DZA
+39, Batna,183377, DZA
+40, Sâ€štif,179055, DZA
+41, Sidi Bel AbbÅ s,153106, DZA
+42, Skikda,128747, DZA
+43, Biskra,128281, DZA
+44, Blida (el-Boulaida),127284, DZA
+45, Bâ€šjaâ€¹a,117162, DZA
+46, Mostaganem,115212, DZA
+47, Tâ€šbessa,112007, DZA
+48, Tlemcen (Tilimsen),110242, DZA
+49, Bâ€šchar,107311, DZA
+50, Tiaret,100118, DZA
+51, Ech-Chleff (el-Asnam),96794, DZA
+52, Ghardaâ€¹a,89415, DZA
+53, Tafuna,5200, ASM
+54, Fagatogo,2323, ASM
+55, Andorra la Vella,21189, AND
+56, Luanda,2022000, AGO
+57, Huambo,163100, AGO
+58, Lobito,130000, AGO
+59, Benguela,128300, AGO
+60, Namibe,118200, AGO
+61, South Hill,961, AIA
+62, The Valley,595, AIA
+63, Saint JohnÃ¯s,24000, ATG
+64, Dubai,669181, ARE
+65, Abu Dhabi,398695, ARE
+66, Sharja,320095, ARE
+67, al-Ayn,225970, ARE
+68, Ajman,114395, ARE
+69, Buenos Aires,2982146, ARG
+70, La Matanza,1266461, ARG
+71, CÂ¢rdoba,1157507, ARG
+72, Rosario,907718, ARG
+73, Lomas de Zamora,622013, ARG
+74, Quilmes,559249, ARG
+75, Almirante Brown,538918, ARG
+76, La Plata,521936, ARG
+77, Mar del Plata,512880, ARG
+78, San Miguel de TucumÂ n,470809, ARG
+79, LanÂ£s,469735, ARG
+80, Merlo,463846, ARG
+81, General San MartÂ¡n,422542, ARG
+82, Salta,367550, ARG
+83, Moreno,356993, ARG
+84, Santa Fâ€š,353063, ARG
+85, Avellaneda,353046, ARG
+86, Tres de Febrero,352311, ARG
+87, MorÂ¢n,349246, ARG
+88, Florencio Varela,315432, ARG
+89, San Isidro,306341, ARG
+90, Tigre,296226, ARG
+91, Malvinas Argentinas,290335, ARG
+92, Vicente LÂ¢pez,288341, ARG
+93, Berazategui,276916, ARG
+94, Corrientes,258103, ARG
+95, San Miguel,248700, ARG
+96, BahÂ¡a Blanca,239810, ARG
+97, Esteban EcheverrÂ¡a,235760, ARG
+98, Resistencia,229212, ARG
+99, Josâ€š C. Paz,221754, ARG
+100, ParanÂ ,207041, ARG
+101, Godoy Cruz,206998, ARG
+102, Posadas,201273, ARG
+103, Guaymallâ€šn,200595, ARG
+104, Santiago del Estero,189947, ARG
+105, San Salvador de Jujuy,178748, ARG
+106, Hurlingham,170028, ARG
+107, Neuquâ€šn,167296, ARG
+108, ItuzaingÂ¢,158197, ARG
+109, San Fernando,153036, ARG
+110, Formosa,147636, ARG
+111, Las Heras,145823, ARG
+112, La Rioja,138117, ARG
+113, San Fernando del Valle de Cata,134935, ARG
+114, RÂ¡o Cuarto,134355, ARG
+115, Comodoro Rivadavia,124104, ARG
+116, Mendoza,123027, ARG
+117, San NicolÂ s de los Arroyos,119302, ARG
+118, San Juan,119152, ARG
+119, Escobar,116675, ARG
+120, Concordia,116485, ARG
+121, Pilar,113428, ARG
+122, San Luis,110136, ARG
+123, Ezeiza,99578, ARG
+124, San Rafael,94651, ARG
+125, Tandil,91101, ARG
+126, Yerevan,1248700, ARM
+127, Gjumri,211700, ARM
+128, Vanadzor,172700, ARM
+129, Oranjestad,29034, ABW
+130, Sydney,3276207, AUS
+131, Melbourne,2865329, AUS
+132, Brisbane,1291117, AUS
+133, Perth,1096829, AUS
+134, Adelaide,978100, AUS
+135, Canberra,322723, AUS
+136, Gold Coast,311932, AUS
+137, Newcastle,270324, AUS
+138, Central Coast,227657, AUS
+139, Wollongong,219761, AUS
+140, Hobart,126118, AUS
+141, Geelong,125382, AUS
+142, Townsville,109914, AUS
+143, Cairns,92273, AUS
+144, Baku,1787800, AZE
+145, Gâ€žncâ€ž,299300, AZE
+146, Sumqayit,283000, AZE
+147, Mingâ€žâ€¡evir,93900, AZE
+148, Nassau,172000, BHS
+149, al-Manama,148000, BHR
+150, Dhaka,3612850, BGD
+151, Chittagong,1392860, BGD
+152, Khulna,663340, BGD
+153, Rajshahi,294056, BGD
+154, Narayanganj,202134, BGD
+155, Rangpur,191398, BGD
+156, Mymensingh,188713, BGD
+157, Barisal,170232, BGD
+158, Tungi,168702, BGD
+159, Jessore,139710, BGD
+160, Comilla,135313, BGD
+161, Nawabganj,130577, BGD
+162, Dinajpur,127815, BGD
+163, Bogra,120170, BGD
+164, Sylhet,117396, BGD
+165, Brahmanbaria,109032, BGD
+166, Tangail,106004, BGD
+167, Jamalpur,103556, BGD
+168, Pabna,103277, BGD
+169, Naogaon,101266, BGD
+170, Sirajganj,99669, BGD
+171, Narsinghdi,98342, BGD
+172, Saidpur,96777, BGD
+173, Gazipur,96717, BGD
+174, Bridgetown,6070, BRB
+175, Antwerpen,446525, BEL
+176, Gent,224180, BEL
+177, Charleroi,200827, BEL
+178, LiÅ ge,185639, BEL
+179, Bruxelles [Brussel],133859, BEL
+180, Brugge,116246, BEL
+181, Schaerbeek,105692, BEL
+182, Namur,105419, BEL
+183, Mons,90935, BEL
+184, Belize City,55810, BLZ
+185, Belmopan,7105, BLZ
+186, Cotonou,536827, BEN
+187, Porto-Novo,194000, BEN
+188, Djougou,134099, BEN
+189, Parakou,103577, BEN
+190, Saint George,1800, BMU
+191, Hamilton,1200, BMU
+192, Thimphu,22000,A
+193, Santa Cruz de la Sierra,935361, BOL
+194, La Paz,758141, BOL
+195, El Alto,534466, BOL
+196, Cochabamba,482800, BOL
+197, Oruro,223553, BOL
+198, Sucre,178426, BOL
+199, PotosÂ¡,140642, BOL
+200, Tarija,125255, BOL
+201, Sarajevo,360000, BIH
+202, Banja Luka,143079, BIH
+203, Zenica,96027, BIH
+204, Gaborone,213017, BWA
+205, Francistown,101805, BWA
+206, SÃ†o Paulo,9968485, BRA
+207, Rio de Janeiro,5598953, BRA
+208, Salvador,2302832, BRA
+209, Belo Horizonte,2139125, BRA
+210, Fortaleza,2097757, BRA
+211, BrasÂ¡lia,1969868, BRA
+212, Curitiba,1584232, BRA
+213, Recife,1378087, BRA
+214, Porto Alegre,1314032, BRA
+215, Manaus,1255049, BRA
+216, Belâ€šm,1186926, BRA
+217, Guarulhos,1095874, BRA
+218, GoiÆ’nia,1056330, BRA
+219, Campinas,950043, BRA
+220, SÃ†o Gonâ€¡alo,869254, BRA
+221, Nova Iguaâ€¡u,862225, BRA
+222, SÃ†o LuÂ¡s,837588, BRA
+223, MaceiÂ¢,786288, BRA
+224, Duque de Caxias,746758, BRA
+225, SÃ†o Bernardo do Campo,723132, BRA
+226, Teresina,691942, BRA
+227, Natal,688955, BRA
+228, Osasco,659604, BRA
+229, Campo Grande,649593, BRA
+230, Santo Andrâ€š,630073, BRA
+231, JoÃ†o Pessoa,584029, BRA
+232, JaboatÃ†o dos Guararapes,558680, BRA
+233, Contagem,520801, BRA
+234, SÃ†o Josâ€š dos Campos,515553, BRA
+235, UberlÆ’ndia,487222, BRA
+236, Feira de Santana,479992, BRA
+237, RibeirÃ†o Preto,473276, BRA
+238, Sorocaba,466823, BRA
+239, NiterÂ¢i,459884, BRA
+240, CuiabÂ ,453813, BRA
+241, Juiz de Fora,450288, BRA
+242, Aracaju,445555, BRA
+243, SÃ†o JoÃ†o de Meriti,440052, BRA
+244, Londrina,432257, BRA
+245, Joinville,428011, BRA
+246, Belford Roxo,425194, BRA
+247, Santos,408748, BRA
+248, Ananindeua,400940, BRA
+249, Campos dos Goytacazes,398418, BRA
+250, MauÂ ,375055, BRA
+251, CarapicuÂ¡ba,357552, BRA
+252, Olinda,354732, BRA
+253, Campina Grande,352497, BRA
+254, SÃ†o Josâ€š do Rio Preto,351944, BRA
+255, Caxias do Sul,349581, BRA
+256, Moji das Cruzes,339194, BRA
+257, Diadema,335078, BRA
+258, Aparecida de GoiÆ’nia,324662, BRA
+259, Piracicaba,319104, BRA
+260, Cariacica,319033, BRA
+261, Vila Velha,318758, BRA
+262, Pelotas,315415, BRA
+263, Bauru,313670, BRA
+264, Porto Velho,309750, BRA
+265, Serra,302666, BRA
+266, Betim,302108, BRA
+267, JundÂ¡aÂ¡,296127, BRA
+268, Canoas,294125, BRA
+269, Franca,290139, BRA
+270, SÃ†o Vicente,286848, BRA
+271, MaringÂ ,286461, BRA
+272, Montes Claros,286058, BRA
+273, AnÂ polis,282197, BRA
+274, FlorianÂ¢polis,281928, BRA
+275, PetrÂ¢polis,279183, BRA
+276, Itaquaquecetuba,270874, BRA
+277, VitÂ¢ria,270626, BRA
+278, Ponta Grossa,268013, BRA
+279, Rio Branco,259537, BRA
+280, Foz do Iguaâ€¡u,259425, BRA
+281, MacapÂ ,256033, BRA
+282, Ilhâ€šus,254970, BRA
+283, VitÂ¢ria da Conquista,253587, BRA
+284, Uberaba,249225, BRA
+285, Paulista,248473, BRA
+286, Limeira,245497, BRA
+287, Blumenau,244379, BRA
+288, Caruaru,244247, BRA
+289, Santarâ€šm,241771, BRA
+290, Volta Redonda,240315, BRA
+291, Novo Hamburgo,239940, BRA
+292, Caucaia,238738, BRA
+293, Santa Maria,238473, BRA
+294, Cascavel,237510, BRA
+295, GuarujÂ ,237206, BRA
+296, RibeirÃ†o das Neves,232685, BRA
+297, Governador Valadares,231724, BRA
+298, Taubatâ€š,229130, BRA
+299, Imperatriz,224564, BRA
+300, GravataÂ¡,223011, BRA
+301, Embu,222223, BRA
+302, MossorÂ¢,214901, BRA
+303, VÂ rzea Grande,214435, BRA
+304, Petrolina,210540, BRA
+305, Barueri,208426, BRA
+306, ViamÃ†o,207557, BRA
+307, Ipatinga,206338, BRA
+308, Juazeiro,201073, BRA
+309, Juazeiro do Norte,199636, BRA
+310, TaboÃ†o da Serra,197550, BRA
+311, SÃ†o Josâ€š dos Pinhais,196884, BRA
+312, Magâ€š,196147, BRA
+313, Suzano,195434, BRA
+314, SÃ†o Leopoldo,189258, BRA
+315, MarÂ¡lia,188691, BRA
+316, SÃ†o Carlos,187122, BRA
+317, Sumarâ€š,186205, BRA
+318, Presidente Prudente,185340, BRA
+319, DivinÂ¢polis,185047, BRA
+320, Sete Lagoas,182984, BRA
+321, Rio Grande,182222, BRA
+322, Itabuna,182148, BRA
+323, Jequiâ€š,179128, BRA
+324, Arapiraca,178988, BRA
+325, Colombo,177764, BRA
+326, Americana,177409, BRA
+327, Alvorada,175574, BRA
+328, Araraquara,174381, BRA
+329, ItaboraÂ¡,173977, BRA
+330, Santa BÂ rbara dÃ¯Oeste,171657, BRA
+331, Nova Friburgo,170697, BRA
+332, JacareÂ¡,170356, BRA
+333, Araâ€¡atuba,169303, BRA
+334, Barra Mansa,168953, BRA
+335, Praia Grande,168434, BRA
+336, MarabÂ ,167795, BRA
+337, CriciÂ£ma,167661, BRA
+338, Boa Vista,167185, BRA
+339, Passo Fundo,166343, BRA
+340, Dourados,164716, BRA
+341, Santa Luzia,164704, BRA
+342, Rio Claro,163551, BRA
+343, MaracanaÂ£,162022, BRA
+344, Guarapuava,160510, BRA
+345, RondonÂ¢polis,155115, BRA
+346, SÃ†o Josâ€š,155105, BRA
+347, Cachoeiro de Itapemirim,155024, BRA
+348, NilÂ¢polis,153383, BRA
+349, Itapevi,150664, BRA
+350, Cabo de Santo Agostinho,149964, BRA
+351, Camaâ€¡ari,149146, BRA
+352, Sobral,146005, BRA
+353, ItajaÂ¡,145197, BRA
+354, ChapecÂ¢,144158, BRA
+355, Cotia,140042, BRA
+356, Lages,139570, BRA
+357, Ferraz de Vasconcelos,139283, BRA
+358, Indaiatuba,135968, BRA
+359, HortolÆ’ndia,135755, BRA
+360, Caxias,133980, BRA
+361, SÃ†o Caetano do Sul,133321, BRA
+362, Itu,132736, BRA
+363, Nossa Senhora do Socorro,131351, BRA
+364, ParnaÂ¡ba,129756, BRA
+365, Poâ€¡os de Caldas,129683, BRA
+366, TeresÂ¢polis,128079, BRA
+367, Barreiras,127801, BRA
+368, Castanhal,127634, BRA
+369, Alagoinhas,126820, BRA
+370, Itapecerica da Serra,126672, BRA
+371, Uruguaiana,126305, BRA
+372, ParanaguÂ ,126076, BRA
+373, Ibiritâ€š,125982, BRA
+374, Timon,125812, BRA
+375, LuziÆ’nia,125597, BRA
+376, Macaâ€š,125597, BRA
+377, TeÂ¢filo Otoni,124489, BRA
+378, Moji-Guaâ€¡u,123782, BRA
+379, Palmas,121919, BRA
+380, Pindamonhangaba,121904, BRA
+381, Francisco Morato,121197, BRA
+382, Bagâ€š,120793, BRA
+383, Sapucaia do Sul,120217, BRA
+384, Cabo Frio,119503, BRA
+385, Itapetininga,119391, BRA
+386, Patos de Minas,119262, BRA
+387, Camaragibe,118968, BRA
+388, Braganâ€¡a Paulista,116929, BRA
+389, Queimados,115020, BRA
+390, AraguaÂ¡na,114948, BRA
+391, Garanhuns,114603, BRA
+392, VitÂ¢ria de Santo AntÃ†o,113595, BRA
+393, Santa Rita,113135, BRA
+394, Barbacena,113079, BRA
+395, Abaetetuba,111258, BRA
+396, JaÂ£,109965, BRA
+397, Lauro de Freitas,109236, BRA
+398, Franco da Rocha,108964, BRA
+399, Teixeira de Freitas,108441, BRA
+400, Varginha,108314, BRA
+401, RibeirÃ†o Pires,108121, BRA
+402, SabarÂ ,107781, BRA
+403, Catanduva,107761, BRA
+404, Rio Verde,107755, BRA
+405, Botucatu,107663, BRA
+406, Colatina,107354, BRA
+407, Santa Cruz do Sul,106734, BRA
+408, Linhares,106278, BRA
+409, Apucarana,105114, BRA
+410, Barretos,104156, BRA
+411, GuaratinguetÂ ,103433, BRA
+412, Cachoeirinha,103240, BRA
+413, CodÂ¢,103153, BRA
+414, JaraguÂ  do Sul,102580, BRA
+415, CubatÃ†o,102372, BRA
+416, Itabira,102217, BRA
+417, Itaituba,101320, BRA
+418, Araras,101046, BRA
+419, Resende,100627, BRA
+420, Atibaia,100356, BRA
+421, Pouso Alegre,100028, BRA
+422, Toledo,99387, BRA
+423, Crato,98965, BRA
+424, Passos,98570, BRA
+425, Araguari,98399, BRA
+426, SÃ†o Josâ€š de Ribamar,98318, BRA
+427, Pinhais,98198, BRA
+428, SertÃ†ozinho,98140, BRA
+429, Conselheiro Lafaiete,97507, BRA
+430, Paulo Afonso,97291, BRA
+431, Angra dos Reis,96864, BRA
+432, EunÂ polis,96610, BRA
+433, Salto,96348, BRA
+434, Ourinhos,96291, BRA
+435, Parnamirim,96210, BRA
+436, Jacobina,96131, BRA
+437, Coronel Fabriciano,95933, BRA
+438, Birigui,94685, BRA
+439, TatuÂ¡,93897, BRA
+440, Ji-ParanÂ ,93346, BRA
+441, Bacabal,93121, BRA
+442, CametÂ ,92779, BRA
+443, GuaÂ¡ba,92224, BRA
+444, SÃ†o Lourenâ€¡o da Mata,91999, BRA
+445, Santana do Livramento,91779, BRA
+446, Votorantim,91777, BRA
+447, Campo Largo,91203, BRA
+448, Patos,90519, BRA
+449, Ituiutaba,90507, BRA
+450, CorumbÂ ,90111, BRA
+451, Palhoâ€¡a,89465, BRA
+452, Barra do PiraÂ¡,89388, BRA
+453, Bento Gonâ€¡alves,89254, BRA
+454, PoÂ ,89236, BRA
+455, Âµguas Lindas de GoiÂ s,89200, BRA
+456, London,7285000, GBR
+457, Birmingham,1013000, GBR
+458, Glasgow,619680, GBR
+459, Liverpool,461000, GBR
+460, Edinburgh,450180, GBR
+461, Sheffield,431607, GBR
+462, Manchester,430000, GBR
+463, Leeds,424194, GBR
+464, Bristol,402000, GBR
+465, Cardiff,321000, GBR
+466, Coventry,304000, GBR
+467, Leicester,294000, GBR
+468, Bradford,289376, GBR
+469, Belfast,287500, GBR
+470, Nottingham,287000, GBR
+471, Kingston upon Hull,262000, GBR
+472, Plymouth,253000, GBR
+473, Stoke-on-Trent,252000, GBR
+474, Wolverhampton,242000, GBR
+475, Derby,236000, GBR
+476, Swansea,230000, GBR
+477, Southampton,216000, GBR
+478, Aberdeen,213070, GBR
+479, Northampton,196000, GBR
+480, Dudley,192171, GBR
+481, Portsmouth,190000, GBR
+482, Newcastle upon Tyne,189150, GBR
+483, Sunderland,183310, GBR
+484, Luton,183000, GBR
+485, Swindon,180000, GBR
+486, Southend-on-Sea,176000, GBR
+487, Walsall,174739, GBR
+488, Bournemouth,162000, GBR
+489, Peterborough,156000, GBR
+490, Brighton,156124, GBR
+491, Blackpool,151000, GBR
+492, Dundee,146690, GBR
+493, West Bromwich,146386, GBR
+494, Reading,148000, GBR
+495, Oldbury/Smethwick (Warley),145542, GBR
+496, Middlesbrough,145000, GBR
+497, Huddersfield,143726, GBR
+498, Oxford,144000, GBR
+499, Poole,141000, GBR
+500, Bolton,139020, GBR
+501, Blackburn,140000, GBR
+502, Newport,139000, GBR
+503, Preston,135000, GBR
+504, Stockport,132813, GBR
+505, Norwich,124000, GBR
+506, Rotherham,121380, GBR
+507, Cambridge,121000, GBR
+508, Watford,113080, GBR
+509, Ipswich,114000, GBR
+510, Slough,112000, GBR
+511, Exeter,111000, GBR
+512, Cheltenham,106000, GBR
+513, Gloucester,107000, GBR
+514, Saint Helens,106293, GBR
+515, Sutton Coldfield,106001, GBR
+516, York,104425, GBR
+517, Oldham,103931, GBR
+518, Basildon,100924, GBR
+519, Worthing,100000, GBR
+520, Chelmsford,97451, GBR
+521, Colchester,96063, GBR
+522, Crawley,97000, GBR
+523, Gillingham,92000, GBR
+524, Solihull,94531, GBR
+525, Rochdale,94313, GBR
+526, Birkenhead,93087, GBR
+527, Worcester,95000, GBR
+528, Hartlepool,92000, GBR
+529, Halifax,91069, GBR
+530, Woking/Byfleet,92000, GBR
+531, Southport,90959, GBR
+532, Maidstone,90878, GBR
+533, Eastbourne,90000, GBR
+534, Grimsby,89000, GBR
+535, Saint Helier,27523, GBR
+536, Douglas,23487, GBR
+537, Road Town,8000, VGB
+538, Bandar Seri Begawan,21484, BRN
+539, Sofija,1122302, BGR
+540, Plovdiv,342584, BGR
+541, Varna,299801, BGR
+542, Burgas,195255, BGR
+543, Ruse,166467, BGR
+544, Stara Zagora,147939, BGR
+545, Pleven,121952, BGR
+546, Sliven,105530, BGR
+547, Dobric,100399, BGR
+548, ?umen,94686, BGR
+549, Ouagadougou,824000, BFA
+550, Bobo-Dioulasso,300000, BFA
+551, Koudougou,105000, BFA
+552, Bujumbura,300000, BDI
+553, George Town,19600, CYM
+554, Santiago de Chile,4703954, CHL
+555, Puente Alto,386236, CHL
+556, ViÂ¤a del Mar,312493, CHL
+557, ValparaÂ¡so,293800, CHL
+558, Talcahuano,277752, CHL
+559, Antofagasta,251429, CHL
+560, San Bernardo,241910, CHL
+561, Temuco,233041, CHL
+562, ConcepciÂ¢n,217664, CHL
+563, Rancagua,212977, CHL
+564, Arica,189036, CHL
+565, Talca,187557, CHL
+566, ChillÂ n,178182, CHL
+567, Iquique,177892, CHL
+568, Los Angeles,158215, CHL
+569, Puerto Montt,152194, CHL
+570, Coquimbo,143353, CHL
+571, Osorno,141468, CHL
+572, La Serena,137409, CHL
+573, Calama,137265, CHL
+574, Valdivia,133106, CHL
+575, Punta Arenas,125631, CHL
+576, CopiapÂ¢,120128, CHL
+577, Quilpuâ€š,118857, CHL
+578, CuricÂ¢,115766, CHL
+579, Ovalle,94854, CHL
+580, Coronel,93061, CHL
+581, San Pedro de la Paz,91684, CHL
+582, Melipilla,91056, CHL
+583, Avarua,11900, COK
+584, San Josâ€š,339131, CRI
+585, Djibouti,383000, DJI
+586, Roseau,16243, DMA
+587, Santo Domingo de GuzmÂ n,1609966, DOM
+588, Santiago de los Caballeros,365463, DOM
+589, La Romana,140204, DOM
+590, San Pedro de MacorÂ¡s,124735, DOM
+591, San Francisco de MacorÂ¡s,108485, DOM
+592, San Felipe de Puerto Plata,89423, DOM
+593, Guayaquil,2070040, ECU
+594, Quito,1573458, ECU
+595, Cuenca,270353, ECU
+596, Machala,210368, ECU
+597, Santo Domingo de los Colorados,202111, ECU
+598, Portoviejo,176413, ECU
+599, Ambato,169612, ECU
+600, Manta,164739, ECU
+601, Duran [Eloy Alfaro],152514, ECU
+602, Ibarra,130643, ECU
+603, Quevedo,129631, ECU
+604, Milagro,124177, ECU
+605, Loja,123875, ECU
+606, RÂ¡obamba,123163, ECU
+607, Esmeraldas,123045, ECU
+608, Cairo,6789479, EGY
+609, Alexandria,3328196, EGY
+610, Giza,2221868, EGY
+611, Shubra al-Khayma,870716, EGY
+612, Port Said,469533, EGY
+613, Suez,417610, EGY
+614, al-Mahallat al-Kubra,395402, EGY
+615, Tanta,371010, EGY
+616, al-Mansura,369621, EGY
+617, Luxor,360503, EGY
+618, Asyut,343498, EGY
+619, Bahtim,275807, EGY
+620, Zagazig,267351, EGY
+621, al-Faiyum,260964, EGY
+622, Ismailia,254477, EGY
+623, Kafr al-Dawwar,231978, EGY
+624, Assuan,219017, EGY
+625, Damanhur,212203, EGY
+626, al-Minya,201360, EGY
+627, Bani Suwayf,172032, EGY
+628, Qina,171275, EGY
+629, Sawhaj,170125, EGY
+630, Shibin al-Kawm,159909, EGY
+631, Bulaq al-Dakrur,148787, EGY
+632, Banha,145792, EGY
+633, Warraq al-Arab,127108, EGY
+634, Kafr al-Shaykh,124819, EGY
+635, Mallawi,119283, EGY
+636, Bilbays,113608, EGY
+637, Mit Ghamr,101801, EGY
+638, al-Arish,100447, EGY
+639, Talkha,97700, EGY
+640, Qalyub,97200, EGY
+641, Jirja,95400, EGY
+642, Idfu,94200, EGY
+643, al-Hawamidiya,91700, EGY
+644, Disuq,91300, EGY
+645, San Salvador,415346, SLV
+646, Santa Ana,139389, SLV
+647, Mejicanos,138800, SLV
+648, Soyapango,129800, SLV
+649, San Miguel,127696, SLV
+650, Nueva San Salvador,98400, SLV
+651, Apopa,88800, SLV
+652, Asmara,431000, ERI
+653, Madrid,2879052, ESP
+654, Barcelona,1503451, ESP
+655, Valencia,739412, ESP
+656, Sevilla,701927, ESP
+657, Zaragoza,603367, ESP
+658, MÂ laga,530553, ESP
+659, Bilbao,357589, ESP
+660, Las Palmas de Gran Canaria,354757, ESP
+661, Murcia,353504, ESP
+662, Palma de Mallorca,326993, ESP
+663, Valladolid,319998, ESP
+664, CÂ¢rdoba,311708, ESP
+665, Vigo,283670, ESP
+666, Alicante [Alacant],272432, ESP
+667, GijÂ¢n,267980, ESP
+668, LÃ¯Hospitalet de Llobregat,247986, ESP
+669, Granada,244767, ESP
+670, A CoruÂ¤a (La CoruÂ¤a),243402, ESP
+671, Vitoria-Gasteiz,217154, ESP
+672, Santa Cruz de Tenerife,213050, ESP
+673, Badalona,209635, ESP
+674, Oviedo,200453, ESP
+675, MÂ¢stoles,195351, ESP
+676, Elche [Elx],193174, ESP
+677, Sabadell,184859, ESP
+678, Santander,184165, ESP
+679, Jerez de la Frontera,182660, ESP
+680, Pamplona [IruÂ¤a],180483, ESP
+681, Donostia-San SebastiÂ n,179208, ESP
+682, Cartagena,177709, ESP
+683, Leganâ€šs,173163, ESP
+684, Fuenlabrada,171173, ESP
+685, AlmerÂ¡a,169027, ESP
+686, Terrassa,168695, ESP
+687, AlcalÂ  de Henares,164463, ESP
+688, Burgos,162802, ESP
+689, Salamanca,158720, ESP
+690, Albacete,147527, ESP
+691, Getafe,145371, ESP
+692, CÂ diz,142449, ESP
+693, AlcorcÂ¢n,142048, ESP
+694, Huelva,140583, ESP
+695, LeÂ¢n,139809, ESP
+696, CastellÂ¢n de la Plana [Castell,139712, ESP
+697, Badajoz,136613, ESP
+698, [San CristÂ¢bal de] la Laguna,127945, ESP
+699, LogroÂ¤o,127093, ESP
+700, Santa Coloma de Gramenet,120802, ESP
+701, Tarragona,113016, ESP
+702, Lleida (Lâ€šrida),112207, ESP
+703, Jaâ€šn,109247, ESP
+704, Ourense (Orense),109120, ESP
+705, MatarÂ¢,104095, ESP
+706, Algeciras,103106, ESP
+707, Marbella,101144, ESP
+708, Barakaldo,98212, ESP
+709, Dos Hermanas,94591, ESP
+710, Santiago de Compostela,93745, ESP
+711, TorrejÂ¢n de Ardoz,92262, ESP
+712, Cape Town,2352121, ZAF
+713, Soweto,904165, ZAF
+714, Johannesburg,756653, ZAF
+715, Port Elizabeth,752319, ZAF
+716, Pretoria,658630, ZAF
+717, Inanda,634065, ZAF
+718, Durban,566120, ZAF
+719, Vanderbijlpark,468931, ZAF
+720, Kempton Park,442633, ZAF
+721, Alberton,410102, ZAF
+722, Pinetown,378810, ZAF
+723, Pietermaritzburg,370190, ZAF
+724, Benoni,365467, ZAF
+725, Randburg,341288, ZAF
+726, Umlazi,339233, ZAF
+727, Bloemfontein,334341, ZAF
+728, Vereeniging,328535, ZAF
+729, Wonderboom,283289, ZAF
+730, Roodepoort,279340, ZAF
+731, Boksburg,262648, ZAF
+732, Klerksdorp,261911, ZAF
+733, Soshanguve,242727, ZAF
+734, Newcastle,222993, ZAF
+735, East London,221047, ZAF
+736, Welkom,203296, ZAF
+737, Kimberley,197254, ZAF
+738, Uitenhage,192120, ZAF
+739, Chatsworth,189885, ZAF
+740, Mdantsane,182639, ZAF
+741, Krugersdorp,181503, ZAF
+742, Botshabelo,177971, ZAF
+743, Brakpan,171363, ZAF
+744, Witbank,167183, ZAF
+745, Oberholzer,164367, ZAF
+746, Germiston,164252, ZAF
+747, Springs,162072, ZAF
+748, Westonaria,159632, ZAF
+749, Randfontein,120838, ZAF
+750, Paarl,105768, ZAF
+751, Potchefstroom,101817, ZAF
+752, Rustenburg,97008, ZAF
+753, Nigel,96734, ZAF
+754, George,93818, ZAF
+755, Ladysmith,89292, ZAF
+756, Addis Abeba,2495000, ETH
+757, Dire Dawa,164851, ETH
+758, Nazret,127842, ETH
+759, Gonder,112249, ETH
+760, Dese,97314, ETH
+761, Mekele,96938, ETH
+762, Bahir Dar,96140, ETH
+763, Stanley,1636, FLK
+764, Suva,77366, FJI
+765, Quezon,2173831, PHL
+766, Manila,1581082, PHL
+767, Kalookan,1177604, PHL
+768, Davao,1147116, PHL
+769, Cebu,718821, PHL
+770, Zamboanga,601794, PHL
+771, Pasig,505058, PHL
+772, Valenzuela,485433, PHL
+773, Las PiÂ¤as,472780, PHL
+774, Antipolo,470866, PHL
+775, Taguig,467375, PHL
+776, Cagayan de Oro,461877, PHL
+777, ParaÂ¤aque,449811, PHL
+778, Makati,444867, PHL
+779, Bacolod,429076, PHL
+780, General Santos,411822, PHL
+781, Marikina,391170, PHL
+782, DasmariÂ¤as,379520, PHL
+783, Muntinlupa,379310, PHL
+784, Iloilo,365820, PHL
+785, Pasay,354908, PHL
+786, Malabon,338855, PHL
+787, San Josâ€š del Monte,315807, PHL
+788, Bacoor,305699, PHL
+789, Iligan,285061, PHL
+790, Calamba,281146, PHL
+791, Mandaluyong,278474, PHL
+792, Butuan,267279, PHL
+793, Angeles,263971, PHL
+794, Tarlac,262481, PHL
+795, Mandaue,259728, PHL
+796, Baguio,252386, PHL
+797, Batangas,247588, PHL
+798, Cainta,242511, PHL
+799, San Pedro,231403, PHL
+800, Navotas,230403, PHL
+801, Cabanatuan,222859, PHL
+802, San Fernando,221857, PHL
+803, Lipa,218447, PHL
+804, Lapu-Lapu,217019, PHL
+805, San Pablo,207927, PHL
+806, BiÂ¤an,201186, PHL
+807, Taytay,198183, PHL
+808, Lucena,196075, PHL
+809, Imus,195482, PHL
+810, Olongapo,194260, PHL
+811, Binangonan,187691, PHL
+812, Santa Rosa,185633, PHL
+813, Tagum,179531, PHL
+814, Tacloban,178639, PHL
+815, Malolos,175291, PHL
+816, Mabalacat,171045, PHL
+817, Cotabato,163849, PHL
+818, Meycauayan,163037, PHL
+819, Puerto Princesa,161912, PHL
+820, Legazpi,157010, PHL
+821, Silang,156137, PHL
+822, Ormoc,154297, PHL
+823, San Carlos,154264, PHL
+824, Kabankalan,149769, PHL
+825, Talisay,148110, PHL
+826, Valencia,147924, PHL
+827, Calbayog,147187, PHL
+828, Santa Maria,144282, PHL
+829, Pagadian,142515, PHL
+830, Cadiz,141954, PHL
+831, Bago,141721, PHL
+832, Toledo,141174, PHL
+833, Naga,137810, PHL
+834, San Mateo,135603, PHL
+835, Panabo,133950, PHL
+836, Koronadal,133786, PHL
+837, Marawi,131090, PHL
+838, Dagupan,130328, PHL
+839, Sagay,129765, PHL
+840, Roxas,126352, PHL
+841, Lubao,125699, PHL
+842, Digos,125171, PHL
+843, San Miguel,123824, PHL
+844, Malaybalay,123672, PHL
+845, Tuguegarao,120645, PHL
+846, Ilagan,119990, PHL
+847, Baliuag,119675, PHL
+848, Surigao,118534, PHL
+849, San Carlos,118259, PHL
+850, San Juan del Monte,117680, PHL
+851, Tanauan,117539, PHL
+852, Concepcion,115171, PHL
+853, Rodriguez (Montalban),115167, PHL
+854, Sariaya,114568, PHL
+855, Malasiqui,113190, PHL
+856, General Mariano Alvarez,112446, PHL
+857, Urdaneta,111582, PHL
+858, Hagonoy,111425, PHL
+859, San Jose,111009, PHL
+860, Polomolok,110709, PHL
+861, Santiago,110531, PHL
+862, Tanza,110517, PHL
+863, Ozamis,110420, PHL
+864, Mexico,109481, PHL
+865, San Jose,108254, PHL
+866, Silay,107722, PHL
+867, General Trias,107691, PHL
+868, Tabaco,107166, PHL
+869, Cabuyao,106630, PHL
+870, Calapan,105910, PHL
+871, Mati,105908, PHL
+872, Midsayap,105760, PHL
+873, Cauayan,103952, PHL
+874, Gingoog,102379, PHL
+875, Dumaguete,102265, PHL
+876, San Fernando,102082, PHL
+877, Arayat,101792, PHL
+878, Bayawan (Tulong),101391, PHL
+879, Kidapawan,101205, PHL
+880, Daraga (Locsin),101031, PHL
+881, Marilao,101017, PHL
+882, Malita,100000, PHL
+883, Dipolog,99862, PHL
+884, Cavite,99367, PHL
+885, Danao,98781, PHL
+886, Bislig,97860, PHL
+887, Talavera,97329, PHL
+888, Guagua,96858, PHL
+889, Bayambang,96609, PHL
+890, Nasugbu,96113, PHL
+891, Baybay,95630, PHL
+892, Capas,95219, PHL
+893, Sultan Kudarat,94861, PHL
+894, Laoag,94466, PHL
+895, Bayugan,93623, PHL
+896, Malungon,93232, PHL
+897, Santa Cruz,92694, PHL
+898, Sorsogon,92512, PHL
+899, Candelaria,92429, PHL
+900, Ligao,90603, PHL
+901, TÂ¢rshavn,14542, FRO
+902, Libreville,419000, GAB
+903, Serekunda,102600, GMB
+904, Banjul,42326, GMB
+905, Tbilisi,1235200, GEO
+906, Kutaisi,240900, GEO
+907, Rustavi,155400, GEO
+908, Batumi,137700, GEO
+909, Sohumi,111700, GEO
+910, Accra,1070000, GHA
+911, Kumasi,385192, GHA
+912, Tamale,151069, GHA
+913, Tema,109975, GHA
+914, Sekondi-Takoradi,103653, GHA
+915, Gibraltar,27025, GIB
+916, Saint GeorgeÃ¯s,4621, GRD
+917, Nuuk,13445, GRL
+918, Les Abymes,62947, GLP
+919, Basse-Terre,12433, GLP
+920, Tamuning,9500, GUM
+921, AgaÂ¤a,1139, GUM
+922, Ciudad de Guatemala,823301, GTM
+923, Mixco,209791, GTM
+924, Villa Nueva,101295, GTM
+925, Quetzaltenango,90801, GTM
+926, Conakry,1090610, GIN
+927, Bissau,241000, GNB
+928, Georgetown,254000, GUY
+929, Port-au-Prince,884472, HTI
+930, Carrefour,290204, HTI
+931, Delmas,240429, HTI
+932, Le-Cap-Haâ€¹tien,102233, HTI
+933, Tegucigalpa,813900, HND
+934, San Pedro Sula,383900, HND
+935, La Ceiba,89200, HND
+936, Kowloon and New Kowloon,1987996, HKG
+937, Victoria,1312637, HKG
+938, Longyearbyen,1438, SJM
+939, Jakarta,9604900, IDN
+940, Surabaya,2663820, IDN
+941, Bandung,2429000, IDN
+942, Medan,1843919, IDN
+943, Palembang,1222764, IDN
+944, Tangerang,1198300, IDN
+945, Semarang,1104405, IDN
+946, Ujung Pandang,1060257, IDN
+947, Malang,716862, IDN
+948, Bandar Lampung,680332, IDN
+949, Bekasi,644300, IDN
+950, Padang,534474, IDN
+951, Surakarta,518600, IDN
+952, Banjarmasin,482931, IDN
+953, Pekan Baru,438638, IDN
+954, Denpasar,435000, IDN
+955, Yogyakarta,418944, IDN
+956, Pontianak,409632, IDN
+957, Samarinda,399175, IDN
+958, Jambi,385201, IDN
+959, Depok,365200, IDN
+960, Cimahi,344600, IDN
+961, Balikpapan,338752, IDN
+962, Manado,332288, IDN
+963, Mataram,306600, IDN
+964, Pekalongan,301504, IDN
+965, Tegal,289744, IDN
+966, Bogor,285114, IDN
+967, Ciputat,270800, IDN
+968, Pondokgede,263200, IDN
+969, Cirebon,254406, IDN
+970, Kediri,253760, IDN
+971, Ambon,249312, IDN
+972, Jember,218500, IDN
+973, Cilacap,206900, IDN
+974, Cimanggis,205100, IDN
+975, Pematang Siantar,203056, IDN
+976, Purwokerto,202500, IDN
+977, Ciomas,187400, IDN
+978, Tasikmalaya,179800, IDN
+979, Madiun,171532, IDN
+980, Bengkulu,146439, IDN
+981, Karawang,145000, IDN
+982, Banda Aceh,143409, IDN
+983, Palu,142800, IDN
+984, Pasuruan,134019, IDN
+985, Kupang,129300, IDN
+986, Tebing Tinggi,129300, IDN
+987, Percut Sei Tuan,129000, IDN
+988, Binjai,127222, IDN
+989, Sukabumi,125766, IDN
+990, Waru,124300, IDN
+991, Pangkal Pinang,124000, IDN
+992, Magelang,123800, IDN
+993, Blitar,122600, IDN
+994, Serang,122400, IDN
+995, Probolinggo,120770, IDN
+996, Cilegon,117000, IDN
+997, Cianjur,114300, IDN
+998, Ciparay,111500, IDN
+999, Lhokseumawe,109600, IDN
+1000, Taman,107000, IDN
+1001, Depok,106800, IDN
+1002, Citeureup,105100, IDN
+1003, Pemalang,103500, IDN
+1004, Klaten,103300, IDN
+1005, Salatiga,103000, IDN
+1006, Cibinong,101300, IDN
+1007, Palangka Raya,99693, IDN
+1008, Mojokerto,96626, IDN
+1009, Purwakarta,95900, IDN
+1010, Garut,95800, IDN
+1011, Kudus,95300, IDN
+1012, Kendari,94800, IDN
+1013, Jaya Pura,94700, IDN
+1014, Gorontalo,94058, IDN
+1015, Majalaya,93200, IDN
+1016, Pondok Aren,92700, IDN
+1017, Jombang,92600, IDN
+1018, Sunggal,92300, IDN
+1019, Batam,91871, IDN
+1020, Padang Sidempuan,91200, IDN
+1021, Sawangan,91100, IDN
+1022, Banyuwangi,89900, IDN
+1023, Tanjung Pinang,89900, IDN
+1024, Mumbai (Bombay),10500000, IND
+1025, Delhi,7206704, IND
+1026, Calcutta [Kolkata],4399819, IND
+1027, Chennai (Madras),3841396, IND
+1028, Hyderabad,2964638, IND
+1029, Ahmedabad,2876710, IND
+1030, Bangalore,2660088, IND
+1031, Kanpur,1874409, IND
+1032, Nagpur,1624752, IND
+1033, Lucknow,1619115, IND
+1034, Pune,1566651, IND
+1035, Surat,1498817, IND
+1036, Jaipur,1458483, IND
+1037, Indore,1091674, IND
+1038, Bhopal,1062771, IND
+1039, Ludhiana,1042740, IND
+1040, Vadodara (Baroda),1031346, IND
+1041, Kalyan,1014557, IND
+1042, Madurai,977856, IND
+1043, Haora (Howrah),950435, IND
+1044, Varanasi (Benares),929270, IND
+1045, Patna,917243, IND
+1046, Srinagar,892506, IND
+1047, Agra,891790, IND
+1048, Coimbatore,816321, IND
+1049, Thane (Thana),803389, IND
+1050, Allahabad,792858, IND
+1051, Meerut,753778, IND
+1052, Vishakhapatnam,752037, IND
+1053, Jabalpur,741927, IND
+1054, Amritsar,708835, IND
+1055, Faridabad,703592, IND
+1056, Vijayawada,701827, IND
+1057, Gwalior,690765, IND
+1058, Jodhpur,666279, IND
+1059, Nashik (Nasik),656925, IND
+1060, Hubli-Dharwad,648298, IND
+1061, Solapur (Sholapur),604215, IND
+1062, Ranchi,599306, IND
+1063, Bareilly,587211, IND
+1064, Guwahati (Gauhati),584342, IND
+1065, Shambajinagar (Aurangabad),573272, IND
+1066, Cochin (Kochi),564589, IND
+1067, Rajkot,559407, IND
+1068, Kota,537371, IND
+1069, Thiruvananthapuram (Trivandrum,524006, IND
+1070, Pimpri-Chinchwad,517083, IND
+1071, Jalandhar (Jullundur),509510, IND
+1072, Gorakhpur,505566, IND
+1073, Chandigarh,504094, IND
+1074, Mysore,480692, IND
+1075, Aligarh,480520, IND
+1076, Guntur,471051, IND
+1077, Jamshedpur,460577, IND
+1078, Ghaziabad,454156, IND
+1079, Warangal,447657, IND
+1080, Raipur,438639, IND
+1081, Moradabad,429214, IND
+1082, Durgapur,425836, IND
+1083, Amravati,421576, IND
+1084, Calicut (Kozhikode),419831, IND
+1085, Bikaner,416289, IND
+1086, Bhubaneswar,411542, IND
+1087, Kolhapur,406370, IND
+1088, Kataka (Cuttack),403418, IND
+1089, Ajmer,402700, IND
+1090, Bhavnagar,402338, IND
+1091, Tiruchirapalli,387223, IND
+1092, Bhilai,386159, IND
+1093, Bhiwandi,379070, IND
+1094, Saharanpur,374945, IND
+1095, Ulhasnagar,369077, IND
+1096, Salem,366712, IND
+1097, Ujjain,362266, IND
+1098, Malegaon,342595, IND
+1099, Jamnagar,341637, IND
+1100, Bokaro Steel City,333683, IND
+1101, Akola,328034, IND
+1102, Belgaum,326399, IND
+1103, Rajahmundry,324851, IND
+1104, Nellore,316606, IND
+1105, Udaipur,308571, IND
+1106, New Bombay,307297, IND
+1107, Bhatpara,304952, IND
+1108, Gulbarga,304099, IND
+1109, New Delhi,301297, IND
+1110, Jhansi,300850, IND
+1111, Gaya,291675, IND
+1112, Kakinada,279980, IND
+1113, Dhule (Dhulia),278317, IND
+1114, Panihati,275990, IND
+1115, Nanded (Nander),275083, IND
+1116, Mangalore,273304, IND
+1117, Dehra Dun,270159, IND
+1118, Kamarhati,266889, IND
+1119, Davangere,266082, IND
+1120, Asansol,262188, IND
+1121, Bhagalpur,253225, IND
+1122, Bellary,245391, IND
+1123, Barddhaman (Burdwan),245079, IND
+1124, Rampur,243742, IND
+1125, Jalgaon,242193, IND
+1126, Muzaffarpur,241107, IND
+1127, Nizamabad,241034, IND
+1128, Muzaffarnagar,240609, IND
+1129, Patiala,238368, IND
+1130, Shahjahanpur,237713, IND
+1131, Kurnool,236800, IND
+1132, Tiruppur (Tirupper),235661, IND
+1133, Rohtak,233400, IND
+1134, South Dum Dum,232811, IND
+1135, Mathura,226691, IND
+1136, Chandrapur,226105, IND
+1137, Barahanagar (Baranagar),224821, IND
+1138, Darbhanga,218391, IND
+1139, Siliguri (Shiliguri),216950, IND
+1140, Raurkela,215489, IND
+1141, Ambattur,215424, IND
+1142, Panipat,215218, IND
+1143, Firozabad,215128, IND
+1144, Ichalkaranji,214950, IND
+1145, Jammu,214737, IND
+1146, Ramagundam,214384, IND
+1147, Eluru,212866, IND
+1148, Brahmapur,210418, IND
+1149, Alwar,205086, IND
+1150, Pondicherry,203065, IND
+1151, Thanjavur,202013, IND
+1152, Bihar Sharif,201323, IND
+1153, Tuticorin,199854, IND
+1154, Imphal,198535, IND
+1155, Latur,197408, IND
+1156, Sagar,195346, IND
+1157, Farrukhabad-cum-Fatehgarh,194567, IND
+1158, Sangli,193197, IND
+1159, Parbhani,190255, IND
+1160, Nagar Coil,190084, IND
+1161, Bijapur,186939, IND
+1162, Kukatpalle,185378, IND
+1163, Bally,184474, IND
+1164, Bhilwara,183965, IND
+1165, Ratlam,183375, IND
+1166, Avadi,183215, IND
+1167, Dindigul,182477, IND
+1168, Ahmadnagar,181339, IND
+1169, Bilaspur,179833, IND
+1170, Shimoga,179258, IND
+1171, Kharagpur,177989, IND
+1172, Mira Bhayandar,175372, IND
+1173, Vellore,175061, IND
+1174, Jalna,174985, IND
+1175, Burnpur,174933, IND
+1176, Anantapur,174924, IND
+1177, Allappuzha (Alleppey),174666, IND
+1178, Tirupati,174369, IND
+1179, Karnal,173751, IND
+1180, Burhanpur,172710, IND
+1181, Hisar (Hissar),172677, IND
+1182, Tiruvottiyur,172562, IND
+1183, Mirzapur-cum-Vindhyachal,169336, IND
+1184, Secunderabad,167461, IND
+1185, Nadiad,167051, IND
+1186, Dewas,164364, IND
+1187, Murwara (Katni),163431, IND
+1188, Ganganagar,161482, IND
+1189, Vizianagaram,160359, IND
+1190, Erode,159232, IND
+1191, Machilipatnam (Masulipatam),159110, IND
+1192, Bhatinda (Bathinda),159042, IND
+1193, Raichur,157551, IND
+1194, Agartala,157358, IND
+1195, Arrah (Ara),157082, IND
+1196, Satna,156630, IND
+1197, Lalbahadur Nagar,155500, IND
+1198, Aizawl,155240, IND
+1199, Uluberia,155172, IND
+1200, Katihar,154367, IND
+1201, Cuddalore,153086, IND
+1202, Hugli-Chinsurah,151806, IND
+1203, Dhanbad,151789, IND
+1204, Raiganj,151045, IND
+1205, Sambhal,150869, IND
+1206, Durg,150645, IND
+1207, Munger (Monghyr),150112, IND
+1208, Kanchipuram,150100, IND
+1209, North Dum Dum,149965, IND
+1210, Karimnagar,148583, IND
+1211, Bharatpur,148519, IND
+1212, Sikar,148272, IND
+1213, Hardwar (Haridwar),147305, IND
+1214, Dabgram,147217, IND
+1215, Morena,147124, IND
+1216, Noida,146514, IND
+1217, Hapur,146262, IND
+1218, Bhusawal,145143, IND
+1219, Khandwa,145133, IND
+1220, Yamuna Nagar,144346, IND
+1221, Sonipat (Sonepat),143922, IND
+1222, Tenali,143726, IND
+1223, Raurkela Civil Township,140408, IND
+1224, Kollam (Quilon),139852, IND
+1225, Kumbakonam,139483, IND
+1226, Ingraj Bazar (English Bazar),139204, IND
+1227, Timkur,138903, IND
+1228, Amroha,137061, IND
+1229, Serampore,137028, IND
+1230, Chapra,136877, IND
+1231, Pali,136842, IND
+1232, Maunath Bhanjan,136697, IND
+1233, Adoni,136182, IND
+1234, Jaunpur,136062, IND
+1235, Tirunelveli,135825, IND
+1236, Bahraich,135400, IND
+1237, Gadag Betigeri,134051, IND
+1238, Proddatur,133914, IND
+1239, Chittoor,133462, IND
+1240, Barrackpur,133265, IND
+1241, Bharuch (Broach),133102, IND
+1242, Naihati,132701, IND
+1243, Shillong,131719, IND
+1244, Sambalpur,131138, IND
+1245, Junagadh,130484, IND
+1246, Rae Bareli,129904, IND
+1247, Rewa,128981, IND
+1248, Gurgaon,128608, IND
+1249, Khammam,127992, IND
+1250, Bulandshahr,127201, IND
+1251, Navsari,126089, IND
+1252, Malkajgiri,126066, IND
+1253, Midnapore (Medinipur),125498, IND
+1254, Miraj,125407, IND
+1255, Raj Nandgaon,125371, IND
+1256, Alandur,125244, IND
+1257, Puri,125199, IND
+1258, Navadwip,125037, IND
+1259, Sirsa,125000, IND
+1260, Korba,124501, IND
+1261, Faizabad,124437, IND
+1262, Etawah,124072, IND
+1263, Pathankot,123930, IND
+1264, Gandhinagar,123359, IND
+1265, Palghat (Palakkad),123289, IND
+1266, Veraval,123000, IND
+1267, Hoshiarpur,122705, IND
+1268, Ambala,122596, IND
+1269, Sitapur,121842, IND
+1270, Bhiwani,121629, IND
+1271, Cuddapah,121463, IND
+1272, Bhimavaram,121314, IND
+1273, Krishnanagar,121110, IND
+1274, Chandannagar,120378, IND
+1275, Mandya,120265, IND
+1276, Dibrugarh,120127, IND
+1277, Nandyal,119813, IND
+1278, Balurghat,119796, IND
+1279, Neyveli,118080, IND
+1280, Fatehpur,117675, IND
+1281, Mahbubnagar,116833, IND
+1282, Budaun,116695, IND
+1283, Porbandar,116671, IND
+1284, Silchar,115483, IND
+1285, Berhampore (Baharampur),115144, IND
+1286, Purnea (Purnia),114912, IND
+1287, Bankura,114876, IND
+1288, Rajapalaiyam,114202, IND
+1289, Titagarh,114085, IND
+1290, Halisahar,114028, IND
+1291, Hathras,113285, IND
+1292, Bhir (Bid),112434, IND
+1293, Pallavaram,111866, IND
+1294, Anand,110266, IND
+1295, Mango,110024, IND
+1296, Santipur,109956, IND
+1297, Bhind,109755, IND
+1298, Gondiya,109470, IND
+1299, Tiruvannamalai,109196, IND
+1300, Yeotmal (Yavatmal),108578, IND
+1301, Kulti-Barakar,108518, IND
+1302, Moga,108304, IND
+1303, Shivapuri,108277, IND
+1304, Bidar,108016, IND
+1305, Guntakal,107592, IND
+1306, Unnao,107425, IND
+1307, Barasat,107365, IND
+1308, Tambaram,107187, IND
+1309, Abohar,107163, IND
+1310, Pilibhit,106605, IND
+1311, Valparai,106523, IND
+1312, Gonda,106078, IND
+1313, Surendranagar,105973, IND
+1314, Qutubullapur,105380, IND
+1315, Beawar,105363, IND
+1316, Hindupur,104651, IND
+1317, Gandhidham,104585, IND
+1318, Haldwani-cum-Kathgodam,104195, IND
+1319, Tellicherry (Thalassery),103579, IND
+1320, Wardha,102985, IND
+1321, Rishra,102649, IND
+1322, Bhuj,102176, IND
+1323, Modinagar,101660, IND
+1324, Gudivada,101656, IND
+1325, Basirhat,101409, IND
+1326, Uttarpara-Kotrung,100867, IND
+1327, Ongole,100836, IND
+1328, North Barrackpur,100513, IND
+1329, Guna,100490, IND
+1330, Haldia,100347, IND
+1331, Habra,100223, IND
+1332, Kanchrapara,100194, IND
+1333, Tonk,100079, IND
+1334, Champdani,98818, IND
+1335, Orai,98640, IND
+1336, Pudukkottai,98619, IND
+1337, Sasaram,98220, IND
+1338, Hazaribag,97712, IND
+1339, Palayankottai,97662, IND
+1340, Banda,97227, IND
+1341, Godhra,96813, IND
+1342, Hospet,96322, IND
+1343, Ashoknagar-Kalyangarh,96315, IND
+1344, Achalpur,96216, IND
+1345, Patan,96109, IND
+1346, Mandasor,95758, IND
+1347, Damoh,95661, IND
+1348, Satara,95133, IND
+1349, Meerut Cantonment,94876, IND
+1350, Dehri,94526, IND
+1351, Delhi Cantonment,94326, IND
+1352, Chhindwara,93731, IND
+1353, Bansberia,93447, IND
+1354, Nagaon,93350, IND
+1355, Kanpur Cantonment,93109, IND
+1356, Vidisha,92917, IND
+1357, Bettiah,92583, IND
+1358, Purulia,92574, IND
+1359, Hassan,90803, IND
+1360, Ambala Sadar,90712, IND
+1361, Baidyabati,90601, IND
+1362, Morvi,90357, IND
+1363, Raigarh,89166, IND
+1364, Vejalpur,89053, IND
+1365, Baghdad,4336000, IRQ
+1366, Mosul,879000, IRQ
+1367, Irbil,485968, IRQ
+1368, Kirkuk,418624, IRQ
+1369, Basra,406296, IRQ
+1370, al-Sulaymaniya,364096, IRQ
+1371, al-Najaf,309010, IRQ
+1372, Karbala,296705, IRQ
+1373, al-Hilla,268834, IRQ
+1374, al-Nasiriya,265937, IRQ
+1375, al-Amara,208797, IRQ
+1376, al-Diwaniya,196519, IRQ
+1377, al-Ramadi,192556, IRQ
+1378, al-Kut,183183, IRQ
+1379, Baquba,114516, IRQ
+1380, Teheran,6758845, IRN
+1381, Mashhad,1887405, IRN
+1382, Esfahan,1266072, IRN
+1383, Tabriz,1191043, IRN
+1384, Shiraz,1053025, IRN
+1385, Karaj,940968, IRN
+1386, Ahvaz,804980, IRN
+1387, Qom,777677, IRN
+1388, Kermanshah,692986, IRN
+1389, Urmia,435200, IRN
+1390, Zahedan,419518, IRN
+1391, Rasht,417748, IRN
+1392, Hamadan,401281, IRN
+1393, Kerman,384991, IRN
+1394, Arak,380755, IRN
+1395, Ardebil,340386, IRN
+1396, Yazd,326776, IRN
+1397, Qazvin,291117, IRN
+1398, Zanjan,286295, IRN
+1399, Sanandaj,277808, IRN
+1400, Bandar-e-Abbas,273578, IRN
+1401, Khorramabad,272815, IRN
+1402, Eslamshahr,265450, IRN
+1403, Borujerd,217804, IRN
+1404, Abadan,206073, IRN
+1405, Dezful,202639, IRN
+1406, Kashan,201372, IRN
+1407, Sari,195882, IRN
+1408, Gorgan,188710, IRN
+1409, Najafabad,178498, IRN
+1410, Sabzevar,170738, IRN
+1411, Khomeynishahr,165888, IRN
+1412, Amol,159092, IRN
+1413, Neyshabur,158847, IRN
+1414, Babol,158346, IRN
+1415, Khoy,148944, IRN
+1416, Malayer,144373, IRN
+1417, Bushehr,143641, IRN
+1418, Qaemshahr,143286, IRN
+1419, Qarchak,142690, IRN
+1420, Qods,138278, IRN
+1421, Sirjan,135024, IRN
+1422, Bojnurd,134835, IRN
+1423, Maragheh,132318, IRN
+1424, Birjand,127608, IRN
+1425, Ilam,126346, IRN
+1426, Bukan,120020, IRN
+1427, Masjed-e-Soleyman,116883, IRN
+1428, Saqqez,115394, IRN
+1429, Gonbad-e Qabus,111253, IRN
+1430, Saveh,111245, IRN
+1431, Mahabad,107799, IRN
+1432, Varamin,107233, IRN
+1433, Andimeshk,106923, IRN
+1434, Khorramshahr,105636, IRN
+1435, Shahrud,104765, IRN
+1436, Marv Dasht,103579, IRN
+1437, Zabol,100887, IRN
+1438, Shahr-e Kord,100477, IRN
+1439, Bandar-e Anzali,98500, IRN
+1440, Rafsanjan,98300, IRN
+1441, Marand,96400, IRN
+1442, Torbat-e Heydariyeh,94600, IRN
+1443, Jahrom,94200, IRN
+1444, Semnan,91045, IRN
+1445, Miandoab,90100, IRN
+1446, Qomsheh,89800, IRN
+1447, Dublin,481854, IRL
+1448, Cork,127187, IRL
+1449, ReykjavÂ¡k,109184, ISL
+1450, Jerusalem,633700, ISR
+1451, Tel Aviv-Jaffa,348100, ISR
+1452, Haifa,265700, ISR
+1453, Rishon Le Ziyyon,188200, ISR
+1454, Beerseba,163700, ISR
+1455, Holon,163100, ISR
+1456, Petah Tiqwa,159400, ISR
+1457, Ashdod,155800, ISR
+1458, Netanya,154900, ISR
+1459, Bat Yam,137000, ISR
+1460, Bene Beraq,133900, ISR
+1461, Ramat Gan,126900, ISR
+1462, Ashqelon,92300, ISR
+1463, Rehovot,90300, ISR
+1464, Roma,2643581, ITA
+1465, Milano,1300977, ITA
+1466, Napoli,1002619, ITA
+1467, Torino,903705, ITA
+1468, Palermo,683794, ITA
+1469, Genova,636104, ITA
+1470, Bologna,381161, ITA
+1471, Firenze,376662, ITA
+1472, Catania,337862, ITA
+1473, Bari,331848, ITA
+1474, Venezia,277305, ITA
+1475, Messina,259156, ITA
+1476, Verona,255268, ITA
+1477, Trieste,216459, ITA
+1478, Padova,211391, ITA
+1479, Taranto,208214, ITA
+1480, Brescia,191317, ITA
+1481, Reggio di Calabria,179617, ITA
+1482, Modena,176022, ITA
+1483, Prato,172473, ITA
+1484, Parma,168717, ITA
+1485, Cagliari,165926, ITA
+1486, Livorno,161673, ITA
+1487, Perugia,156673, ITA
+1488, Foggia,154891, ITA
+1489, Reggio nellÃ¯ Emilia,143664, ITA
+1490, Salerno,142055, ITA
+1491, Ravenna,138418, ITA
+1492, Ferrara,132127, ITA
+1493, Rimini,131062, ITA
+1494, Syrakusa,126282, ITA
+1495, Sassari,120803, ITA
+1496, Monza,119516, ITA
+1497, Bergamo,117837, ITA
+1498, Pescara,115698, ITA
+1499, Latina,114099, ITA
+1500, Vicenza,109738, ITA
+1501, Terni,107770, ITA
+1502, ForlÂ�,107475, ITA
+1503, Trento,104906, ITA
+1504, Novara,102037, ITA
+1505, Piacenza,98384, ITA
+1506, Ancona,98329, ITA
+1507, Lecce,98208, ITA
+1508, Bolzano,97232, ITA
+1509, Catanzaro,96700, ITA
+1510, La Spezia,95504, ITA
+1511, Udine,94932, ITA
+1512, Torre del Greco,94505, ITA
+1513, Andria,94443, ITA
+1514, Brindisi,93454, ITA
+1515, Giugliano in Campania,93286, ITA
+1516, Pisa,92379, ITA
+1517, Barletta,91904, ITA
+1518, Arezzo,91729, ITA
+1519, Alessandria,90289, ITA
+1520, Cesena,89852, ITA
+1521, Pesaro,88987, ITA
+1522, Dili,47900, TMP
+1523, Wien,1608144, AUT
+1524, Graz,240967, AUT
+1525, Linz,188022, AUT
+1526, Salzburg,144247, AUT
+1527, Innsbruck,111752, AUT
+1528, Klagenfurt,91141, AUT
+1529, Spanish Town,110379, JAM
+1530, Kingston,103962, JAM
+1531, Portmore,99799, JAM
+1532, Tokyo,7980230, JPN
+1533, Jokohama [Yokohama],3339594, JPN
+1534, Osaka,2595674, JPN
+1535, Nagoya,2154376, JPN
+1536, Sapporo,1790886, JPN
+1537, Kioto,1461974, JPN
+1538, Kobe,1425139, JPN
+1539, Fukuoka,1308379, JPN
+1540, Kawasaki,1217359, JPN
+1541, Hiroshima,1119117, JPN
+1542, Kitakyushu,1016264, JPN
+1543, Sendai,989975, JPN
+1544, Chiba,863930, JPN
+1545, Sakai,797735, JPN
+1546, Kumamoto,656734, JPN
+1547, Okayama,624269, JPN
+1548, Sagamihara,586300, JPN
+1549, Hamamatsu,568796, JPN
+1550, Kagoshima,549977, JPN
+1551, Funabashi,545299, JPN
+1552, Higashiosaka,517785, JPN
+1553, Hachioji,513451, JPN
+1554, Niigata,497464, JPN
+1555, Amagasaki,481434, JPN
+1556, Himeji,475167, JPN
+1557, Shizuoka,473854, JPN
+1558, Urawa,469675, JPN
+1559, Matsuyama,466133, JPN
+1560, Matsudo,461126, JPN
+1561, Kanazawa,455386, JPN
+1562, Kawaguchi,452155, JPN
+1563, Ichikawa,441893, JPN
+1564, Omiya,441649, JPN
+1565, Utsunomiya,440353, JPN
+1566, Oita,433401, JPN
+1567, Nagasaki,432759, JPN
+1568, Yokosuka,430200, JPN
+1569, Kurashiki,425103, JPN
+1570, Gifu,408007, JPN
+1571, Hirakata,403151, JPN
+1572, Nishinomiya,397618, JPN
+1573, Toyonaka,396689, JPN
+1574, Wakayama,391233, JPN
+1575, Fukuyama,376921, JPN
+1576, Fujisawa,372840, JPN
+1577, Asahikawa,364813, JPN
+1578, Machida,364197, JPN
+1579, Nara,362812, JPN
+1580, Takatsuki,361747, JPN
+1581, Iwaki,361737, JPN
+1582, Nagano,361391, JPN
+1583, Toyohashi,360066, JPN
+1584, Toyota,346090, JPN
+1585, Suita,345750, JPN
+1586, Takamatsu,332471, JPN
+1587, Koriyama,330335, JPN
+1588, Okazaki,328711, JPN
+1589, Kawagoe,327211, JPN
+1590, Tokorozawa,325809, JPN
+1591, Toyama,325790, JPN
+1592, Kochi,324710, JPN
+1593, Kashiwa,320296, JPN
+1594, Akita,314440, JPN
+1595, Miyazaki,303784, JPN
+1596, Koshigaya,301446, JPN
+1597, Naha,299851, JPN
+1598, Aomori,295969, JPN
+1599, Hakodate,294788, JPN
+1600, Akashi,292253, JPN
+1601, Yokkaichi,288173, JPN
+1602, Fukushima,287525, JPN
+1603, Morioka,287353, JPN
+1604, Maebashi,284473, JPN
+1605, Kasugai,282348, JPN
+1606, Otsu,282070, JPN
+1607, Ichihara,279280, JPN
+1608, Yao,276421, JPN
+1609, Ichinomiya,270828, JPN
+1610, Tokushima,269649, JPN
+1611, Kakogawa,266281, JPN
+1612, Ibaraki,261020, JPN
+1613, Neyagawa,257315, JPN
+1614, Shimonoseki,257263, JPN
+1615, Yamagata,255617, JPN
+1616, Fukui,254818, JPN
+1617, Hiratsuka,254207, JPN
+1618, Mito,246559, JPN
+1619, Sasebo,244240, JPN
+1620, Hachinohe,242979, JPN
+1621, Takasaki,239124, JPN
+1622, Shimizu,239123, JPN
+1623, Kurume,235611, JPN
+1624, Fuji,231527, JPN
+1625, Soka,222768, JPN
+1626, Fuchu,220576, JPN
+1627, Chigasaki,216015, JPN
+1628, Atsugi,212407, JPN
+1629, Numazu,211382, JPN
+1630, Ageo,209442, JPN
+1631, Yamato,208234, JPN
+1632, Matsumoto,206801, JPN
+1633, Kure,206504, JPN
+1634, Takarazuka,205993, JPN
+1635, Kasukabe,201838, JPN
+1636, Chofu,201585, JPN
+1637, Odawara,200171, JPN
+1638, Kofu,199753, JPN
+1639, Kushiro,197608, JPN
+1640, Kishiwada,197276, JPN
+1641, Hitachi,196622, JPN
+1642, Nagaoka,192407, JPN
+1643, Itami,190886, JPN
+1644, Uji,188735, JPN
+1645, Suzuka,184061, JPN
+1646, Hirosaki,177522, JPN
+1647, Ube,175206, JPN
+1648, Kodaira,174984, JPN
+1649, Takaoka,174380, JPN
+1650, Obihiro,173685, JPN
+1651, Tomakomai,171958, JPN
+1652, Saga,170034, JPN
+1653, Sakura,168072, JPN
+1654, Kamakura,167661, JPN
+1655, Mitaka,167268, JPN
+1656, Izumi,166979, JPN
+1657, Hino,166770, JPN
+1658, Hadano,166512, JPN
+1659, Ashikaga,165243, JPN
+1660, Tsu,164543, JPN
+1661, Sayama,162472, JPN
+1662, Yachiyo,161222, JPN
+1663, Tsukuba,160768, JPN
+1664, Tachikawa,159430, JPN
+1665, Kumagaya,157171, JPN
+1666, Moriguchi,155941, JPN
+1667, Otaru,155784, JPN
+1668, Anjo,153823, JPN
+1669, Narashino,152849, JPN
+1670, Oyama,152820, JPN
+1671, Ogaki,151758, JPN
+1672, Matsue,149821, JPN
+1673, Kawanishi,149794, JPN
+1674, Hitachinaka,148006, JPN
+1675, Niiza,147744, JPN
+1676, Nagareyama,147738, JPN
+1677, Tottori,147523, JPN
+1678, Tama,146712, JPN
+1679, Iruma,145922, JPN
+1680, Ota,145317, JPN
+1681, Omuta,142889, JPN
+1682, Komaki,139827, JPN
+1683, Ome,139216, JPN
+1684, Kadoma,138953, JPN
+1685, Yamaguchi,138210, JPN
+1686, Higashimurayama,136970, JPN
+1687, Yonago,136461, JPN
+1688, Matsubara,135010, JPN
+1689, Musashino,134426, JPN
+1690, Tsuchiura,134072, JPN
+1691, Joetsu,133505, JPN
+1692, Miyakonojo,133183, JPN
+1693, Misato,132957, JPN
+1694, Kakamigahara,131831, JPN
+1695, Daito,130594, JPN
+1696, Seto,130470, JPN
+1697, Kariya,127969, JPN
+1698, Urayasu,127550, JPN
+1699, Beppu,127486, JPN
+1700, Niihama,127207, JPN
+1701, Minoo,127026, JPN
+1702, Fujieda,126897, JPN
+1703, Abiko,126670, JPN
+1704, Nobeoka,125547, JPN
+1705, Tondabayashi,125094, JPN
+1706, Ueda,124217, JPN
+1707, Kashihara,124013, JPN
+1708, Matsusaka,123582, JPN
+1709, Isesaki,123285, JPN
+1710, Zama,122046, JPN
+1711, Kisarazu,121967, JPN
+1712, Noda,121030, JPN
+1713, Ishinomaki,120963, JPN
+1714, Fujinomiya,119714, JPN
+1715, Kawachinagano,119666, JPN
+1716, Imabari,119357, JPN
+1717, Aizuwakamatsu,119287, JPN
+1718, Higashihiroshima,119166, JPN
+1719, Habikino,118968, JPN
+1720, Ebetsu,118805, JPN
+1721, Hofu,118751, JPN
+1722, Kiryu,118326, JPN
+1723, Okinawa,117748, JPN
+1724, Yaizu,117258, JPN
+1725, Toyokawa,115781, JPN
+1726, Ebina,115571, JPN
+1727, Asaka,114815, JPN
+1728, Higashikurume,111666, JPN
+1729, Ikoma,111645, JPN
+1730, Kitami,111295, JPN
+1731, Koganei,110969, JPN
+1732, Iwatsuki,110034, JPN
+1733, Mishima,109699, JPN
+1734, Handa,108600, JPN
+1735, Muroran,108275, JPN
+1736, Komatsu,107937, JPN
+1737, Yatsushiro,107661, JPN
+1738, Iida,107583, JPN
+1739, Tokuyama,107078, JPN
+1740, Kokubunji,106996, JPN
+1741, Akishima,106914, JPN
+1742, Iwakuni,106647, JPN
+1743, Kusatsu,106232, JPN
+1744, Kuwana,106121, JPN
+1745, Sanda,105643, JPN
+1746, Hikone,105508, JPN
+1747, Toda,103969, JPN
+1748, Tajimi,103171, JPN
+1749, Ikeda,102710, JPN
+1750, Fukaya,102156, JPN
+1751, Ise,101732, JPN
+1752, Sakata,101651, JPN
+1753, Kasuga,101344, JPN
+1754, Kamagaya,100821, JPN
+1755, Tsuruoka,100713, JPN
+1756, Hoya,100313, JPN
+1757, Nishio,100032, JPN
+1758, Tokai,99738, JPN
+1759, Inazawa,98746, JPN
+1760, Sakado,98221, JPN
+1761, Isehara,98123, JPN
+1762, Takasago,97632, JPN
+1763, Fujimi,96972, JPN
+1764, Urasoe,96002, JPN
+1765, Yonezawa,95592, JPN
+1766, Konan,95521, JPN
+1767, Yamatokoriyama,95165, JPN
+1768, Maizuru,94784, JPN
+1769, Onomichi,93756, JPN
+1770, Higashimatsuyama,93342, JPN
+1771, Kimitsu,93216, JPN
+1772, Isahaya,93058, JPN
+1773, Kanuma,93053, JPN
+1774, Izumisano,92583, JPN
+1775, Kameoka,92398, JPN
+1776, Mobara,91664, JPN
+1777, Narita,91470, JPN
+1778, Kashiwazaki,91229, JPN
+1779, Tsuyama,91170, JPN
+1780, Sanaa,503600, YEM
+1781, Aden,398300, YEM
+1782, Taizz,317600, YEM
+1783, Hodeida,298500, YEM
+1784, al-Mukalla,122400, YEM
+1785, Ibb,103300, YEM
+1786, Amman,1000000, JOR
+1787, al-Zarqa,389815, JOR
+1788, Irbid,231511, JOR
+1789, al-Rusayfa,137247, JOR
+1790, Wadi al-Sir,89104, JOR
+1791, Flying Fish Cove,700, CXR
+1792, Beograd,1204000, YUG
+1793, Novi Sad,179626, YUG
+1794, Ni?,175391, YUG
+1795, Pri?tina,155496, YUG
+1796, Kragujevac,147305, YUG
+1797, Podgorica,135000, YUG
+1798, Subotica,100386, YUG
+1799, Prizren,92303, YUG
+1800, Phnom Penh,570155, KHM
+1801, Battambang,129800, KHM
+1802, Siem Reap,105100, KHM
+1803, Douala,1448300, CMR
+1804, Yaoundâ€š,1372800, CMR
+1805, Garoua,177000, CMR
+1806, Maroua,143000, CMR
+1807, Bamenda,138000, CMR
+1808, Bafoussam,131000, CMR
+1809, Nkongsamba,112454, CMR
+1810, Montrâ€šal,1016376, CAN
+1811, Calgary,768082, CAN
+1812, Toronto,688275, CAN
+1813, North York,622632, CAN
+1814, Winnipeg,618477, CAN
+1815, Edmonton,616306, CAN
+1816, Mississauga,608072, CAN
+1817, Scarborough,594501, CAN
+1818, Vancouver,514008, CAN
+1819, Etobicoke,348845, CAN
+1820, London,339917, CAN
+1821, Hamilton,335614, CAN
+1822, Ottawa,335277, CAN
+1823, Laval,330393, CAN
+1824, Surrey,304477, CAN
+1825, Brampton,296711, CAN
+1826, Windsor,207588, CAN
+1827, Saskatoon,193647, CAN
+1828, Kitchener,189959, CAN
+1829, Markham,189098, CAN
+1830, Regina,180400, CAN
+1831, Burnaby,179209, CAN
+1832, Quâ€šbec,167264, CAN
+1833, York,154980, CAN
+1834, Richmond,148867, CAN
+1835, Vaughan,147889, CAN
+1836, Burlington,145150, CAN
+1837, Oshawa,140173, CAN
+1838, Oakville,139192, CAN
+1839, Saint Catharines,136216, CAN
+1840, Longueuil,127977, CAN
+1841, Richmond Hill,116428, CAN
+1842, Thunder Bay,115913, CAN
+1843, Nepean,115100, CAN
+1844, Cape Breton,114733, CAN
+1845, East York,114034, CAN
+1846, Halifax,113910, CAN
+1847, Cambridge,109186, CAN
+1848, Gloucester,107314, CAN
+1849, Abbotsford,105403, CAN
+1850, Guelph,103593, CAN
+1851, Saint JohnÃ¯s,101936, CAN
+1852, Coquitlam,101820, CAN
+1853, Saanich,101388, CAN
+1854, Gatineau,100702, CAN
+1855, Delta,95411, CAN
+1856, Sudbury,92686, CAN
+1857, Kelowna,89442, CAN
+1858, Barrie,89269, CAN
+1859, Praia,94800, CPV
+1860, Almaty,1129400, KAZ
+1861, Qaraghandy,436900, KAZ
+1862, Shymkent,360100, KAZ
+1863, Taraz,330100, KAZ
+1864, Astana,311200, KAZ
+1865, â„¢skemen,311000, KAZ
+1866, Pavlodar,300500, KAZ
+1867, Semey,269600, KAZ
+1868, Aqtâ€�be,253100, KAZ
+1869, Qostanay,221400, KAZ
+1870, Petropavl,203500, KAZ
+1871, Oral,195500, KAZ
+1872, Temirtau,170500, KAZ
+1873, Qyzylorda,157400, KAZ
+1874, Aqtau,143400, KAZ
+1875, Atyrau,142500, KAZ
+1876, Ekibastuz,127200, KAZ
+1877, Kâ€�kshetau,123400, KAZ
+1878, Rudnyy,109500, KAZ
+1879, Taldyqorghan,98000, KAZ
+1880, Zhezqazghan,90000, KAZ
+1881, Nairobi,2290000, KEN
+1882, Mombasa,461753, KEN
+1883, Kisumu,192733, KEN
+1884, Nakuru,163927, KEN
+1885, Machakos,116293, KEN
+1886, Eldoret,111882, KEN
+1887, Meru,94947, KEN
+1888, Nyeri,91258, KEN
+1889, Bangui,524000, CAF
+1890, Shanghai,9696300, CHN
+1891, Peking,7472000, CHN
+1892, Chongqing,6351600, CHN
+1893, Tianjin,5286800, CHN
+1894, Wuhan,4344600, CHN
+1895, Harbin,4289800, CHN
+1896, Shenyang,4265200, CHN
+1897, Kanton [Guangzhou],4256300, CHN
+1898, Chengdu,3361500, CHN
+1899, Nanking [Nanjing],2870300, CHN
+1900, Changchun,2812000, CHN
+1901, XiÃ¯an,2761400, CHN
+1902, Dalian,2697000, CHN
+1903, Qingdao,2596000, CHN
+1904, Jinan,2278100, CHN
+1905, Hangzhou,2190500, CHN
+1906, Zhengzhou,2107200, CHN
+1907, Shijiazhuang,2041500, CHN
+1908, Taiyuan,1968400, CHN
+1909, Kunming,1829500, CHN
+1910, Changsha,1809800, CHN
+1911, Nanchang,1691600, CHN
+1912, Fuzhou,1593800, CHN
+1913, Lanzhou,1565800, CHN
+1914, Guiyang,1465200, CHN
+1915, Ningbo,1371200, CHN
+1916, Hefei,1369100, CHN
+1917, Urumt?i [Å¡rÂ�mqi],1310100, CHN
+1918, Anshan,1200000, CHN
+1919, Fushun,1200000, CHN
+1920, Nanning,1161800, CHN
+1921, Zibo,1140000, CHN
+1922, Qiqihar,1070000, CHN
+1923, Jilin,1040000, CHN
+1924, Tangshan,1040000, CHN
+1925, Baotou,980000, CHN
+1926, Shenzhen,950500, CHN
+1927, Hohhot,916700, CHN
+1928, Handan,840000, CHN
+1929, Wuxi,830000, CHN
+1930, Xuzhou,810000, CHN
+1931, Datong,800000, CHN
+1932, Yichun,800000, CHN
+1933, Benxi,770000, CHN
+1934, Luoyang,760000, CHN
+1935, Suzhou,710000, CHN
+1936, Xining,700200, CHN
+1937, Huainan,700000, CHN
+1938, Jixi,683885, CHN
+1939, Daqing,660000, CHN
+1940, Fuxin,640000, CHN
+1941, Amoy [Xiamen],627500, CHN
+1942, Liuzhou,610000, CHN
+1943, Shantou,580000, CHN
+1944, Jinzhou,570000, CHN
+1945, Mudanjiang,570000, CHN
+1946, Yinchuan,544500, CHN
+1947, Changzhou,530000, CHN
+1948, Zhangjiakou,530000, CHN
+1949, Dandong,520000, CHN
+1950, Hegang,520000, CHN
+1951, Kaifeng,510000, CHN
+1952, Jiamusi,493409, CHN
+1953, Liaoyang,492559, CHN
+1954, Hengyang,487148, CHN
+1955, Baoding,483155, CHN
+1956, Hunjiang,482043, CHN
+1957, Xinxiang,473762, CHN
+1958, Huangshi,457601, CHN
+1959, Haikou,454300, CHN
+1960, Yantai,452127, CHN
+1961, Bengbu,449245, CHN
+1962, Xiangtan,441968, CHN
+1963, Weifang,428522, CHN
+1964, Wuhu,425740, CHN
+1965, Pingxiang,425579, CHN
+1966, Yingkou,421589, CHN
+1967, Anyang,420332, CHN
+1968, Panzhihua,415466, CHN
+1969, Pingdingshan,410775, CHN
+1970, Xiangfan,410407, CHN
+1971, Zhuzhou,409924, CHN
+1972, Jiaozuo,409100, CHN
+1973, Wenzhou,401871, CHN
+1974, Zhangjiang,400997, CHN
+1975, Zigong,393184, CHN
+1976, Shuangyashan,386081, CHN
+1977, Zaozhuang,380846, CHN
+1978, Yakeshi,377869, CHN
+1979, Yichang,371601, CHN
+1980, Zhenjiang,368316, CHN
+1981, Huaibei,366549, CHN
+1982, Qinhuangdao,364972, CHN
+1983, Guilin,364130, CHN
+1984, Liupanshui,363954, CHN
+1985, Panjin,362773, CHN
+1986, Yangquan,362268, CHN
+1987, Jinxi,357052, CHN
+1988, Liaoyuan,354141, CHN
+1989, Lianyungang,354139, CHN
+1990, Xianyang,352125, CHN
+1991, TaiÃ¯an,350696, CHN
+1992, Chifeng,350077, CHN
+1993, Shaoguan,350043, CHN
+1994, Nantong,343341, CHN
+1995, Leshan,341128, CHN
+1996, Baoji,337765, CHN
+1997, Linyi,324720, CHN
+1998, Tonghua,324600, CHN
+1999, Siping,317223, CHN
+2000, Changzhi,317144, CHN
+2001, Tengzhou,315083, CHN
+2002, Chaozhou,313469, CHN
+2003, Yangzhou,312892, CHN
+2004, Dongwan,308669, CHN
+2005, MaÃ¯anshan,305421, CHN
+2006, Foshan,303160, CHN
+2007, Yueyang,302800, CHN
+2008, Xingtai,302789, CHN
+2009, Changde,301276, CHN
+2010, Shihezi,299676, CHN
+2011, Yancheng,296831, CHN
+2012, Jiujiang,291187, CHN
+2013, Dongying,281728, CHN
+2014, Shashi,281352, CHN
+2015, Xintai,281248, CHN
+2016, Jingdezhen,281183, CHN
+2017, Tongchuan,280657, CHN
+2018, Zhongshan,278829, CHN
+2019, Shiyan,273786, CHN
+2020, Tieli,265683, CHN
+2021, Jining,265248, CHN
+2022, Wuhai,264081, CHN
+2023, Mianyang,262947, CHN
+2024, Luzhou,262892, CHN
+2025, Zunyi,261862, CHN
+2026, Shizuishan,257862, CHN
+2027, Neijiang,256012, CHN
+2028, Tongliao,255129, CHN
+2029, Tieling,254842, CHN
+2030, Wafangdian,251733, CHN
+2031, Anqing,250718, CHN
+2032, Shaoyang,247227, CHN
+2033, Laiwu,246833, CHN
+2034, Chengde,246799, CHN
+2035, Tianshui,244974, CHN
+2036, Nanyang,243303, CHN
+2037, Cangzhou,242708, CHN
+2038, Yibin,241019, CHN
+2039, Huaiyin,239675, CHN
+2040, Dunhua,235100, CHN
+2041, Yanji,230892, CHN
+2042, Jiangmen,230587, CHN
+2043, Tongling,228017, CHN
+2044, Suihua,227881, CHN
+2045, Gongziling,226569, CHN
+2046, Xiantao,222884, CHN
+2047, Chaoyang,222394, CHN
+2048, Ganzhou,220129, CHN
+2049, Huzhou,218071, CHN
+2050, Baicheng,217987, CHN
+2051, Shangzi,215373, CHN
+2052, Yangjiang,215196, CHN
+2053, Qitaihe,214957, CHN
+2054, Gejiu,214294, CHN
+2055, Jiangyin,213659, CHN
+2056, Hebi,212976, CHN
+2057, Jiaxing,211526, CHN
+2058, Wuzhou,210452, CHN
+2059, Meihekou,209038, CHN
+2060, Xuchang,208815, CHN
+2061, Liaocheng,207844, CHN
+2062, Haicheng,205560, CHN
+2063, Qianjiang,205504, CHN
+2064, Baiyin,204970, CHN
+2065, BeiÃ¯an,204899, CHN
+2066, Yixing,200824, CHN
+2067, Laizhou,198664, CHN
+2068, Qaramay,197602, CHN
+2069, Acheng,197595, CHN
+2070, Dezhou,195485, CHN
+2071, Nanping,195064, CHN
+2072, Zhaoqing,194784, CHN
+2073, Beipiao,194301, CHN
+2074, Fengcheng,193784, CHN
+2075, Fuyu,192981, CHN
+2076, Xinyang,192509, CHN
+2077, Dongtai,192247, CHN
+2078, Yuci,191356, CHN
+2079, Honghu,190772, CHN
+2080, Ezhou,190123, CHN
+2081, Heze,189293, CHN
+2082, Daxian,188101, CHN
+2083, Linfen,187309, CHN
+2084, Tianmen,186332, CHN
+2085, Yiyang,185818, CHN
+2086, Quanzhou,185154, CHN
+2087, Rizhao,185048, CHN
+2088, Deyang,182488, CHN
+2089, Guangyuan,182241, CHN
+2090, Changshu,181805, CHN
+2091, Zhangzhou,181424, CHN
+2092, Hailar,180650, CHN
+2093, Nanchong,180273, CHN
+2094, Jiutai,180130, CHN
+2095, Zhaodong,179976, CHN
+2096, Shaoxing,179818, CHN
+2097, Fuyang,179572, CHN
+2098, Maoming,178683, CHN
+2099, Qujing,178669, CHN
+2100, Ghulja,177193, CHN
+2101, Jiaohe,176367, CHN
+2102, Puyang,175988, CHN
+2103, Huadian,175873, CHN
+2104, Jiangyou,175753, CHN
+2105, Qashqar,174570, CHN
+2106, Anshun,174142, CHN
+2107, Fuling,173878, CHN
+2108, Xinyu,173524, CHN
+2109, Hanzhong,169930, CHN
+2110, Danyang,169603, CHN
+2111, Chenzhou,169400, CHN
+2112, Xiaogan,166280, CHN
+2113, Shangqiu,164880, CHN
+2114, Zhuhai,164747, CHN
+2115, Qingyuan,164641, CHN
+2116, Aqsu,164092, CHN
+2117, Jining,163552, CHN
+2118, Xiaoshan,162930, CHN
+2119, Zaoyang,162198, CHN
+2120, Xinghua,161910, CHN
+2121, Hami,161315, CHN
+2122, Huizhou,161023, CHN
+2123, Jinmen,160794, CHN
+2124, Sanming,160691, CHN
+2125, Ulanhot,159538, CHN
+2126, Korla,159344, CHN
+2127, Wanxian,156823, CHN
+2128, RuiÃ¯an,156468, CHN
+2129, Zhoushan,156317, CHN
+2130, Liangcheng,156307, CHN
+2131, Jiaozhou,153364, CHN
+2132, Taizhou,152442, CHN
+2133, Suzhou,151862, CHN
+2134, Yichun,151585, CHN
+2135, Taonan,150168, CHN
+2136, Pingdu,150123, CHN
+2137, JiÃ¯an,148583, CHN
+2138, Longkou,148362, CHN
+2139, Langfang,148105, CHN
+2140, Zhoukou,146288, CHN
+2141, Suining,146086, CHN
+2142, Yulin,144467, CHN
+2143, Jinhua,144280, CHN
+2144, LiuÃ¯an,144248, CHN
+2145, Shuangcheng,142659, CHN
+2146, Suizhou,142302, CHN
+2147, Ankang,142170, CHN
+2148, Weinan,140169, CHN
+2149, Longjing,139417, CHN
+2150, DaÃ¯an,138963, CHN
+2151, Lengshuijiang,137994, CHN
+2152, Laiyang,137080, CHN
+2153, Xianning,136811, CHN
+2154, Dali,136554, CHN
+2155, Anda,136446, CHN
+2156, Jincheng,136396, CHN
+2157, Longyan,134481, CHN
+2158, Xichang,134419, CHN
+2159, Wendeng,133910, CHN
+2160, Hailun,133565, CHN
+2161, Binzhou,133555, CHN
+2162, Linhe,133183, CHN
+2163, Wuwei,133101, CHN
+2164, Duyun,132971, CHN
+2165, Mishan,132744, CHN
+2166, Shangrao,132455, CHN
+2167, Changji,132260, CHN
+2168, Meixian,132156, CHN
+2169, Yushu,131861, CHN
+2170, Tiefa,131807, CHN
+2171, HuaiÃ¯an,131149, CHN
+2172, Leiyang,130115, CHN
+2173, Zalantun,130031, CHN
+2174, Weihai,128888, CHN
+2175, Loudi,128418, CHN
+2176, Qingzhou,128258, CHN
+2177, Qidong,126872, CHN
+2178, Huaihua,126785, CHN
+2179, Luohe,126438, CHN
+2180, Chuzhou,125341, CHN
+2181, Kaiyuan,124219, CHN
+2182, Linqing,123958, CHN
+2183, Chaohu,123676, CHN
+2184, Laohekou,123366, CHN
+2185, Dujiangyan,123357, CHN
+2186, Zhumadian,123232, CHN
+2187, Linchuan,121949, CHN
+2188, Jiaonan,121397, CHN
+2189, Sanmenxia,120523, CHN
+2190, Heyuan,120101, CHN
+2191, Manzhouli,120023, CHN
+2192, Lhasa,120000, CHN
+2193, Lianyuan,118858, CHN
+2194, Kuytun,118553, CHN
+2195, Puqi,117264, CHN
+2196, Hongjiang,116188, CHN
+2197, Qinzhou,114586, CHN
+2198, Renqiu,114256, CHN
+2199, Yuyao,114065, CHN
+2200, Guigang,114025, CHN
+2201, Kaili,113958, CHN
+2202, YanÃ¯an,113277, CHN
+2203, Beihai,112673, CHN
+2204, Xuangzhou,112673, CHN
+2205, Quzhou,112373, CHN
+2206, YongÃ¯an,111762, CHN
+2207, Zixing,110048, CHN
+2208, Liyang,109520, CHN
+2209, Yizheng,109268, CHN
+2210, Yumen,109234, CHN
+2211, Liling,108504, CHN
+2212, Yuncheng,108359, CHN
+2213, Shanwei,107847, CHN
+2214, Cixi,107329, CHN
+2215, Yuanjiang,107004, CHN
+2216, Bozhou,106346, CHN
+2217, Jinchang,105287, CHN
+2218, FuÃ¯an,105265, CHN
+2219, Suqian,105021, CHN
+2220, Shishou,104571, CHN
+2221, Hengshui,104269, CHN
+2222, Danjiangkou,103211, CHN
+2223, Fujin,103104, CHN
+2224, Sanya,102820, CHN
+2225, Guangshui,102770, CHN
+2226, Huangshan,102628, CHN
+2227, Xingcheng,102384, CHN
+2228, Zhucheng,102134, CHN
+2229, Kunshan,102052, CHN
+2230, Haining,100478, CHN
+2231, Pingliang,99265, CHN
+2232, Fuqing,99193, CHN
+2233, Xinzhou,98667, CHN
+2234, Jieyang,98531, CHN
+2235, Zhangjiagang,97994, CHN
+2236, Tong Xian,97168, CHN
+2237, YaÃ¯an,95900, CHN
+2238, Jinzhou,95761, CHN
+2239, Emeishan,94000, CHN
+2240, Enshi,93056, CHN
+2241, Bose,93009, CHN
+2242, Yuzhou,92889, CHN
+2243, Kaiyuan,91999, CHN
+2244, Tumen,91471, CHN
+2245, Putian,91030, CHN
+2246, Linhai,90870, CHN
+2247, Xilin Hot,90646, CHN
+2248, Shaowu,90286, CHN
+2249, Junan,90222, CHN
+2250, Huaying,89400, CHN
+2251, Pingyi,89373, CHN
+2252, Huangyan,89288, CHN
+2253, Bishkek,589400, KGZ
+2254, Osh,222700, KGZ
+2255, Bikenibeu,5055, KIR
+2256, Bairiki,2226, KIR
+2257, Santafâ€š de BogotÂ ,6260862, COL
+2258, Cali,2077386, COL
+2259, MedellÂ¡n,1861265, COL
+2260, Barranquilla,1223260, COL
+2261, Cartagena,805757, COL
+2262, CÂ£cuta,606932, COL
+2263, Bucaramanga,515555, COL
+2264, Ibaguâ€š,393664, COL
+2265, Pereira,381725, COL
+2266, Santa Marta,359147, COL
+2267, Manizales,337580, COL
+2268, Bello,333470, COL
+2269, Pasto,332396, COL
+2270, Neiva,300052, COL
+2271, Soledad,295058, COL
+2272, Armenia,288977, COL
+2273, Villavicencio,273140, COL
+2274, Soacha,272058, COL
+2275, Valledupar,263247, COL
+2276, MonterÂ¡a,248245, COL
+2277, ItagÂ�Â¡,228985, COL
+2278, Palmira,226509, COL
+2279, Buenaventura,224336, COL
+2280, Floridablanca,221913, COL
+2281, Sincelejo,220704, COL
+2282, PopayÂ n,200719, COL
+2283, Barrancabermeja,178020, COL
+2284, Dos Quebradas,159363, COL
+2285, TuluÂ ,152488, COL
+2286, Envigado,135848, COL
+2287, Cartago,125884, COL
+2288, Girardot,110963, COL
+2289, Buga,110699, COL
+2290, Tunja,109740, COL
+2291, Florencia,108574, COL
+2292, Maicao,108053, COL
+2293, Sogamoso,107728, COL
+2294, Giron,90688, COL
+2295, Moroni,36000, COM
+2296, Brazzaville,950000, COG
+2297, Pointe-Noire,500000, COG
+2298, Kinshasa,5064000, COD
+2299, Lubumbashi,851381, COD
+2300, Mbuji-Mayi,806475, COD
+2301, Kolwezi,417810, COD
+2302, Kisangani,417517, COD
+2303, Kananga,393030, COD
+2304, Likasi,299118, COD
+2305, Bukavu,201569, COD
+2306, Kikwit,182142, COD
+2307, Tshikapa,180860, COD
+2308, Matadi,172730, COD
+2309, Mbandaka,169841, COD
+2310, Mwene-Ditu,137459, COD
+2311, Boma,135284, COD
+2312, Uvira,115590, COD
+2313, Butembo,109406, COD
+2314, Goma,109094, COD
+2315, Kalemie,101309, COD
+2316, Bantam,503, CCK
+2317, West Island,167, CCK
+2318, Pyongyang,2484000, PRK
+2319, Hamhung,709730, PRK
+2320, Chongjin,582480, PRK
+2321, Nampo,566200, PRK
+2322, Sinuiju,326011, PRK
+2323, Wonsan,300148, PRK
+2324, Phyongsong,272934, PRK
+2325, Sariwon,254146, PRK
+2326, Haeju,229172, PRK
+2327, Kanggye,223410, PRK
+2328, Kimchaek,179000, PRK
+2329, Hyesan,178020, PRK
+2330, Kaesong,171500, PRK
+2331, Seoul,9981619, KOR
+2332, Pusan,3804522, KOR
+2333, Inchon,2559424, KOR
+2334, Taegu,2548568, KOR
+2335, Taejon,1425835, KOR
+2336, Kwangju,1368341, KOR
+2337, Ulsan,1084891, KOR
+2338, Songnam,869094, KOR
+2339, Puchon,779412, KOR
+2340, Suwon,755550, KOR
+2341, Anyang,591106, KOR
+2342, Chonju,563153, KOR
+2343, Chongju,531376, KOR
+2344, Koyang,518282, KOR
+2345, Ansan,510314, KOR
+2346, Pohang,508899, KOR
+2347, Chang-won,481694, KOR
+2348, Masan,441242, KOR
+2349, Kwangmyong,350914, KOR
+2350, Chonan,330259, KOR
+2351, Chinju,329886, KOR
+2352, Iksan,322685, KOR
+2353, Pyongtaek,312927, KOR
+2354, Kumi,311431, KOR
+2355, Uijongbu,276111, KOR
+2356, Kyongju,272968, KOR
+2357, Kunsan,266569, KOR
+2358, Cheju,258511, KOR
+2359, Kimhae,256370, KOR
+2360, Sunchon,249263, KOR
+2361, Mokpo,247452, KOR
+2362, Yong-in,242643, KOR
+2363, Wonju,237460, KOR
+2364, Kunpo,235233, KOR
+2365, Chunchon,234528, KOR
+2366, Namyangju,229060, KOR
+2367, Kangnung,220403, KOR
+2368, Chungju,205206, KOR
+2369, Andong,188443, KOR
+2370, Yosu,183596, KOR
+2371, Kyongsan,173746, KOR
+2372, Paju,163379, KOR
+2373, Yangsan,163351, KOR
+2374, Ichon,155332, KOR
+2375, Asan,154663, KOR
+2376, Koje,147562, KOR
+2377, Kimchon,147027, KOR
+2378, Nonsan,146619, KOR
+2379, Kuri,142173, KOR
+2380, Chong-up,139111, KOR
+2381, Chechon,137070, KOR
+2382, Sosan,134746, KOR
+2383, Shihung,133443, KOR
+2384, Tong-yong,131717, KOR
+2385, Kongju,131229, KOR
+2386, Yongju,131097, KOR
+2387, Chinhae,125997, KOR
+2388, Sangju,124116, KOR
+2389, Poryong,122604, KOR
+2390, Kwang-yang,122052, KOR
+2391, Miryang,121501, KOR
+2392, Hanam,115812, KOR
+2393, Kimje,115427, KOR
+2394, Yongchon,113511, KOR
+2395, Sachon,113494, KOR
+2396, Uiwang,108788, KOR
+2397, Naju,107831, KOR
+2398, Namwon,103544, KOR
+2399, Tonghae,95472, KOR
+2400, Mun-gyong,92239, KOR
+2401, Athenai,772072, GRC
+2402, Thessaloniki,383967, GRC
+2403, Pireus,182671, GRC
+2404, Patras,153344, GRC
+2405, Peristerion,137288, GRC
+2406, Herakleion,116178, GRC
+2407, Kallithea,114233, GRC
+2408, Larisa,113090, GRC
+2409, Zagreb,706770, HRV
+2410, Split,189388, HRV
+2411, Rijeka,167964, HRV
+2412, Osijek,104761, HRV
+2413, La Habana,2256000, CUB
+2414, Santiago de Cuba,433180, CUB
+2415, CamagÂ�ey,298726, CUB
+2416, HolguÂ¡n,249492, CUB
+2417, Santa Clara,207350, CUB
+2418, GuantÂ namo,205078, CUB
+2419, Pinar del RÂ¡o,142100, CUB
+2420, Bayamo,141000, CUB
+2421, Cienfuegos,132770, CUB
+2422, Victoria de las Tunas,132350, CUB
+2423, Matanzas,123273, CUB
+2424, Manzanillo,109350, CUB
+2425, Sancti-SpÂ¡ritus,100751, CUB
+2426, Ciego de Âµvila,98505, CUB
+2427, al-Salimiya,130215, KWT
+2428, Jalib al-Shuyukh,102178, KWT
+2429, Kuwait,28859, KWT
+2430, Nicosia,195000, CYP
+2431, Limassol,154400, CYP
+2432, Vientiane,531800, LAO
+2433, Savannakhet,96652, LAO
+2434, Riga,764328, LVA
+2435, Daugavpils,114829, LVA
+2436, Liepaja,89439, LVA
+2437, Maseru,297000, LSO
+2438, Beirut,1100000, LBN
+2439, Tripoli,240000, LBN
+2440, Monrovia,850000, LBR
+2441, Tripoli,1682000, LBY
+2442, Bengasi,804000, LBY
+2443, Misrata,121669, LBY
+2444, al-Zawiya,89338, LBY
+2445, Schaan,5346, LIE
+2446, Vaduz,5043, LIE
+2447, Vilnius,577969, LTU
+2448, Kaunas,412639, LTU
+2449, Klaipeda,202451, LTU
+2450, ?iauliai,146563, LTU
+2451, Panevezys,133695, LTU
+2452, Luxembourg [Luxemburg/Lâ€°tzebuerg],80700, LUX
+2453, El-AaiÂ£n,169000, ESH
+2454, Macao,437500, MAC
+2455, Antananarivo,675669, MDG
+2456, Toamasina,127441, MDG
+2457, Antsirabâ€š,120239, MDG
+2458, Mahajanga,100807, MDG
+2459, Fianarantsoa,99005, MDG
+2460, Skopje,444299, MKD
+2461, Blantyre,478155, MWI
+2462, Lilongwe,435964, MWI
+2463, Male,71000, MDV
+2464, Kuala Lumpur,1297526, MYS
+2465, Ipoh,382853, MYS
+2466, Johor Baharu,328436, MYS
+2467, Petaling Jaya,254350, MYS
+2468, Kelang,243355, MYS
+2469, Kuala Terengganu,228119, MYS
+2470, Pinang,219603, MYS
+2471, Kota Bharu,219582, MYS
+2472, Kuantan,199484, MYS
+2473, Taiping,183261, MYS
+2474, Seremban,182869, MYS
+2475, Kuching,148059, MYS
+2476, Sibu,126381, MYS
+2477, Sandakan,125841, MYS
+2478, Alor Setar,124412, MYS
+2479, Selayang Baru,124228, MYS
+2480, Sungai Petani,114763, MYS
+2481, Shah Alam,102019, MYS
+2482, Bamako,809552, MLI
+2483, Birkirkara,21445, MLT
+2484, Valletta,7073, MLT
+2485, Casablanca,2940623, MAR
+2486, Rabat,623457, MAR
+2487, Marrakech,621914, MAR
+2488, FÅ s,541162, MAR
+2489, Tanger,521735, MAR
+2490, Salâ€š,504420, MAR
+2491, MeknÅ s,460000, MAR
+2492, Oujda,365382, MAR
+2493, Kâ€šnitra,292600, MAR
+2494, Tâ€štouan,277516, MAR
+2495, Safi,262300, MAR
+2496, Agadir,155244, MAR
+2497, Mohammedia,154706, MAR
+2498, Khouribga,152090, MAR
+2499, Beni-Mellal,140212, MAR
+2500, Tâ€šmara,126303, MAR
+2501, El Jadida,119083, MAR
+2502, Nador,112450, MAR
+2503, Ksar el Kebir,107065, MAR
+2504, Settat,96200, MAR
+2505, Taza,92700, MAR
+2506, El Araich,90400, MAR
+2507, Dalap-Uliga-Darrit,28000, MHL
+2508, Fort-de-France,94050, MTQ
+2509, Nouakchott,667300, MRT
+2510, NouÆ’dhibou,97600, MRT
+2511, Port-Louis,138200, MUS
+2512, Beau Bassin-Rose Hill,100616, MUS
+2513, Vacoas-Phoenix,98464, MUS
+2514, Mamoutzou,12000, MYT
+2515, Ciudad de Mâ€šxico,8591309, MEX
+2516, Guadalajara,1647720, MEX
+2517, Ecatepec de Morelos,1620303, MEX
+2518, Puebla,1346176, MEX
+2519, NezahualcÂ¢yotl,1224924, MEX
+2520, JuÂ rez,1217818, MEX
+2521, Tijuana,1212232, MEX
+2522, LeÂ¢n,1133576, MEX
+2523, Monterrey,1108499, MEX
+2524, Zapopan,1002239, MEX
+2525, Naucalpan de JuÂ rez,857511, MEX
+2526, Mexicali,764902, MEX
+2527, CuliacÂ n,744859, MEX
+2528, Acapulco de JuÂ rez,721011, MEX
+2529, Tlalnepantla de Baz,720755, MEX
+2530, Mâ€šrida,703324, MEX
+2531, Chihuahua,670208, MEX
+2532, San Luis PotosÂ¡,669353, MEX
+2533, Guadalupe,668780, MEX
+2534, Toluca,665617, MEX
+2535, Aguascalientes,643360, MEX
+2536, Querâ€štaro,639839, MEX
+2537, Morelia,619958, MEX
+2538, Hermosillo,608697, MEX
+2539, Saltillo,577352, MEX
+2540, TorreÂ¢n,529093, MEX
+2541, Centro (Villahermosa),519873, MEX
+2542, San NicolÂ s de los Garza,495540, MEX
+2543, Durango,490524, MEX
+2544, ChimalhuacÂ n,490245, MEX
+2545, Tlaquepaque,475472, MEX
+2546, AtizapÂ n de Zaragoza,467262, MEX
+2547, Veracruz,457119, MEX
+2548, CuautitlÂ n Izcalli,452976, MEX
+2549, Irapuato,440039, MEX
+2550, Tuxtla Gutiâ€šrrez,433544, MEX
+2551, TultitlÂ n,432411, MEX
+2552, Reynosa,419776, MEX
+2553, Benito JuÂ rez,419276, MEX
+2554, Matamoros,416428, MEX
+2555, Xalapa,390058, MEX
+2556, Celaya,382140, MEX
+2557, MazatlÂ n,380265, MEX
+2558, Ensenada,369573, MEX
+2559, Ahome,358663, MEX
+2560, Cajeme,355679, MEX
+2561, Cuernavaca,337966, MEX
+2562, TonalÂ ,336109, MEX
+2563, Valle de Chalco Solidaridad,323113, MEX
+2564, Nuevo Laredo,310277, MEX
+2565, Tepic,305025, MEX
+2566, Tampico,294789, MEX
+2567, Ixtapaluca,293160, MEX
+2568, Apodaca,282941, MEX
+2569, Guasave,277201, MEX
+2570, GÂ¢mez Palacio,272806, MEX
+2571, Tapachula,271141, MEX
+2572, NicolÂ s Romero,269393, MEX
+2573, Coatzacoalcos,267037, MEX
+2574, Uruapan,265211, MEX
+2575, Victoria,262686, MEX
+2576, Oaxaca de JuÂ rez,256848, MEX
+2577, Coacalco de BerriozÂ bal,252270, MEX
+2578, Pachuca de Soto,244688, MEX
+2579, General Escobedo,232961, MEX
+2580, Salamanca,226864, MEX
+2581, Santa Catarina,226573, MEX
+2582, TehuacÂ n,225943, MEX
+2583, Chalco,222201, MEX
+2584, CÂ rdenas,216903, MEX
+2585, Campeche,216735, MEX
+2586, La Paz,213045, MEX
+2587, OthÂ¢n P. Blanco (Chetumal),208014, MEX
+2588, Texcoco,203681, MEX
+2589, La Paz,196708, MEX
+2590, Metepec,194265, MEX
+2591, Monclova,193657, MEX
+2592, Huixquilucan,193156, MEX
+2593, Chilpancingo de los Bravo,192509, MEX
+2594, Puerto Vallarta,183741, MEX
+2595, Fresnillo,182744, MEX
+2596, Ciudad Madero,182012, MEX
+2597, Soledad de Graciano SÂ nchez,179956, MEX
+2598, San Juan del RÂ¡o,179300, MEX
+2599, San Felipe del Progreso,177330, MEX
+2600, CÂ¢rdoba,176952, MEX
+2601, TecÂ mac,172410, MEX
+2602, Ocosingo,171495, MEX
+2603, Carmen,171367, MEX
+2604, LÂ zaro CÂ rdenas,170878, MEX
+2605, Jiutepec,170428, MEX
+2606, Papantla,170123, MEX
+2607, Comalcalco,164640, MEX
+2608, Zamora,161191, MEX
+2609, Nogales,159103, MEX
+2610, Huimanguillo,158335, MEX
+2611, Cuautla,153132, MEX
+2612, MinatitlÂ n,152983, MEX
+2613, Poza Rica de Hidalgo,152678, MEX
+2614, Ciudad Valles,146411, MEX
+2615, Navolato,145396, MEX
+2616, San Luis RÂ¡o Colorado,145276, MEX
+2617, Pâ€šnjamo,143927, MEX
+2618, San Andrâ€šs Tuxtla,142251, MEX
+2619, Guanajuato,141215, MEX
+2620, Navojoa,140495, MEX
+2621, ZitÂ cuaro,137970, MEX
+2622, Boca del RÂ¡o,135721, MEX
+2623, Allende,134645, MEX
+2624, Silao,134037, MEX
+2625, Macuspana,133795, MEX
+2626, San Juan Bautista Tuxtepec,133675, MEX
+2627, San CristÂ¢bal de las Casas,132317, MEX
+2628, Valle de Santiago,130557, MEX
+2629, Guaymas,130108, MEX
+2630, Colima,129454, MEX
+2631, Dolores Hidalgo,128675, MEX
+2632, Lagos de Moreno,127949, MEX
+2633, Piedras Negras,127898, MEX
+2634, Altamira,127490, MEX
+2635, TÂ£xpam,126475, MEX
+2636, San Pedro Garza GarcÂ¡a,126147, MEX
+2637, Cuauhtâ€šmoc,124279, MEX
+2638, Manzanillo,124014, MEX
+2639, Iguala de la Independencia,123883, MEX
+2640, Zacatecas,123700, MEX
+2641, Tlajomulco de ZÂ£Â¤iga,123220, MEX
+2642, Tulancingo de Bravo,121946, MEX
+2643, Zinacantepec,121715, MEX
+2644, San MartÂ¡n Texmelucan,121093, MEX
+2645, TepatitlÂ n de Morelos,118948, MEX
+2646, MartÂ¡nez de la Torre,118815, MEX
+2647, Orizaba,118488, MEX
+2648, ApatzingÂ n,117849, MEX
+2649, Atlixco,117019, MEX
+2650, Delicias,116132, MEX
+2651, Ixtlahuaca,115548, MEX
+2652, El Mante,112453, MEX
+2653, Lerdo,112272, MEX
+2654, Almoloya de JuÂ rez,110550, MEX
+2655, AcÂ mbaro,110487, MEX
+2656, AcuÂ¤a,110388, MEX
+2657, Guadalupe,108881, MEX
+2658, Huejutla de Reyes,108017, MEX
+2659, Hidalgo,106198, MEX
+2660, Los Cabos,105199, MEX
+2661, ComitÂ n de DomÂ¡nguez,104986, MEX
+2662, CunduacÂ n,104164, MEX
+2663, RÂ¡o Bravo,103901, MEX
+2664, Temapache,102824, MEX
+2665, Chilapa de Alvarez,102716, MEX
+2666, Hidalgo del Parral,100881, MEX
+2667, San Francisco del RincÂ¢n,100149, MEX
+2668, Taxco de AlarcÂ¢n,99907, MEX
+2669, Zumpango,99781, MEX
+2670, San Pedro Cholula,99734, MEX
+2671, Lerma,99714, MEX
+2672, TecomÂ n,99296, MEX
+2673, Las Margaritas,97389, MEX
+2674, Cosoleacaque,97199, MEX
+2675, San Luis de la Paz,96763, MEX
+2676, Josâ€š Azueta,95448, MEX
+2677, Santiago Ixcuintla,95311, MEX
+2678, San Felipe,95305, MEX
+2679, Tejupilco,94934, MEX
+2680, Tantoyuca,94709, MEX
+2681, Salvatierra,94322, MEX
+2682, Tultepec,93364, MEX
+2683, Temixco,92686, MEX
+2684, Matamoros,91858, MEX
+2685, PÂ nuco,90551, MEX
+2686, El Fuerte,89556, MEX
+2687, Tierra Blanca,89143, MEX
+2688, Weno,22000, FSM
+2689, Palikir,8600, FSM
+2690, Chisinau,719900, MDA
+2691, Tiraspol,194300, MDA
+2692, Balti,153400, MDA
+2693, Bender (TÅ’ghina),125700, MDA
+2694, Monte-Carlo,13154, MCO
+2695, Monaco-Ville,1234, MCO
+2696, Ulan Bator,773700, MNG
+2697, Plymouth,2000, MSR
+2698, Maputo,1018938, MOZ
+2699, Matola,424662, MOZ
+2700, Beira,397368, MOZ
+2701, Nampula,303346, MOZ
+2702, Chimoio,171056, MOZ
+2703, Naâ€¡ala-Porto,158248, MOZ
+2704, Quelimane,150116, MOZ
+2705, Mocuba,124700, MOZ
+2706, Tete,101984, MOZ
+2707, Xai-Xai,99442, MOZ
+2708, Gurue,99300, MOZ
+2709, Maxixe,93985, MOZ
+2710, Rangoon (Yangon),3361700, MMR
+2711, Mandalay,885300, MMR
+2712, Moulmein (Mawlamyine),307900, MMR
+2713, Pegu (Bago),190900, MMR
+2714, Bassein (Pathein),183900, MMR
+2715, Monywa,138600, MMR
+2716, Sittwe (Akyab),137600, MMR
+2717, Taunggyi (Taunggye),131500, MMR
+2718, Meikhtila,129700, MMR
+2719, Mergui (Myeik),122700, MMR
+2720, Lashio (Lasho),107600, MMR
+2721, Prome (Pyay),105700, MMR
+2722, Henzada (Hinthada),104700, MMR
+2723, Myingyan,103600, MMR
+2724, Tavoy (Dawei),96800, MMR
+2725, Pagakku (Pakokku),94800, MMR
+2726, Windhoek,169000, NAM
+2727, Yangor,4050, NRU
+2728, Yaren,559, NRU
+2729, Kathmandu,591835, NPL
+2730, Biratnagar,157764, NPL
+2731, Pokhara,146318, NPL
+2732, Lalitapur,145847, NPL
+2733, Birgunj,90639, NPL
+2734, Managua,959000, NIC
+2735, LeÂ¢n,123865, NIC
+2736, Chinandega,97387, NIC
+2737, Masaya,88971, NIC
+2738, Niamey,420000, NER
+2739, Zinder,120892, NER
+2740, Maradi,112965, NER
+2741, Lagos,1518000, NGA
+2742, Ibadan,1432000, NGA
+2743, Ogbomosho,730000, NGA
+2744, Kano,674100, NGA
+2745, Oshogbo,476800, NGA
+2746, Ilorin,475800, NGA
+2747, Abeokuta,427400, NGA
+2748, Port Harcourt,410000, NGA
+2749, Zaria,379200, NGA
+2750, Ilesha,378400, NGA
+2751, Onitsha,371900, NGA
+2752, Iwo,362000, NGA
+2753, Ado-Ekiti,359400, NGA
+2754, Abuja,350100, NGA
+2755, Kaduna,342200, NGA
+2756, Mushin,333200, NGA
+2757, Maiduguri,320000, NGA
+2758, Enugu,316100, NGA
+2759, Ede,307100, NGA
+2760, Aba,298900, NGA
+2761, Ife,296800, NGA
+2762, Ila,264000, NGA
+2763, Oyo,256400, NGA
+2764, Ikerre,244600, NGA
+2765, Benin City,229400, NGA
+2766, Iseyin,217300, NGA
+2767, Katsina,206500, NGA
+2768, Jos,206300, NGA
+2769, Sokoto,204900, NGA
+2770, Ilobu,199000, NGA
+2771, Offa,197200, NGA
+2772, Ikorodu,184900, NGA
+2773, Ilawe-Ekiti,184500, NGA
+2774, Owo,183500, NGA
+2775, Ikirun,181400, NGA
+2776, Shaki,174500, NGA
+2777, Calabar,174400, NGA
+2778, Ondo,173600, NGA
+2779, Akure,162300, NGA
+2780, Gusau,158000, NGA
+2781, Ijebu-Ode,156400, NGA
+2782, Effon-Alaiye,153100, NGA
+2783, Kumo,148000, NGA
+2784, Shomolu,147700, NGA
+2785, Oka-Akoko,142900, NGA
+2786, Ikare,140800, NGA
+2787, Sapele,139200, NGA
+2788, Deba Habe,138600, NGA
+2789, Minna,136900, NGA
+2790, Warri,126100, NGA
+2791, Bida,125500, NGA
+2792, Ikire,123300, NGA
+2793, Makurdi,123100, NGA
+2794, Lafia,122500, NGA
+2795, Inisa,119800, NGA
+2796, Shagamu,117200, NGA
+2797, Awka,111200, NGA
+2798, Gombe,107800, NGA
+2799, Igboho,106800, NGA
+2800, Ejigbo,105900, NGA
+2801, Agege,105000, NGA
+2802, Ise-Ekiti,103400, NGA
+2803, Ugep,102600, NGA
+2804, Epe,101000, NGA
+2805, Alofi,682, NIU
+2806, Kingston,800, NFK
+2807, Oslo,508726, NOR
+2808, Bergen,230948, NOR
+2809, Trondheim,150166, NOR
+2810, Stavanger,108848, NOR
+2811, Bâ€˜rum,101340, NOR
+2812, Abidjan,2500000, CIV
+2813, Bouakâ€š,329850, CIV
+2814, Yamoussoukro,130000, CIV
+2815, Daloa,121842, CIV
+2816, Korhogo,109445, CIV
+2817, al-Sib,155000, OMN
+2818, Salala,131813, OMN
+2819, Bawshar,107500, OMN
+2820, Suhar,90814, OMN
+2821, Masqat,51969, OMN
+2822, Karachi,9269265, PAK
+2823, Lahore,5063499, PAK
+2824, Faisalabad,1977246, PAK
+2825, Rawalpindi,1406214, PAK
+2826, Multan,1182441, PAK
+2827, Hyderabad,1151274, PAK
+2828, Gujranwala,1124749, PAK
+2829, Peshawar,988005, PAK
+2830, Quetta,560307, PAK
+2831, Islamabad,524500, PAK
+2832, Sargodha,455360, PAK
+2833, Sialkot,417597, PAK
+2834, Bahawalpur,403408, PAK
+2835, Sukkur,329176, PAK
+2836, Jhang,292214, PAK
+2837, Sheikhupura,271875, PAK
+2838, Larkana,270366, PAK
+2839, Gujrat,250121, PAK
+2840, Mardan,244511, PAK
+2841, Kasur,241649, PAK
+2842, Rahim Yar Khan,228479, PAK
+2843, Sahiwal,207388, PAK
+2844, Okara,200901, PAK
+2845, Wah,198400, PAK
+2846, Dera Ghazi Khan,188100, PAK
+2847, Mirpur Khas,184500, PAK
+2848, Nawabshah,183100, PAK
+2849, Mingora,174500, PAK
+2850, Chiniot,169300, PAK
+2851, Kamoke,151000, PAK
+2852, Mandi Burewala,149900, PAK
+2853, Jhelum,145800, PAK
+2854, Sadiqabad,141500, PAK
+2855, Jacobabad,137700, PAK
+2856, Shikarpur,133300, PAK
+2857, Khanewal,133000, PAK
+2858, Hafizabad,130200, PAK
+2859, Kohat,125300, PAK
+2860, Muzaffargarh,121600, PAK
+2861, Khanpur,117800, PAK
+2862, Gojra,115000, PAK
+2863, Bahawalnagar,109600, PAK
+2864, Muridke,108600, PAK
+2865, Pak Pattan,107800, PAK
+2866, Abottabad,106000, PAK
+2867, Tando Adam,103400, PAK
+2868, Jaranwala,103300, PAK
+2869, Khairpur,102200, PAK
+2870, Chishtian Mandi,101700, PAK
+2871, Daska,101500, PAK
+2872, Dadu,98600, PAK
+2873, Mandi Bahauddin,97300, PAK
+2874, Ahmadpur East,96000, PAK
+2875, Kamalia,95300, PAK
+2876, Khuzdar,93100, PAK
+2877, Vihari,92300, PAK
+2878, Dera Ismail Khan,90400, PAK
+2879, Wazirabad,89700, PAK
+2880, Nowshera,89400, PAK
+2881, Koror,12000, PLW
+2882, Ciudad de PanamÂ ,471373, PAN
+2883, San Miguelito,315382, PAN
+2884, Port Moresby,247000, PNG
+2885, AsunciÂ¢n,557776, PRY
+2886, Ciudad del Este,133881, PRY
+2887, San Lorenzo,133395, PRY
+2888, Lambarâ€š,99681, PRY
+2889, Fernando de la Mora,95287, PRY
+2890, Lima,6464693, PER
+2891, Arequipa,762000, PER
+2892, Trujillo,652000, PER
+2893, Chiclayo,517000, PER
+2894, Callao,424294, PER
+2895, Iquitos,367000, PER
+2896, Chimbote,336000, PER
+2897, Huancayo,327000, PER
+2898, Piura,325000, PER
+2899, Cusco,291000, PER
+2900, Pucallpa,220866, PER
+2901, Tacna,215683, PER
+2902, Ica,194820, PER
+2903, Sullana,147361, PER
+2904, Juliaca,142576, PER
+2905, HuÂ nuco,129688, PER
+2906, Ayacucho,118960, PER
+2907, Chincha Alta,110016, PER
+2908, Cajamarca,108009, PER
+2909, Puno,101578, PER
+2910, Ventanilla,101056, PER
+2911, Castilla,90642, PER
+2912, Adamstown,42, PCN
+2913, Garapan,9200, MNP
+2914, Lisboa,563210, PRT
+2915, Porto,273060, PRT
+2916, Amadora,122106, PRT
+2917, CoÂ¡mbra,96100, PRT
+2918, Braga,90535, PRT
+2919, San Juan,434374, PRI
+2920, BayamÂ¢n,224044, PRI
+2921, Ponce,186475, PRI
+2922, Carolina,186076, PRI
+2923, Caguas,140502, PRI
+2924, Arecibo,100131, PRI
+2925, Guaynabo,100053, PRI
+2926, MayagÂ�ez,98434, PRI
+2927, Toa Baja,94085, PRI
+2928, Warszawa,1615369, POL
+2929, LÂ¢dz,800110, POL
+2930, KrakÂ¢w,738150, POL
+2931, Wroclaw,636765, POL
+2932, Poznan,576899, POL
+2933, Gdansk,458988, POL
+2934, Szczecin,416988, POL
+2935, Bydgoszcz,386855, POL
+2936, Lublin,356251, POL
+2937, Katowice,345934, POL
+2938, Bialystok,283937, POL
+2939, Czestochowa,257812, POL
+2940, Gdynia,253521, POL
+2941, Sosnowiec,244102, POL
+2942, Radom,232262, POL
+2943, Kielce,212383, POL
+2944, Gliwice,212164, POL
+2945, Torun,206158, POL
+2946, Bytom,205560, POL
+2947, Zabrze,200177, POL
+2948, Bielsko-Biala,180307, POL
+2949, Olsztyn,170904, POL
+2950, RzeszÂ¢w,162049, POL
+2951, Ruda Slaska,159665, POL
+2952, Rybnik,144582, POL
+2953, Walbrzych,136923, POL
+2954, Tychy,133178, POL
+2955, Dabrowa GÂ¢rnicza,131037, POL
+2956, Plock,131011, POL
+2957, Elblag,129782, POL
+2958, Opole,129553, POL
+2959, GorzÂ¢w Wielkopolski,126019, POL
+2960, Wloclawek,123373, POL
+2961, ChorzÂ¢w,121708, POL
+2962, TarnÂ¢w,121494, POL
+2963, Zielona GÂ¢ra,118182, POL
+2964, Koszalin,112375, POL
+2965, Legnica,109335, POL
+2966, Kalisz,106641, POL
+2967, Grudziadz,102434, POL
+2968, Slupsk,102370, POL
+2969, Jastrzebie-ZdrÂ¢j,102294, POL
+2970, Jaworzno,97929, POL
+2971, Jelenia GÂ¢ra,93901, POL
+2972, Malabo,40000, GNQ
+2973, Doha,355000, QAT
+2974, Paris,2125246, FRA
+2975, Marseille,798430, FRA
+2976, Lyon,445452, FRA
+2977, Toulouse,390350, FRA
+2978, Nice,342738, FRA
+2979, Nantes,270251, FRA
+2980, Strasbourg,264115, FRA
+2981, Montpellier,225392, FRA
+2982, Bordeaux,215363, FRA
+2983, Rennes,206229, FRA
+2984, Le Havre,190905, FRA
+2985, Reims,187206, FRA
+2986, Lille,184657, FRA
+2987, St-Â�tienne,180210, FRA
+2988, Toulon,160639, FRA
+2989, Grenoble,153317, FRA
+2990, Angers,151279, FRA
+2991, Dijon,149867, FRA
+2992, Brest,149634, FRA
+2993, Le Mans,146105, FRA
+2994, Clermont-Ferrand,137140, FRA
+2995, Amiens,135501, FRA
+2996, Aix-en-Provence,134222, FRA
+2997, Limoges,133968, FRA
+2998, NÅ’mes,133424, FRA
+2999, Tours,132820, FRA
+3000, Villeurbanne,124215, FRA
+3001, Metz,123776, FRA
+3002, Besanâ€¡on,117733, FRA
+3003, Caen,113987, FRA
+3004, Orlâ€šans,113126, FRA
+3005, Mulhouse,110359, FRA
+3006, Rouen,106592, FRA
+3007, Boulogne-Billancourt,106367, FRA
+3008, Perpignan,105115, FRA
+3009, Nancy,103605, FRA
+3010, Roubaix,96984, FRA
+3011, Argenteuil,93961, FRA
+3012, Tourcoing,93540, FRA
+3013, Montreuil,90674, FRA
+3014, Cayenne,50699, GUF
+3015, Faaa,25888, PYF
+3016, Papeete,25553, PYF
+3017, Saint-Denis,131480, REU
+3018, Bucuresti,2016131, ROM
+3019, Iasi,348070, ROM
+3020, Constanta,342264, ROM
+3021, Cluj-Napoca,332498, ROM
+3022, Galati,330276, ROM
+3023, Timisoara,324304, ROM
+3024, Brasov,314225, ROM
+3025, Craiova,313530, ROM
+3026, Ploiesti,251348, ROM
+3027, Braila,233756, ROM
+3028, Oradea,222239, ROM
+3029, Bacau,209235, ROM
+3030, Pitesti,187170, ROM
+3031, Arad,184408, ROM
+3032, Sibiu,169611, ROM
+3033, TÆ’rgu Mures,165153, ROM
+3034, Baia Mare,149665, ROM
+3035, Buzau,148372, ROM
+3036, Satu Mare,130059, ROM
+3037, Botosani,128730, ROM
+3038, Piatra Neamt,125070, ROM
+3039, RÆ’mnicu VÆ’lcea,119741, ROM
+3040, Suceava,118549, ROM
+3041, Drobeta-Turnu Severin,117865, ROM
+3042, TÆ’rgoviste,98980, ROM
+3043, Focsani,98979, ROM
+3044, TÆ’rgu Jiu,98524, ROM
+3045, Tulcea,96278, ROM
+3046, Resita,93976, ROM
+3047, Kigali,286000, RWA
+3048, Stockholm,750348, SWE
+3049, Gothenburg [Gâ€�teborg],466990, SWE
+3050, Malmâ€�,259579, SWE
+3051, Uppsala,189569, SWE
+3052, Linkâ€�ping,133168, SWE
+3053, Vâ€žsterâ€ s,126328, SWE
+3054, â„¢rebro,124207, SWE
+3055, Norrkâ€�ping,122199, SWE
+3056, Helsingborg,117737, SWE
+3057, Jâ€�nkâ€�ping,117095, SWE
+3058, Umeâ€ ,104512, SWE
+3059, Lund,98948, SWE
+3060, Borâ€ s,96883, SWE
+3061, Sundsvall,93126, SWE
+3062, Gâ€žvle,90742, SWE
+3063, Jamestown,1500, SHN
+3064, Basseterre,11600, KNA
+3065, Castries,2301, LCA
+3066, Kingstown,17100, VCT
+3067, Saint-Pierre,5808, SPM
+3068, Berlin,3386667, DEU
+3069, Hamburg,1704735, DEU
+3070, Munich [MÂ�nchen],1194560, DEU
+3071, Kâ€�ln,962507, DEU
+3072, Frankfurt am Main,643821, DEU
+3073, Essen,599515, DEU
+3074, Dortmund,590213, DEU
+3075, Stuttgart,582443, DEU
+3076, DÂ�sseldorf,568855, DEU
+3077, Bremen,540330, DEU
+3078, Duisburg,519793, DEU
+3079, Hannover,514718, DEU
+3080, Leipzig,489532, DEU
+3081, NÂ�rnberg,486628, DEU
+3082, Dresden,476668, DEU
+3083, Bochum,392830, DEU
+3084, Wuppertal,368993, DEU
+3085, Bielefeld,321125, DEU
+3086, Mannheim,307730, DEU
+3087, Bonn,301048, DEU
+3088, Gelsenkirchen,281979, DEU
+3089, Karlsruhe,277204, DEU
+3090, Wiesbaden,268716, DEU
+3091, MÂ�nster,264670, DEU
+3092, Mâ€�nchengladbach,263697, DEU
+3093, Chemnitz,263222, DEU
+3094, Augsburg,254867, DEU
+3095, Halle/Saale,254360, DEU
+3096, Braunschweig,246322, DEU
+3097, Aachen,243825, DEU
+3098, Krefeld,241769, DEU
+3099, Magdeburg,235073, DEU
+3100, Kiel,233795, DEU
+3101, Oberhausen,222349, DEU
+3102, LÂ�beck,213326, DEU
+3103, Hagen,205201, DEU
+3104, Rostock,203279, DEU
+3105, Freiburg im Breisgau,202455, DEU
+3106, Erfurt,201267, DEU
+3107, Kassel,196211, DEU
+3108, SaarbrÂ�cken,183836, DEU
+3109, Mainz,183134, DEU
+3110, Hamm,181804, DEU
+3111, Herne,175661, DEU
+3112, MÂ�lheim an der Ruhr,173895, DEU
+3113, Solingen,165583, DEU
+3114, OsnabrÂ�ck,164539, DEU
+3115, Ludwigshafen am Rhein,163771, DEU
+3116, Leverkusen,160841, DEU
+3117, Oldenburg,154125, DEU
+3118, Neuss,149702, DEU
+3119, Heidelberg,139672, DEU
+3120, Darmstadt,137776, DEU
+3121, Paderborn,137647, DEU
+3122, Potsdam,128983, DEU
+3123, WÂ�rzburg,127350, DEU
+3124, Regensburg,125236, DEU
+3125, Recklinghausen,125022, DEU
+3126, Gâ€�ttingen,124775, DEU
+3127, Bremerhaven,122735, DEU
+3128, Wolfsburg,121954, DEU
+3129, Bottrop,121097, DEU
+3130, Remscheid,120125, DEU
+3131, Heilbronn,119526, DEU
+3132, Pforzheim,117227, DEU
+3133, Offenbach am Main,116627, DEU
+3134, Ulm,116103, DEU
+3135, Ingolstadt,114826, DEU
+3136, Gera,114718, DEU
+3137, Salzgitter,112934, DEU
+3138, Cottbus,110894, DEU
+3139, Reutlingen,110343, DEU
+3140, FÂ�rth,109771, DEU
+3141, Siegen,109225, DEU
+3142, Koblenz,108003, DEU
+3143, Moers,106837, DEU
+3144, Bergisch Gladbach,106150, DEU
+3145, Zwickau,104146, DEU
+3146, Hildesheim,104013, DEU
+3147, Witten,103384, DEU
+3148, Schwerin,102878, DEU
+3149, Erlangen,100750, DEU
+3150, Kaiserslautern,100025, DEU
+3151, Trier,99891, DEU
+3152, Jena,99779, DEU
+3153, Iserlohn,99474, DEU
+3154, GÂ�tersloh,95028, DEU
+3155, Marl,93735, DEU
+3156, LÂ�nen,92044, DEU
+3157, DÂ�ren,91092, DEU
+3158, Ratingen,90951, DEU
+3159, Velbert,89881, DEU
+3160, Esslingen am Neckar,89667, DEU
+3161, Honiara,50100, SLB
+3162, Lusaka,1317000, ZMB
+3163, Ndola,329200, ZMB
+3164, Kitwe,288600, ZMB
+3165, Kabwe,154300, ZMB
+3166, Chingola,142400, ZMB
+3167, Mufulira,123900, ZMB
+3168, Luanshya,118100, ZMB
+3169, Apia,35900, WSM
+3170, Serravalle,4802, SMR
+3171, San Marino,2294, SMR
+3172, SÃ†o Tomâ€š,49541, STP
+3173, Riyadh,3324000, SAU
+3174, Jedda,2046300, SAU
+3175, Mekka,965700, SAU
+3176, Medina,608300, SAU
+3177, al-Dammam,482300, SAU
+3178, al-Taif,416100, SAU
+3179, Tabuk,292600, SAU
+3180, Burayda,248600, SAU
+3181, al-Hufuf,225800, SAU
+3182, al-Mubarraz,219100, SAU
+3183, Khamis Mushayt,217900, SAU
+3184, Hail,176800, SAU
+3185, al-Kharj,152100, SAU
+3186, al-Khubar,141700, SAU
+3187, Jubayl,140800, SAU
+3188, Hafar al-Batin,137800, SAU
+3189, al-Tuqba,125700, SAU
+3190, Yanbu,119800, SAU
+3191, Abha,112300, SAU
+3192, AraÃ¯ar,108100, SAU
+3193, al-Qatif,98900, SAU
+3194, al-Hawiya,93900, SAU
+3195, Unayza,91100, SAU
+3196, Najran,91000, SAU
+3197, Pikine,855287, SEN
+3198, Dakar,785071, SEN
+3199, ThiÅ s,248000, SEN
+3200, Kaolack,199000, SEN
+3201, Ziguinchor,192000, SEN
+3202, Rufisque,150000, SEN
+3203, Saint-Louis,132400, SEN
+3204, Mbour,109300, SEN
+3205, Diourbel,99400, SEN
+3206, Victoria,41000, SYC
+3207, Freetown,850000, SLE
+3208, Singapore,4017733, SGP
+3209, Bratislava,448292, SVK
+3210, Ko?ice,241874, SVK
+3211, Pre?ov,93977, SVK
+3212, Ljubljana,270986, SVN
+3213, Maribor,115532, SVN
+3214, Mogadishu,997000, SOM
+3215, Hargeysa,90000, SOM
+3216, Kismaayo,90000, SOM
+3217, Colombo,645000, LKA
+3218, Dehiwala,203000, LKA
+3219, Moratuwa,190000, LKA
+3220, Jaffna,149000, LKA
+3221, Kandy,140000, LKA
+3222, Sri Jayawardenepura Kotte,118000, LKA
+3223, Negombo,100000, LKA
+3224, Omdurman,1271403, SDN
+3225, Khartum,947483, SDN
+3226, Sharq al-Nil,700887, SDN
+3227, Port Sudan,308195, SDN
+3228, Kassala,234622, SDN
+3229, Obeid,229425, SDN
+3230, Nyala,227183, SDN
+3231, Wad Madani,211362, SDN
+3232, al-Qadarif,191164, SDN
+3233, Kusti,173599, SDN
+3234, al-Fashir,141884, SDN
+3235, Juba,114980, SDN
+3236, Helsinki [Helsingfors],555474, FIN
+3237, Espoo,213271, FIN
+3238, Tampere,195468, FIN
+3239, Vantaa,178471, FIN
+3240, Turku [Â�bo],172561, FIN
+3241, Oulu,120753, FIN
+3242, Lahti,96921, FIN
+3243, Paramaribo,112000, SUR
+3244, Mbabane,61000, SWZ
+3245, ZÂ�rich,336800, CHE
+3246, Geneve,173500, CHE
+3247, Basel,166700, CHE
+3248, Bern,122700, CHE
+3249, Lausanne,114500, CHE
+3250, Damascus,1347000, SYR
+3251, Aleppo,1261983, SYR
+3252, Hims,507404, SYR
+3253, Hama,343361, SYR
+3254, Latakia,264563, SYR
+3255, al-Qamishliya,144286, SYR
+3256, Dayr al-Zawr,140459, SYR
+3257, Jaramana,138469, SYR
+3258, Duma,131158, SYR
+3259, al-Raqqa,108020, SYR
+3260, Idlib,91081, SYR
+3261, Dushanbe,524000, TJK
+3262, Khujand,161500, TJK
+3263, Taipei,2641312, TWN
+3264, Kaohsiung,1475505, TWN
+3265, Taichung,940589, TWN
+3266, Tainan,728060, TWN
+3267, Panchiao,523850, TWN
+3268, Chungho,392176, TWN
+3269, Keelung (Chilung),385201, TWN
+3270, Sanchung,380084, TWN
+3271, Hsinchuang,365048, TWN
+3272, Hsinchu,361958, TWN
+3273, Chungli,318649, TWN
+3274, Fengshan,318562, TWN
+3275, Taoyuan,316438, TWN
+3276, Chiayi,265109, TWN
+3277, Hsintien,263603, TWN
+3278, Changhwa,227715, TWN
+3279, Yungho,227700, TWN
+3280, Tucheng,224897, TWN
+3281, Pingtung,214727, TWN
+3282, Yungkang,193005, TWN
+3283, Pingchen,188344, TWN
+3284, Tali,171940, TWN
+3285, Taiping,165524, TWN
+3286, Pate,161700, TWN
+3287, Fengyuan,161032, TWN
+3288, Luchou,160516, TWN
+3289, Hsichuh,154976, TWN
+3290, Shulin,151260, TWN
+3291, Yuanlin,126402, TWN
+3292, Yangmei,126323, TWN
+3293, Taliao,115897, TWN
+3294, Kueishan,112195, TWN
+3295, Tanshui,111882, TWN
+3296, Taitung,111039, TWN
+3297, Hualien,108407, TWN
+3298, Nantou,104723, TWN
+3299, Lungtan,103088, TWN
+3300, Touliu,98900, TWN
+3301, Tsaotun,96800, TWN
+3302, Kangshan,92200, TWN
+3303, Ilan,92000, TWN
+3304, Miaoli,90000, TWN
+3305, Dar es Salaam,1747000, TZA
+3306, Dodoma,189000, TZA
+3307, Mwanza,172300, TZA
+3308, Zanzibar,157634, TZA
+3309, Tanga,137400, TZA
+3310, Mbeya,130800, TZA
+3311, Morogoro,117800, TZA
+3312, Arusha,102500, TZA
+3313, Moshi,96800, TZA
+3314, Tabora,92800, TZA
+3315, Kâ€ºbenhavn,495699, DNK
+3316, Â�rhus,284846, DNK
+3317, Odense,183912, DNK
+3318, Aalborg,161161, DNK
+3319, Frederiksberg,90327, DNK
+3320, Bangkok,6320174, THA
+3321, Nonthaburi,292100, THA
+3322, Nakhon Ratchasima,181400, THA
+3323, Chiang Mai,171100, THA
+3324, Udon Thani,158100, THA
+3325, Hat Yai,148632, THA
+3326, Khon Kaen,126500, THA
+3327, Pak Kret,126055, THA
+3328, Nakhon Sawan,123800, THA
+3329, Ubon Ratchathani,116300, THA
+3330, Songkhla,94900, THA
+3331, Nakhon Pathom,94100, THA
+3332, Lomâ€š,375000, TGO
+3333, Fakaofo,300, TKL
+3334, NukuÃ¯alofa,22400, TON
+3335, Chaguanas,56601, TTO
+3336, Port-of-Spain,43396, TTO
+3337, NÃ¯Djamâ€šna,530965, TCD
+3338, Moundou,99500, TCD
+3339, Praha,1181126, CZE
+3340, Brno,381862, CZE
+3341, Ostrava,320041, CZE
+3342, Plzen,166759, CZE
+3343, Olomouc,102702, CZE
+3344, Liberec,99155, CZE
+3345, Ceskâ€š Budejovice,98186, CZE
+3346, Hradec KrÂ lovâ€š,98080, CZE
+3347, Ã©stÂ¡ nad Labem,95491, CZE
+3348, Pardubice,91309, CZE
+3349, Tunis,690600, TUN
+3350, Sfax,257800, TUN
+3351, Ariana,197000, TUN
+3352, Ettadhamen,178600, TUN
+3353, Sousse,145900, TUN
+3354, Kairouan,113100, TUN
+3355, Biserta,108900, TUN
+3356, GabÅ s,106600, TUN
+3357, Istanbul,8787958, TUR
+3358, Ankara,3038159, TUR
+3359, Izmir,2130359, TUR
+3360, Adana,1131198, TUR
+3361, Bursa,1095842, TUR
+3362, Gaziantep,789056, TUR
+3363, Konya,628364, TUR
+3364, Mersin (Iâ€¡el),587212, TUR
+3365, Antalya,564914, TUR
+3366, Diyarbakir,479884, TUR
+3367, Kayseri,475657, TUR
+3368, Eskisehir,470781, TUR
+3369, Sanliurfa,405905, TUR
+3370, Samsun,339871, TUR
+3371, Malatya,330312, TUR
+3372, Gebze,264170, TUR
+3373, Denizli,253848, TUR
+3374, Sivas,246642, TUR
+3375, Erzurum,246535, TUR
+3376, Tarsus,246206, TUR
+3377, Kahramanmaras,245772, TUR
+3378, ElÆ’zig,228815, TUR
+3379, Van,219319, TUR
+3380, Sultanbeyli,211068, TUR
+3381, Izmit (Kocaeli),210068, TUR
+3382, Manisa,207148, TUR
+3383, Batman,203793, TUR
+3384, Balikesir,196382, TUR
+3385, Sakarya (Adapazari),190641, TUR
+3386, Iskenderun,153022, TUR
+3387, Osmaniye,146003, TUR
+3388, â‚¬orum,145495, TUR
+3389, KÂ�tahya,144761, TUR
+3390, Hatay (Antakya),143982, TUR
+3391, Kirikkale,142044, TUR
+3392, Adiyaman,141529, TUR
+3393, Trabzon,138234, TUR
+3394, Ordu,133642, TUR
+3395, Aydin,128651, TUR
+3396, Usak,128162, TUR
+3397, Edirne,123383, TUR
+3398, â‚¬orlu,123300, TUR
+3399, Isparta,121911, TUR
+3400, KarabÂ�k,118285, TUR
+3401, Kilis,118245, TUR
+3402, Alanya,117300, TUR
+3403, Kiziltepe,112000, TUR
+3404, Zonguldak,111542, TUR
+3405, Siirt,107100, TUR
+3406, Viransehir,106400, TUR
+3407, Tekirdag,106077, TUR
+3408, Karaman,104200, TUR
+3409, Afyon,103984, TUR
+3410, Aksaray,102681, TUR
+3411, Ceyhan,102412, TUR
+3412, Erzincan,102304, TUR
+3413, Bismil,101400, TUR
+3414, Nazilli,99900, TUR
+3415, Tokat,99500, TUR
+3416, Kars,93000, TUR
+3417, Inegâ€�l,90500, TUR
+3418, Bandirma,90200, TUR
+3419, Ashgabat,540600, TKM
+3420, Châ€žrjew,189200, TKM
+3421, Dashhowuz,141800, TKM
+3422, Mary,101000, TKM
+3423, Cockburn Town,4800, TCA
+3424, Funafuti,4600, TUV
+3425, Kampala,890800, UGA
+3426, Kyiv,2624000, UKR
+3427, Harkova [Harkiv],1500000, UKR
+3428, Dnipropetrovsk,1103000, UKR
+3429, Donetsk,1050000, UKR
+3430, Odesa,1011000, UKR
+3431, Zaporizzja,848000, UKR
+3432, Lviv,788000, UKR
+3433, Kryvyi Rig,703000, UKR
+3434, Mykolajiv,508000, UKR
+3435, Mariupol,490000, UKR
+3436, Lugansk,469000, UKR
+3437, Vinnytsja,391000, UKR
+3438, Makijivka,384000, UKR
+3439, Herson,353000, UKR
+3440, Sevastopol,348000, UKR
+3441, Simferopol,339000, UKR
+3442, Pultava [Poltava],313000, UKR
+3443, T?ernigiv,313000, UKR
+3444, T?erkasy,309000, UKR
+3445, Gorlivka,299000, UKR
+3446, Zytomyr,297000, UKR
+3447, Sumy,294000, UKR
+3448, Dniprodzerzynsk,270000, UKR
+3449, Kirovograd,265000, UKR
+3450, Hmelnytskyi,262000, UKR
+3451, T?ernivtsi,259000, UKR
+3452, Rivne,245000, UKR
+3453, Krement?uk,239000, UKR
+3454, Ivano-Frankivsk,237000, UKR
+3455, Ternopil,236000, UKR
+3456, Lutsk,217000, UKR
+3457, Bila Tserkva,215000, UKR
+3458, Kramatorsk,186000, UKR
+3459, Melitopol,169000, UKR
+3460, Kert?,162000, UKR
+3461, Nikopol,149000, UKR
+3462, Berdjansk,130000, UKR
+3463, Pavlograd,127000, UKR
+3464, Sjeverodonetsk,127000, UKR
+3465, Slovjansk,127000, UKR
+3466, Uzgorod,127000, UKR
+3467, Alt?evsk,119000, UKR
+3468, Lysyt?ansk,116000, UKR
+3469, Jevpatorija,112000, UKR
+3470, Kamjanets-Podilskyi,109000, UKR
+3471, Jenakijeve,105000, UKR
+3472, Krasnyi Lut?,101000, UKR
+3473, Stahanov,101000, UKR
+3474, Oleksandrija,99000, UKR
+3475, Konotop,96000, UKR
+3476, Kostjantynivka,95000, UKR
+3477, Berdyt?iv,90000, UKR
+3478, Izmajil,90000, UKR
+3479, ?ostka,90000, UKR
+3480, Uman,90000, UKR
+3481, Brovary,89000, UKR
+3482, Mukat?eve,89000, UKR
+3483, Budapest,1811552, HUN
+3484, Debrecen,203648, HUN
+3485, Miskolc,172357, HUN
+3486, Szeged,158158, HUN
+3487, Pâ€šcs,157332, HUN
+3488, Gyâ€�r,127119, HUN
+3489, NyiregyhÂ za,112419, HUN
+3490, Kecskemâ€št,105606, HUN
+3491, Szâ€škesfehâ€šrvÂ r,105119, HUN
+3492, Montevideo,1236000, URY
+3493, Noumâ€ša,76293, NCL
+3494, Auckland,381800, NZL
+3495, Christchurch,324200, NZL
+3496, Manukau,281800, NZL
+3497, North Shore,187700, NZL
+3498, Waitakere,170600, NZL
+3499, Wellington,166700, NZL
+3500, Dunedin,119600, NZL
+3501, Hamilton,117100, NZL
+3502, Lower Hutt,98100, NZL
+3503, Toskent,2117500, UZB
+3504, Namangan,370500, UZB
+3505, Samarkand,361800, UZB
+3506, Andijon,318600, UZB
+3507, Buhoro,237100, UZB
+3508, Karsi,194100, UZB
+3509, Nukus,194100, UZB
+3510, KÂ�kon,190100, UZB
+3511, Fargona,180500, UZB
+3512, Circik,146400, UZB
+3513, Margilon,140800, UZB
+3514, Å¡rgenc,138900, UZB
+3515, Angren,128000, UZB
+3516, Cizah,124800, UZB
+3517, Navoi,116300, UZB
+3518, Olmalik,114900, UZB
+3519, Termiz,109500, UZB
+3520, Minsk,1674000, BLR
+3521, Gomel,475000, BLR
+3522, Mogiljov,356000, BLR
+3523, Vitebsk,340000, BLR
+3524, Grodno,302000, BLR
+3525, Brest,286000, BLR
+3526, Bobruisk,221000, BLR
+3527, Baranovit?i,167000, BLR
+3528, Borisov,151000, BLR
+3529, Pinsk,130000, BLR
+3530, Or?a,124000, BLR
+3531, Mozyr,110000, BLR
+3532, Novopolotsk,106000, BLR
+3533, Lida,101000, BLR
+3534, Soligorsk,101000, BLR
+3535, Molodet?no,97000, BLR
+3536, Mata-Utu,1137, WLF
+3537, Port-Vila,33700, VUT
+3538, Cittâ€¦ del Vaticano,455, VAT
+3539, Caracas,1975294, VEN
+3540, MaracaÂ¡bo,1304776, VEN
+3541, Barquisimeto,877239, VEN
+3542, Valencia,794246, VEN
+3543, Ciudad Guayana,663713, VEN
+3544, Petare,488868, VEN
+3545, Maracay,444443, VEN
+3546, Barcelona,322267, VEN
+3547, MaturÂ¡n,319726, VEN
+3548, San CristÂ¢bal,319373, VEN
+3549, Ciudad BolÂ¡var,301107, VEN
+3550, CumanÂ ,293105, VEN
+3551, Mâ€šrida,224887, VEN
+3552, Cabimas,221329, VEN
+3553, Barinas,217831, VEN
+3554, Turmero,217499, VEN
+3555, Baruta,207290, VEN
+3556, Puerto Cabello,187722, VEN
+3557, Santa Ana de Coro,185766, VEN
+3558, Los Teques,178784, VEN
+3559, Punto Fijo,167215, VEN
+3560, Guarenas,165889, VEN
+3561, Acarigua,158954, VEN
+3562, Puerto La Cruz,155700, VEN
+3563, Ciudad Losada,134501, VEN
+3564, Guacara,131334, VEN
+3565, Valera,130281, VEN
+3566, Guanare,125621, VEN
+3567, CarÂ£pano,119639, VEN
+3568, Catia La Mar,117012, VEN
+3569, El Tigre,116256, VEN
+3570, Guatire,109121, VEN
+3571, Calabozo,107146, VEN
+3572, Pozuelos,105690, VEN
+3573, Ciudad Ojeda,99354, VEN
+3574, Ocumare del Tuy,97168, VEN
+3575, Valle de la Pascua,95927, VEN
+3576, Araure,94269, VEN
+3577, San Fernando de Apure,93809, VEN
+3578, San Felipe,90940, VEN
+3579, El LimÂ¢n,90000, VEN
+3580, Moscow,8389200, RUS
+3581, St Petersburg,4694000, RUS
+3582, Novosibirsk,1398800, RUS
+3583, Nizni Novgorod,1357000, RUS
+3584, Jekaterinburg,1266300, RUS
+3585, Samara,1156100, RUS
+3586, Omsk,1148900, RUS
+3587, Kazan,1101000, RUS
+3588, Ufa,1091200, RUS
+3589, T?eljabinsk,1083200, RUS
+3590, Rostov-na-Donu,1012700, RUS
+3591, Perm,1009700, RUS
+3592, Volgograd,993400, RUS
+3593, Voronez,907700, RUS
+3594, Krasnojarsk,875500, RUS
+3595, Saratov,874000, RUS
+3596, Toljatti,722900, RUS
+3597, Uljanovsk,667400, RUS
+3598, Izevsk,652800, RUS
+3599, Krasnodar,639000, RUS
+3600, Jaroslavl,616700, RUS
+3601, Habarovsk,609400, RUS
+3602, Vladivostok,606200, RUS
+3603, Irkutsk,593700, RUS
+3604, Barnaul,580100, RUS
+3605, Novokuznetsk,561600, RUS
+3606, Penza,532200, RUS
+3607, Rjazan,529900, RUS
+3608, Orenburg,523600, RUS
+3609, Lipetsk,521000, RUS
+3610, Nabereznyje T?elny,514700, RUS
+3611, Tula,506100, RUS
+3612, Tjumen,503400, RUS
+3613, Kemerovo,492700, RUS
+3614, Astrahan,486100, RUS
+3615, Tomsk,482100, RUS
+3616, Kirov,466200, RUS
+3617, Ivanovo,459200, RUS
+3618, T?eboksary,459200, RUS
+3619, Brjansk,457400, RUS
+3620, Tver,454900, RUS
+3621, Kursk,443500, RUS
+3622, Magnitogorsk,427900, RUS
+3623, Kaliningrad,424400, RUS
+3624, Nizni Tagil,390900, RUS
+3625, Murmansk,376300, RUS
+3626, Ulan-Ude,370400, RUS
+3627, Kurgan,364700, RUS
+3628, Arkangeli,361800, RUS
+3629, Sot?i,358600, RUS
+3630, Smolensk,353400, RUS
+3631, Orjol,344500, RUS
+3632, Stavropol,343300, RUS
+3633, Belgorod,342000, RUS
+3634, Kaluga,339300, RUS
+3635, Vladimir,337100, RUS
+3636, Mahat?kala,332800, RUS
+3637, T?erepovets,324400, RUS
+3638, Saransk,314800, RUS
+3639, Tambov,312000, RUS
+3640, Vladikavkaz,310100, RUS
+3641, T?ita,309900, RUS
+3642, Vologda,302500, RUS
+3643, Veliki Novgorod,299500, RUS
+3644, Komsomolsk-na-Amure,291600, RUS
+3645, Kostroma,288100, RUS
+3646, Volzski,286900, RUS
+3647, Taganrog,284400, RUS
+3648, Petroskoi,282100, RUS
+3649, Bratsk,277600, RUS
+3650, Dzerzinsk,277100, RUS
+3651, Surgut,274900, RUS
+3652, Orsk,273900, RUS
+3653, Sterlitamak,265200, RUS
+3654, Angarsk,264700, RUS
+3655, Jo?kar-Ola,249200, RUS
+3656, Rybinsk,239600, RUS
+3657, Prokopjevsk,237300, RUS
+3658, Niznevartovsk,233900, RUS
+3659, Nalt?ik,233400, RUS
+3660, Syktyvkar,229700, RUS
+3661, Severodvinsk,229300, RUS
+3662, Bijsk,225000, RUS
+3663, Niznekamsk,223400, RUS
+3664, Blagove?t?ensk,222000, RUS
+3665, ?ahty,221800, RUS
+3666, Staryi Oskol,213800, RUS
+3667, Zelenograd,207100, RUS
+3668, Balakovo,206000, RUS
+3669, Novorossijsk,203300, RUS
+3670, Pihkova,201500, RUS
+3671, Zlatoust,196900, RUS
+3672, Jakutsk,195400, RUS
+3673, Podolsk,194300, RUS
+3674, Petropavlovsk-Kamt?atski,194100, RUS
+3675, Kamensk-Uralski,190600, RUS
+3676, Engels,189000, RUS
+3677, Syzran,186900, RUS
+3678, Grozny,186000, RUS
+3679, Novot?erkassk,184400, RUS
+3680, Berezniki,181900, RUS
+3681, Juzno-Sahalinsk,179200, RUS
+3682, Volgodonsk,178200, RUS
+3683, Abakan,169200, RUS
+3684, Maikop,167300, RUS
+3685, Miass,166200, RUS
+3686, Armavir,164900, RUS
+3687, Ljubertsy,163900, RUS
+3688, Rubtsovsk,162600, RUS
+3689, Kovrov,159900, RUS
+3690, Nahodka,157700, RUS
+3691, Ussurijsk,157300, RUS
+3692, Salavat,156800, RUS
+3693, Myti?t?i,155700, RUS
+3694, Kolomna,150700, RUS
+3695, Elektrostal,147000, RUS
+3696, Murom,142400, RUS
+3697, Kolpino,141200, RUS
+3698, Norilsk,140800, RUS
+3699, Almetjevsk,140700, RUS
+3700, Novomoskovsk,138100, RUS
+3701, Dimitrovgrad,137000, RUS
+3702, Pervouralsk,136100, RUS
+3703, Himki,133700, RUS
+3704, Bala?iha,132900, RUS
+3705, Nevinnomyssk,132600, RUS
+3706, Pjatigorsk,132500, RUS
+3707, Korolev,132400, RUS
+3708, Serpuhov,132000, RUS
+3709, Odintsovo,127400, RUS
+3710, Orehovo-Zujevo,124900, RUS
+3711, Kamy?in,124600, RUS
+3712, Novot?eboksarsk,123400, RUS
+3713, T?erkessk,121700, RUS
+3714, At?insk,121600, RUS
+3715, Magadan,121000, RUS
+3716, Mit?urinsk,120700, RUS
+3717, Kislovodsk,120400, RUS
+3718, Jelets,119400, RUS
+3719, Seversk,118600, RUS
+3720, Noginsk,117200, RUS
+3721, Velikije Luki,116300, RUS
+3722, Novokuiby?evsk,116200, RUS
+3723, Neftekamsk,115700, RUS
+3724, Leninsk-Kuznetski,113800, RUS
+3725, Oktjabrski,111500, RUS
+3726, Sergijev Posad,111100, RUS
+3727, Arzamas,110700, RUS
+3728, Kiseljovsk,110000, RUS
+3729, Novotroitsk,109600, RUS
+3730, Obninsk,108300, RUS
+3731, Kansk,107400, RUS
+3732, Glazov,106300, RUS
+3733, Solikamsk,106000, RUS
+3734, Sarapul,105700, RUS
+3735, Ust-Ilimsk,105200, RUS
+3736, ?t?olkovo,104900, RUS
+3737, Mezduret?ensk,104400, RUS
+3738, Usolje-Sibirskoje,103500, RUS
+3739, Elista,103300, RUS
+3740, Novo?ahtinsk,101900, RUS
+3741, Votkinsk,101700, RUS
+3742, Kyzyl,101100, RUS
+3743, Serov,100400, RUS
+3744, Zelenodolsk,100200, RUS
+3745, Zeleznodoroznyi,100100, RUS
+3746, Kine?ma,100000, RUS
+3747, Kuznetsk,98200, RUS
+3748, Uhta,98000, RUS
+3749, Jessentuki,97900, RUS
+3750, Tobolsk,97600, RUS
+3751, Neftejugansk,97400, RUS
+3752, Bataisk,97300, RUS
+3753, Nojabrsk,97300, RUS
+3754, Bala?ov,97100, RUS
+3755, Zeleznogorsk,96900, RUS
+3756, Zukovski,96500, RUS
+3757, Anzero-Sudzensk,96100, RUS
+3758, Bugulma,94100, RUS
+3759, Zeleznogorsk,94000, RUS
+3760, Novouralsk,93300, RUS
+3761, Pu?kin,92900, RUS
+3762, Vorkuta,92600, RUS
+3763, Derbent,92300, RUS
+3764, Kirovo-T?epetsk,91600, RUS
+3765, Krasnogorsk,91000, RUS
+3766, Klin,90000, RUS
+3767, T?aikovski,90000, RUS
+3768, Novyi Urengoi,89800, RUS
+3769, Ho Chi Minh City,3980000, VNM
+3770, Hanoi,1410000, VNM
+3771, Haiphong,783133, VNM
+3772, Da Nang,382674, VNM
+3773, BiË†n Hoa,282095, VNM
+3774, Nha Trang,221331, VNM
+3775, Hue,219149, VNM
+3776, Can Tho,215587, VNM
+3777, Cam Pha,209086, VNM
+3778, Nam Dinh,171699, VNM
+3779, Quy Nhon,163385, VNM
+3780, Vung Tau,145145, VNM
+3781, Rach Gia,141132, VNM
+3782, Long Xuyen,132681, VNM
+3783, Thai Nguyen,127643, VNM
+3784, Hong Gai,127484, VNM
+3785, Phan ThiË†t,114236, VNM
+3786, Cam Ranh,114041, VNM
+3787, Vinh,112455, VNM
+3788, My Tho,108404, VNM
+3789, Da Lat,106409, VNM
+3790, Buon Ma Thuot,97044, VNM
+3791, Tallinn,403981, EST
+3792, Tartu,101246, EST
+3793, New York,8008278, USA
+3794, Los Angeles,3694820, USA
+3795, Chicago,2896016, USA
+3796, Houston,1953631, USA
+3797, Philadelphia,1517550, USA
+3798, Phoenix,1321045, USA
+3799, San Diego,1223400, USA
+3800, Dallas,1188580, USA
+3801, San Antonio,1144646, USA
+3802, Detroit,951270, USA
+3803, San Jose,894943, USA
+3804, Indianapolis,791926, USA
+3805, San Francisco,776733, USA
+3806, Jacksonville,735167, USA
+3807, Columbus,711470, USA
+3808, Austin,656562, USA
+3809, Baltimore,651154, USA
+3810, Memphis,650100, USA
+3811, Milwaukee,596974, USA
+3812, Boston,589141, USA
+3813, Washington,572059, USA
+3814, Nashville-Davidson,569891, USA
+3815, El Paso,563662, USA
+3816, Seattle,563374, USA
+3817, Denver,554636, USA
+3818, Charlotte,540828, USA
+3819, Fort Worth,534694, USA
+3820, Portland,529121, USA
+3821, Oklahoma City,506132, USA
+3822, Tucson,486699, USA
+3823, New Orleans,484674, USA
+3824, Las Vegas,478434, USA
+3825, Cleveland,478403, USA
+3826, Long Beach,461522, USA
+3827, Albuquerque,448607, USA
+3828, Kansas City,441545, USA
+3829, Fresno,427652, USA
+3830, Virginia Beach,425257, USA
+3831, Atlanta,416474, USA
+3832, Sacramento,407018, USA
+3833, Oakland,399484, USA
+3834, Mesa,396375, USA
+3835, Tulsa,393049, USA
+3836, Omaha,390007, USA
+3837, Minneapolis,382618, USA
+3838, Honolulu,371657, USA
+3839, Miami,362470, USA
+3840, Colorado Springs,360890, USA
+3841, Saint Louis,348189, USA
+3842, Wichita,344284, USA
+3843, Santa Ana,337977, USA
+3844, Pittsburgh,334563, USA
+3845, Arlington,332969, USA
+3846, Cincinnati,331285, USA
+3847, Anaheim,328014, USA
+3848, Toledo,313619, USA
+3849, Tampa,303447, USA
+3850, Buffalo,292648, USA
+3851, Saint Paul,287151, USA
+3852, Corpus Christi,277454, USA
+3853, Aurora,276393, USA
+3854, Raleigh,276093, USA
+3855, Newark,273546, USA
+3856, Lexington-Fayette,260512, USA
+3857, Anchorage,260283, USA
+3858, Louisville,256231, USA
+3859, Riverside,255166, USA
+3860, Saint Petersburg,248232, USA
+3861, Bakersfield,247057, USA
+3862, Stockton,243771, USA
+3863, Birmingham,242820, USA
+3864, Jersey City,240055, USA
+3865, Norfolk,234403, USA
+3866, Baton Rouge,227818, USA
+3867, Hialeah,226419, USA
+3868, Lincoln,225581, USA
+3869, Greensboro,223891, USA
+3870, Plano,222030, USA
+3871, Rochester,219773, USA
+3872, Glendale,218812, USA
+3873, Akron,217074, USA
+3874, Garland,215768, USA
+3875, Madison,208054, USA
+3876, Fort Wayne,205727, USA
+3877, Fremont,203413, USA
+3878, Scottsdale,202705, USA
+3879, Montgomery,201568, USA
+3880, Shreveport,200145, USA
+3881, Augusta-Richmond County,199775, USA
+3882, Lubbock,199564, USA
+3883, Chesapeake,199184, USA
+3884, Mobile,198915, USA
+3885, Des Moines,198682, USA
+3886, Grand Rapids,197800, USA
+3887, Richmond,197790, USA
+3888, Yonkers,196086, USA
+3889, Spokane,195629, USA
+3890, Glendale,194973, USA
+3891, Tacoma,193556, USA
+3892, Irving,191615, USA
+3893, Huntington Beach,189594, USA
+3894, Modesto,188856, USA
+3895, Durham,187035, USA
+3896, Columbus,186291, USA
+3897, Orlando,185951, USA
+3898, Boise City,185787, USA
+3899, Winston-Salem,185776, USA
+3900, San Bernardino,185401, USA
+3901, Jackson,184256, USA
+3902, Little Rock,183133, USA
+3903, Salt Lake City,181743, USA
+3904, Reno,180480, USA
+3905, Newport News,180150, USA
+3906, Chandler,176581, USA
+3907, Laredo,176576, USA
+3908, Henderson,175381, USA
+3909, Arlington,174838, USA
+3910, Knoxville,173890, USA
+3911, Amarillo,173627, USA
+3912, Providence,173618, USA
+3913, Chula Vista,173556, USA
+3914, Worcester,172648, USA
+3915, Oxnard,170358, USA
+3916, Dayton,166179, USA
+3917, Garden Grove,165196, USA
+3918, Oceanside,161029, USA
+3919, Tempe,158625, USA
+3920, Huntsville,158216, USA
+3921, Ontario,158007, USA
+3922, Chattanooga,155554, USA
+3923, Fort Lauderdale,152397, USA
+3924, Springfield,152082, USA
+3925, Springfield,151580, USA
+3926, Santa Clarita,151088, USA
+3927, Salinas,151060, USA
+3928, Tallahassee,150624, USA
+3929, Rockford,150115, USA
+3930, Pomona,149473, USA
+3931, Metairie,149428, USA
+3932, Paterson,149222, USA
+3933, Overland Park,149080, USA
+3934, Santa Rosa,147595, USA
+3935, Syracuse,147306, USA
+3936, Kansas City,146866, USA
+3937, Hampton,146437, USA
+3938, Lakewood,144126, USA
+3939, Vancouver,143560, USA
+3940, Irvine,143072, USA
+3941, Aurora,142990, USA
+3942, Moreno Valley,142381, USA
+3943, Pasadena,141674, USA
+3944, Hayward,140030, USA
+3945, Brownsville,139722, USA
+3946, Bridgeport,139529, USA
+3947, Hollywood,139357, USA
+3948, Warren,138247, USA
+3949, Torrance,137946, USA
+3950, Eugene,137893, USA
+3951, Pembroke Pines,137427, USA
+3952, Salem,136924, USA
+3953, Pasadena,133936, USA
+3954, Escondido,133559, USA
+3955, Sunnyvale,131760, USA
+3956, Savannah,131510, USA
+3957, Fontana,128929, USA
+3958, Orange,128821, USA
+3959, Naperville,128358, USA
+3960, Alexandria,128283, USA
+3961, Rancho Cucamonga,127743, USA
+3962, Grand Prairie,127427, USA
+3963, East Los Angeles,126379, USA
+3964, Fullerton,126003, USA
+3965, Corona,124966, USA
+3966, Flint,124943, USA
+3967, Paradise,124682, USA
+3968, Mesquite,124523, USA
+3969, Sterling Heights,124471, USA
+3970, Sioux Falls,123975, USA
+3971, New Haven,123626, USA
+3972, Topeka,122377, USA
+3973, Concord,121780, USA
+3974, Evansville,121582, USA
+3975, Hartford,121578, USA
+3976, Fayetteville,121015, USA
+3977, Cedar Rapids,120758, USA
+3978, Elizabeth,120568, USA
+3979, Lansing,119128, USA
+3980, Lancaster,118718, USA
+3981, Fort Collins,118652, USA
+3982, Coral Springs,117549, USA
+3983, Stamford,117083, USA
+3984, Thousand Oaks,117005, USA
+3985, Vallejo,116760, USA
+3986, Palmdale,116670, USA
+3987, Columbia,116278, USA
+3988, El Monte,115965, USA
+3989, Abilene,115930, USA
+3990, North Las Vegas,115488, USA
+3991, Ann Arbor,114024, USA
+3992, Beaumont,113866, USA
+3993, Waco,113726, USA
+3994, Macon,113336, USA
+3995, Independence,113288, USA
+3996, Peoria,112936, USA
+3997, Inglewood,112580, USA
+3998, Springfield,111454, USA
+3999, Simi Valley,111351, USA
+4000, Lafayette,110257, USA
+4001, Gilbert,109697, USA
+4002, Carrollton,109576, USA
+4003, Bellevue,109569, USA
+4004, West Valley City,108896, USA
+4005, Clarksville,108787, USA
+4006, Costa Mesa,108724, USA
+4007, Peoria,108364, USA
+4008, South Bend,107789, USA
+4009, Downey,107323, USA
+4010, Waterbury,107271, USA
+4011, Manchester,107006, USA
+4012, Allentown,106632, USA
+4013, McAllen,106414, USA
+4014, Joliet,106221, USA
+4015, Lowell,105167, USA
+4016, Provo,105166, USA
+4017, West Covina,105080, USA
+4018, Wichita Falls,104197, USA
+4019, Erie,103717, USA
+4020, Daly City,103621, USA
+4021, Citrus Heights,103455, USA
+4022, Norwalk,103298, USA
+4023, Gary,102746, USA
+4024, Berkeley,102743, USA
+4025, Santa Clara,102361, USA
+4026, Green Bay,102313, USA
+4027, Cape Coral,102286, USA
+4028, Arvada,102153, USA
+4029, Pueblo,102121, USA
+4030, Sandy,101853, USA
+4031, Athens-Clarke County,101489, USA
+4032, Cambridge,101355, USA
+4033, Westminster,100940, USA
+4034, San Buenaventura,100916, USA
+4035, Portsmouth,100565, USA
+4036, Livonia,100545, USA
+4037, Burbank,100316, USA
+4038, Clearwater,99936, USA
+4039, Midland,98293, USA
+4040, Davenport,98256, USA
+4041, Mission Viejo,98049, USA
+4042, Miami Beach,97855, USA
+4043, Sunrise Manor,95362, USA
+4044, New Bedford,94780, USA
+4045, El Cajon,94578, USA
+4046, Norman,94193, USA
+4047, Richmond,94100, USA
+4048, Albany,93994, USA
+4049, Brockton,93653, USA
+4050, Roanoke,93357, USA
+4051, Billings,92988, USA
+4052, Compton,92864, USA
+4053, Gainesville,92291, USA
+4054, Fairfield,92256, USA
+4055, Arden-Arcade,92040, USA
+4056, San Mateo,91799, USA
+4057, Visalia,91762, USA
+4058, Boulder,91238, USA
+4059, Cary,91213, USA
+4060, Santa Monica,91084, USA
+4061, Fall River,90555, USA
+4062, Kenosha,89447, USA
+4063, Elgin,89408, USA
+4064, Odessa,89293, USA
+4065, Carson,89089, USA
+4066, Charleston,89063, USA
+4067, Charlotte Amalie,13000, VIR
+4068, Harare,1410000, ZWE
+4069, Bulawayo,621742, ZWE
+4070, Chitungwiza,274912, ZWE
+4071, Mount Darwin,164362, ZWE
+4072, Mutare,131367, ZWE
+4073, Gweru,128037, ZWE
+4074, Gaza,353632, PSE
+4075, Khan Yunis,123175, PSE
+4076, Hebron,119401, PSE
+4077, Jabaliya,113901, PSE
+4078, Nablus,100231, PSE
+4079, Rafah,92020, PSE

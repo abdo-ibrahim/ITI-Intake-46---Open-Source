@@ -1,0 +1,158 @@
+{
+  "location": "ITI Zagazig",
+  "description": "Public library specialized in technology and engineering books.",
+  "librarian": {
+    "id": 1,
+    "name": "Abdulrahman",
+    "email": "abdulrahmanm@iti.com"
+  },
+  "books": [
+    {
+      "ISBN": 1,
+      "title": "XML Fundamentals",
+      "author": "John Smith",
+      "preface": "This book introduces XML",
+      "parts": [
+        {
+          "title": "Basics of XML",
+          "chapters": [
+            {
+              "title": "Introduction to XML",
+              "summary": "Overview of XML structure and rules.",
+              "sections": [
+                {
+                  "title": "XML Syntax",
+                  "content": "Details about XML syntax rules."
+                },
+                {
+                  "title": "XML Elements",
+                  "content": "Explanation of XML elements and attributes."
+                }
+              ]
+            },
+            {
+              "title": "XML Parsing",
+              "sections": [
+                {
+                  "title": "Parsing Methods",
+                  "content": "Different methods for parsing XML documents."
+                },
+                {
+                  "title": "Error Handling",
+                  "content": "How to handle errors during XML parsing."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Advanced Topics",
+          "chapters": [
+            {
+              "title": "XML Schema",
+              "summary": "Defining rules and validating XML documents.",
+              "sections": [
+                {
+                  "title": "Defining XML Schema",
+                  "content": "How to create and use XML Schema."
+                },
+                {
+                  "title": "Validating XML Documents",
+                  "content": "Methods for validating XML against a schema."
+                }
+              ]
+            },
+            {
+              "title": "XML in Programming",
+              "summary": "Working with XML in programming languages.",
+              "sections": [
+                {
+                  "title": "XML in Java",
+                  "content": "How to work with XML in Java applications."
+                },
+                {
+                  "title": "XML in Python",
+                  "content": "How to work with XML in Python applications."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ISBN": 2,
+      "title": "Begining Jakarta EE",
+      "author": "Peter Spath",
+      "preface": "",
+      "parts": [
+        {
+          "title": "Java Development,Enterprise Needs",
+          "chapters": [
+            {
+              "title": "Standardized Specifications",
+              "summary": "",
+              "sections": [
+                {
+                  "title": "Java EE Standards",
+                  "content": "Overview of Java EE standards."
+                },
+                {
+                  "title": "Jakarta EE Standards",
+                  "content": "Overview of Jakarta EE standards."
+                }
+              ]
+            },
+            {
+              "title": "Multi-tiered Applications",
+              "summary": "",
+              "sections": [
+                {
+                  "title": "Application Layers",
+                  "content": "Understanding application layers in multi-tiered applications."
+                },
+                {
+                  "title": "Communication Between Layers",
+                  "content": "How communication is handled between application layers."
+                }
+              ]
+            },
+            {
+              "title": "Getting a Jakarta EE Server to Work",
+              "chapters": [
+                {
+                  "title": "Getting and Installing Glassfish",
+                  "summary": "",
+                  "sections": [
+                    {
+                      "title": "Downloading Glassfish",
+                      "content": "How to download Glassfish server."
+                    },
+                    {
+                      "title": "Installing Glassfish",
+                      "content": "Steps to install Glassfish server."
+                    }
+                  ]
+                },
+                {
+                  "title": "Glassfish Shell Administration",
+                  "summary": "",
+                  "sections": [
+                    {
+                      "title": "Starting and Stopping Glassfish",
+                      "content": "How to start and stop Glassfish server using shell commands."
+                    },
+                    {
+                      "title": "Managing Applications",
+                      "content": "How to manage applications in Glassfish using shell commands."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

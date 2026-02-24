@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library location="ITI Zagazig">
+  <description>        Public library specialized in technology and engineering books.    </description>
+  <librarian id="1">
+    <name>Abdulrahman</name>
+    <email>abdulrahmanm@iti.com</email>
+  </librarian>
+  <books>
+    <book ISBN="1">
+      <title>XML Fundamentals</title>
+      <author>John Smith</author>
+      <preface>This book introduces XML</preface>
+      <parts>
+        <part>
+          <title>Basics of XML</title>
+          <chapters>
+            <chapter>
+              <title>Introduction to XML</title>
+              <summary>Overview of XML structure and rules.</summary>
+              <sections>
+                <section>
+                  <title>XML Syntax</title>
+                  <content>Details about XML syntax rules.</content>
+                </section>
+                <section>
+                  <title>XML Elements</title>
+                  <content>Explanation of XML elements and attributes.</content>
+                </section>
+              </sections>
+            </chapter>
+          </chapters>
+        </part>
+      </parts>
+    </book>
+    <book ISBN="2">
+      <title>Begining Jakarta EE</title>
+      <author>Peter Spath</author>
+      <preface/>
+      <parts>
+        <part>
+          <title>Java Development, Enterprise Needs</title>
+          <chapters>
+            <chapter>
+              <title>Standardized Specifications</title>
+              <summary/>
+              <sections>
+                <section>
+                  <title>Java EE Standards</title>
+                  <content>Overview of Java EE standards.</content>
+                </section>
+                <section>
+                  <title>Jakarta EE Standards</title>
+                  <content>Overview of Jakarta EE standards.</content>
+                </section>
+              </sections>
+            </chapter>
+          </chapters>
+        </part>
+      </parts>
+    </book>
+  </books>
+</library>

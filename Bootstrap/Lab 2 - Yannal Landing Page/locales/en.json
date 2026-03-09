@@ -1,0 +1,89 @@
+{
+  "nav_menu": "menu",
+  "nav_about": "about us",
+  "nav_specials": "our specials",
+  "nav_locations": "our locations",
+  "nav_cheffs": "our cheffs",
+
+  "landing_title": "Kababs",
+  "landing_desc": "Restaurant style Yogurt Mint Sauce is delicious dip which is quick and easy to ... This is a standard Indian mint chutney served with poppadums along with mint and lemon.",
+  "btn_add_to_cart": "Add To Cart",
+  "btn_book_table": "Back a Table",
+  "meal_dinner": "Dinner",
+  "meal_dinner_time": "1:00-03:00pm",
+  "meal_lunch": "Lunch",
+  "meal_lunch_time": "7:00-10:00pm",
+
+  "online_store": "Online Store",
+  "popular_products": "Popular Products",
+
+  "cuisine_chinese": "Chinese",
+  "cuisine_italian": "Italian",
+  "cuisine_american": "American",
+  "cuisine_japanese": "Japanese",
+  "cuisine_mexican": "Mexican",
+
+  "product_hot_wings": "Hot Wings",
+  "product_pizza_margherita": "Pizza Margherita",
+  "product_burger_classic": "Burger Classic",
+  "product_sushi_roll": "Sushi Roll",
+  "product_tacos": "Tacos",
+
+  "tab_coffee": "Coffee",
+  "tab_fast_food": "Fast Food",
+  "tab_pizza": "Pizza",
+  "tab_desi_menu": "Desi Menu",
+  "tab_desserts": "Desserts",
+
+  "delivery_badge": "Faster Food Delivery Service",
+  "delivery_heading": "Get delivered while it is still hot.",
+  "delivery_desc": "Bring together your discussions memberships and content. Start your 7-day free trial.",
+  "btn_get_started": "GET STARTED",
+
+  "popular_menu_label": "Popular Menu",
+  "popular_menu_heading": "Amazing Food Served With Delicacy",
+  "menu_item_desc": "Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.",
+  "btn_see_all_menu": "See All menu",
+
+  "download_app_label": "Download Our App",
+  "download_app_heading_1": "It's all here.",
+  "download_app_heading_2": "All in one app.",
+  "download_app_desc": "Discover local, on-demand delivery or Pickup from restaurants, nearby grocery and convenience stores, and more.",
+
+  "testimonial_label": "Testimonial",
+  "testimonial_heading": "What they saying",
+  "testimonial_name": "AR Shakir",
+  "testimonial_location": "Arizona",
+  "testimonial_text_1": "\"Out believe has request not how comfort evident. Up ",
+  "testimonial_highlight_1": "Delight Cousins",
+  "testimonial_text_2": " we feeling minutes. Genius has looked end piqued spring. Down has rose feel find man. Learning day desirous informed expenses material returned six the. She ",
+  "testimonial_highlight_2": "Enabled",
+  "testimonial_text_3": " invited exposed him another. ",
+  "testimonial_highlight_3": "Reasonably conviction",
+  "testimonial_text_4": " solicitude me mr at discretion reasonable. Age out full gate bed day lose.\"",
+
+  "newsletter_heading": "Get Special Discounts",
+  "newsletter_desc_1": "Input email address and complete your subscription to",
+  "newsletter_desc_2": "get our special offer.",
+  "newsletter_placeholder": "shakir260@gmail.com",
+  "btn_subscribe": "Subscribe",
+
+  "footer_contact": "Contact",
+  "footer_address": "F1 - 320 Jeff Heights, Main Blvd, Gulberg, Lahore, Pakistan",
+  "footer_phone": "+92 – 300 – 115 – 222 –444",
+  "footer_email": "support@yannal.com",
+
+  "footer_support": "Support",
+  "footer_faq": "Faq",
+  "footer_shipping": "Shipping & Returns",
+  "footer_contact_us": "Contact Us",
+  "footer_partners": "Our Partners",
+
+  "footer_info": "Info",
+  "footer_dates": "Dates",
+  "footer_parties": "Parties",
+  "footer_birthdays": "Brithdays",
+  "footer_menu": "Menu",
+
+  "footer_copyright": "© 2026 Yannal Resturant"
+}

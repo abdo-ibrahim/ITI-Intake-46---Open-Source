@@ -1,0 +1,89 @@
+{
+  "nav_menu": "القائمة",
+  "nav_about": "من نحن",
+  "nav_specials": "عروضنا الخاصة",
+  "nav_locations": "فروعنا",
+  "nav_cheffs": "الطهاة",
+
+  "landing_title": "كباب",
+  "landing_desc": "صلصة الزبادي بالنعناع على طريقة المطاعم هي صلصة لذيذة سريعة وسهلة التحضير... هذه هي صلصة النعناع الهندية القياسية التي تُقدم مع البابادوم مع النعناع والليمون.",
+  "btn_add_to_cart": "أضف إلى السلة",
+  "btn_book_table": "احجز طاولة",
+  "meal_dinner": "العشاء",
+  "meal_dinner_time": "١:٠٠-٠٣:٠٠ مساءً",
+  "meal_lunch": "الغداء",
+  "meal_lunch_time": "٧:٠٠-١٠:٠٠ مساءً",
+
+  "online_store": "المتجر الإلكتروني",
+  "popular_products": "المنتجات الشائعة",
+
+  "cuisine_chinese": "صيني",
+  "cuisine_italian": "إيطالي",
+  "cuisine_american": "أمريكي",
+  "cuisine_japanese": "ياباني",
+  "cuisine_mexican": "مكسيكي",
+
+  "product_hot_wings": "أجنحة حارة",
+  "product_pizza_margherita": "بيتزا مارغريتا",
+  "product_burger_classic": "برغر كلاسيكي",
+  "product_sushi_roll": "لفائف سوشي",
+  "product_tacos": "تاكو",
+
+  "tab_coffee": "قهوة",
+  "tab_fast_food": "وجبات سريعة",
+  "tab_pizza": "بيتزا",
+  "tab_desi_menu": "القائمة المحلية",
+  "tab_desserts": "حلويات",
+
+  "delivery_badge": "خدمة توصيل الطعام الأسرع",
+  "delivery_heading": "احصل على التوصيل وهو لا يزال ساخناً.",
+  "delivery_desc": "اجمع مناقشاتك وعضوياتك ومحتواك معاً. ابدأ تجربتك المجانية لمدة ٧ أيام.",
+  "btn_get_started": "ابدأ الآن",
+
+  "popular_menu_label": "القائمة الشائعة",
+  "popular_menu_heading": "طعام رائع يُقدم بعناية فائقة",
+  "menu_item_desc": "لوريم إيبسوم لوريم إيبسوم هو ببساطة نص تجريبي للطباعة.",
+  "btn_see_all_menu": "عرض كل القائمة",
+
+  "download_app_label": "حمّل تطبيقنا",
+  "download_app_heading_1": "كل شيء هنا.",
+  "download_app_heading_2": "الكل في تطبيق واحد.",
+  "download_app_desc": "اكتشف التوصيل المحلي عند الطلب أو الاستلام من المطاعم ومتاجر البقالة والمتاجر القريبة والمزيد.",
+
+  "testimonial_label": "آراء العملاء",
+  "testimonial_heading": "ماذا يقولون",
+  "testimonial_name": "أ.ر شاكر",
+  "testimonial_location": "أريزونا",
+  "testimonial_text_1": "\"صدق أن طلبه ليس مدى الراحة واضحاً. حتى ",
+  "testimonial_highlight_1": "أبناء العم البهجة",
+  "testimonial_text_2": " نشعر بالدقائق. لقد نظر العبقري إلى نهاية الربيع المثير. لقد شعر بالوردة يجد الرجل. يوم التعلم المرغوب فيه إبلاغ النفقات عاد ستة. هي ",
+  "testimonial_highlight_2": "مُمَكَّنة",
+  "testimonial_text_3": " دعت كشفته لآخر. ",
+  "testimonial_highlight_3": "الاقتناع المعقول",
+  "testimonial_text_4": " التماس لي سيدي في تقدير معقول. العمر خارج البوابة الكاملة يوم السرير يخسر.\"",
+
+  "newsletter_heading": "احصل على خصومات خاصة",
+  "newsletter_desc_1": "أدخل عنوان بريدك الإلكتروني وأكمل اشتراكك",
+  "newsletter_desc_2": "للحصول على عرضنا الخاص.",
+  "newsletter_placeholder": "shakir260@gmail.com",
+  "btn_subscribe": "اشترك",
+
+  "footer_contact": "اتصل بنا",
+  "footer_address": "F1 - 320 مرتفعات جيف، الشارع الرئيسي، جولبرج، لاهور، باكستان",
+  "footer_phone": "+92 – 300 – 115 – 222 –444",
+  "footer_email": "support@yannal.com",
+
+  "footer_support": "الدعم",
+  "footer_faq": "الأسئلة الشائعة",
+  "footer_shipping": "الشحن والإرجاع",
+  "footer_contact_us": "اتصل بنا",
+  "footer_partners": "شركاؤنا",
+
+  "footer_info": "معلومات",
+  "footer_dates": "مواعيد",
+  "footer_parties": "حفلات",
+  "footer_birthdays": "أعياد ميلاد",
+  "footer_menu": "القائمة",
+
+  "footer_copyright": "© ٢٠٢٦ مطعم ينال"
+}

@@ -1,0 +1,76 @@
+<div class="max-w-4xl mx-auto py-10 px-4">
+  @if (course) {
+    <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+      <div class="md:flex">
+        <div class="md:shrink-0">
+          <img
+            class="h-64 w-full object-cover md:h-full md:w-96"
+            [src]="course.image"
+            [alt]="course.title"
+          />
+        </div>
+        <div class="p-8">
+          <div class="uppercase tracking-wide text-sm text-purple-600 font-semibold mb-1">
+            Category ID: {{ course.catId }}
+          </div>
+          <h1 class="block mt-1 text-3xl leading-tight font-extrabold text-gray-900 mb-4">
+            {{ course.title }}
+          </h1>
+          <p class="mt-2 text-gray-600 text-lg mb-6">{{ course.instructor }}</p>
+
+          <div
+            class="mt-4 flex flex-col sm:flex-row sm:items-center sm:justify-between border-t border-gray-100 pt-6"
+          >
+            <div class="flex flex-col mb-4 sm:mb-0">
+              <span class="text-sm text-gray-500 font-medium uppercase tracking-wider">Price</span>
+              <span class="text-3xl font-bold text-green-600">${{ course.price }}</span>
+            </div>
+
+            <div class="flex flex-col">
+              <span class="text-sm text-gray-500 font-medium uppercase tracking-wider"
+                >Availability</span
+              >
+              @if (course.seats === 0) {
+                <span class="text-xl font-semibold text-red-500">Course Full</span>
+              } @else if (course.seats <= 2 && course.seats > 0) {
+                <span class="text-xl font-semibold text-yellow-600"
+                  >Only {{ course.seats }} left!</span
+                >
+              } @else {
+                <span class="text-xl font-semibold text-blue-600">{{ course.seats }} Seats</span>
+              }
+            </div>
+          </div>
+
+          <div class="mt-8 flex gap-4">
+            <button
+              class="flex-1 bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+              [disabled]="course.seats === 0"
+            >
+              Enroll Now
+            </button>
+            <a
+              routerLink="/courses"
+              class="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-3 px-6 rounded-lg text-center transition-colors"
+            >
+              Back to Courses
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  } @else {
+    <div class="text-center py-20 bg-white rounded-2xl shadow-sm border border-gray-100">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Course Not Found</h2>
+      <p class="text-gray-500 mb-8">
+        The course you are looking for does not exist or has been removed.
+      </p>
+      <a
+        routerLink="/courses"
+        class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+      >
+        View All Courses
+      </a>
+    </div>
+  }
+</div>

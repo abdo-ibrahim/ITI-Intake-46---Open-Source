@@ -1,0 +1,40 @@
+<header class="bg-purple-600 text-white py-4 shadow-md">
+  <div class="container mx-auto flex items-center justify-between px-4">
+    <h1 class="text-2xl font-bold">
+      <a routerLink="/" class="hover:text-purple-200 transition-colors">{{ title }}</a>
+    </h1>
+    <nav class="flex gap-4">
+      <a
+        routerLink="/"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLinkActive="text-purple-200 border-b-2 border-purple-200 font-semibold"
+        class="hover:text-purple-200 pb-1 transition-colors"
+        >Home</a
+      >
+      <a
+        routerLink="/courses"
+        routerLinkActive="text-purple-200 border-b-2 border-purple-200 font-semibold"
+        class="hover:text-purple-200 pb-1 transition-colors"
+        >Courses</a
+      >
+      <a
+        routerLink="/insertcourse"
+        routerLinkActive="text-purple-200 border-b-2 border-purple-200 font-semibold"
+        class="hover:text-purple-200 pb-1 transition-colors"
+        >Add Course</a
+      >
+      <a
+        routerLink="/contact"
+        routerLinkActive="text-purple-200 border-b-2 border-purple-200 font-semibold"
+        class="hover:text-purple-200 pb-1 transition-colors"
+        >Contact Us</a
+      >
+      <a
+        routerLink="/about"
+        routerLinkActive="text-purple-200 border-b-2 border-purple-200 font-semibold"
+        class="hover:text-purple-200 pb-1 transition-colors"
+        >About</a
+      >
+    </nav>
+  </div>
+</header>

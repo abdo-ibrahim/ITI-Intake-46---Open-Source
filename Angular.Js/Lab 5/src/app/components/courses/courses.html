@@ -1,0 +1,68 @@
+@if (!hasLoadedCourses) {
+  <div class="py-4"></div>
+} @else if (filteredCourses.length === 0) {
+  <div class="flex justify-center items-center py-12">
+    <div class="text-lg font-semibold text-gray-600">No courses available</div>
+  </div>
+} @else {
+  <div class="flex flex-wrap gap-8 justify-center">
+    @for (course of filteredCourses; track course.id) {
+      <div
+        class="rounded-md shadow-md w-64 flex flex-col items-center transition-shadow hover:shadow-lg p-4"
+        [ngClass]="{
+          'text-red-500': course.seats === 0,
+          'bg-red-50': course.seats <= 2,
+          'bg-red-200': course.seats === 0,
+        }"
+      >
+        <img
+          [src]="course.image"
+          [alt]="course.title"
+          class="w-48 h-32 object-cover rounded-md mb-4"
+        />
+        <div class="text-center">
+          <h3 class="text-xl font-bold mb-2">{{ course.title }}</h3>
+          <p class="text-gray-700 mb-1">{{ course.instructor }}</p>
+          <p class="text-green-700 font-medium mb-1">
+            Price: ${{ course.price | discount: discount }}
+          </p>
+          @if (course.seats === 0) {
+            <p class="font-bold mb-2">Course Full</p>
+          } @else if (course.seats <= 2) {
+            <p class="font-bold mb-2">Almost Full</p>
+          } @else if (course.seats > 0) {
+            <p class="text-blue-700 font-medium mb-2">Seats Available: {{ course.seats }}</p>
+          }
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-2 mt-4">
+          <button
+            class="px-4 py-2 bg-purple-500 text-white rounded-full shadow hover:bg-purple-400 transition-colors cursor-pointer"
+            (click)="register(course)"
+            [disabled]="course.seats === 0"
+            appAppDisableAfterClick
+          >
+            Register
+          </button>
+          <a
+            class="px-4 py-2 bg-blue-500 text-white rounded-full shadow hover:bg-blue-400 transition-colors cursor-pointer"
+            [routerLink]="['/courses', course.id]"
+          >
+            Details
+          </a>
+          <a
+            class="px-4 py-2 bg-green-500 text-white rounded-full shadow hover:bg-green-400 transition-colors cursor-pointer"
+            [routerLink]="['/insertcourse', course.id]"
+          >
+            Edit
+          </a>
+          <button
+            class="px-4 py-2 bg-red-600 text-white rounded-full shadow hover:bg-red-500 transition-colors cursor-pointer"
+            (click)="deleteCourse(course.id)"
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+    }
+  </div>
+}

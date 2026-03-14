@@ -1,0 +1,29 @@
+<div class="flex items-center gap-4 my-4 justify-center">
+  <label for="category" class="mb-2 font-semibold">Select a Category:</label>
+  <select id="category" [(ngModel)]="selectedCategoryId" class="border p-1 rounded">
+    <option [ngValue]="0">All Courses</option>
+    @for (cat of categories; track cat) {
+      <option [ngValue]="cat.id">{{ cat.name }}</option>
+    }
+  </select>
+
+  <label for="discount" class="mb-2 font-semibold">Discount (%):</label>
+  <input
+    id="discount"
+    type="number"
+    [(ngModel)]="discount"
+    min="0"
+    max="100"
+    class="border p-1 rounded w-20"
+    placeholder="10"
+    value="10"
+  />
+</div>
+
+<h3 class="my-5 text-center font-semibold">Total order price is : {{ totalOrderPrice }}</h3>
+
+<app-courses
+  [selectedCategoryId]="selectedCategoryId"
+  [discount]="discount"
+  (totalPriceChange)="setTotalOrderPrice($event)"
+></app-courses>

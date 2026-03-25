@@ -1,0 +1,63 @@
+{% extends 'base.html' %} {% load static %} {% block title %}Products | MarketPlace{% endblock %} {% block content %}
+<div class="container">
+  <section class="hero-panel fade-in">
+    <h1 class="display-6 fw-bold mb-2">Discover Products You Actually Want</h1>
+    <p>Handpicked essentials with clean specs, transparent prices, and fast browsing.</p>
+    <div class="d-flex flex-wrap gap-2 mt-3">
+      <span class="meta-pill bg-white text-dark border-0">Fast Delivery</span>
+      <span class="meta-pill bg-white text-dark border-0">Secure Checkout</span>
+      <span class="meta-pill bg-white text-dark border-0">Quality Guaranteed</span>
+    </div>
+  </section>
+
+  <section class="fade-in" style="animation-delay: 0.1s">
+    <h2 class="section-title">Available Products</h2>
+    <p class="section-subtitle">Explore our selected tech collection and open any card to view full details.</p>
+
+    <div class="row g-3 mb-4">
+      <div class="col-6 col-lg-3">
+        <div class="stat-card">
+          <small>Total Products</small>
+          <strong>{{ products|length }}</strong>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="stat-card">
+          <small>Categories</small>
+          <strong>3</strong>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="stat-card">
+          <small>In Stock</small>
+          <strong>Yes</strong>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="stat-card">
+          <small>Support</small>
+          <strong>24/7</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      {% for product in products %}
+      <div class="col-md-6 col-lg-4">
+        <article class="product-card">
+          <img src="{% static product.image %}" alt="{{ product.name }}" class="w-100" />
+          <div class="p-3 p-lg-4">
+            <h3 class="h5 mb-2">{{ product.name }}</h3>
+            <p class="price-tag mb-3">${{ product.price }}</p>
+            <div class="d-flex gap-2">
+              <a href="{% url 'products:show' product.id %}" class="btn btn-show">Show</a>
+              <a href="{% url 'contactus:index' %}" class="btn-ghost">Ask</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

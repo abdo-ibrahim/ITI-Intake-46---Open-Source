@@ -1,0 +1,13 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="220" y="200" width="760" height="380" rx="26" fill="#f8fafc" opacity="0.94"/>
+  <rect x="270" y="250" width="660" height="260" rx="14" fill="#0f172a"/>
+  <rect x="160" y="595" width="880" height="35" rx="18" fill="#e2e8f0"/>
+  <text x="600" y="740" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="68" fill="#ffffff" font-weight="700">LAPTOP</text>
+</svg>

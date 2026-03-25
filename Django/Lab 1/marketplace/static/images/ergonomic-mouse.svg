@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ergonomic Mouse</title>
+  <desc id="desc">Stylized ergonomic mouse illustration</desc>
+  <defs>
+    <linearGradient id="mouseBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#f1f5f9"/>
+  <ellipse cx="430" cy="320" rx="205" ry="150" fill="url(#mouseBody)"/>
+  <ellipse cx="410" cy="300" rx="150" ry="118" fill="#0f172a" opacity="0.2"/>
+  <rect x="390" y="215" width="30" height="90" rx="15" fill="#e0f2fe"/>
+  <line x1="405" y1="250" x2="405" y2="280" stroke="#0284c7" stroke-width="4"/>
+  <path d="M260 365 Q220 370 210 410 Q255 430 295 410" fill="#22d3ee" opacity="0.7"/>
+  <circle cx="560" cy="245" r="14" fill="#7dd3fc"/>
+</svg>

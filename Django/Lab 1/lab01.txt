@@ -1,0 +1,26 @@
+
+1- install django
+2- create project marketplace
+3- create 3 applications
+    products,
+    about us
+    contact us
+
+4- inside products --
+    create index --> list available product
+       each product  has
+       id, name,stock, image  (use static files),  price , description
+
+       in index only display name, price, image, and button show
+
+    when click on show,
+    redirect to new page display full info of the product
+
+5- for about_us, contact_us create page in each application
+
+
+don't forget to add apps to the installed apps
+
+using beautiful frontend is a must
+using static files is a must to display images
+using template inheritance is a must.

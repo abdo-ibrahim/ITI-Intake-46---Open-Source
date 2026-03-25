@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Gaming Laptop</title>
+  <desc id="desc">Stylized gaming laptop illustration</desc>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#e2e8f0"/>
+  <rect x="130" y="110" width="540" height="320" rx="22" fill="url(#body)"/>
+  <rect x="160" y="140" width="480" height="260" rx="10" fill="#020617"/>
+  <rect x="175" y="155" width="450" height="230" rx="8" fill="url(#glow)" opacity="0.88"/>
+  <polygon points="160,455 640,455 740,520 60,520" fill="#334155"/>
+  <rect x="280" y="470" width="240" height="14" rx="7" fill="#94a3b8"/>
+  <path d="M220 255 L320 210 L380 255 L300 300 Z" fill="#ffffff" opacity="0.22"/>
+  <circle cx="590" cy="180" r="16" fill="#22d3ee" opacity="0.8"/>
+</svg>

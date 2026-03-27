@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Compact Keyboard</title>
+  <desc id="desc">Stylized compact keyboard illustration</desc>
+  <rect width="800" height="600" fill="#eaf2ff"/>
+  <rect x="120" y="180" width="560" height="250" rx="24" fill="#1e293b"/>
+  <rect x="145" y="205" width="510" height="200" rx="14" fill="#0f172a"/>
+  <g fill="#e0f2fe">
+    <rect x="170" y="230" width="52" height="34" rx="6"/>
+    <rect x="230" y="230" width="52" height="34" rx="6"/>
+    <rect x="290" y="230" width="52" height="34" rx="6"/>
+    <rect x="350" y="230" width="52" height="34" rx="6"/>
+    <rect x="410" y="230" width="52" height="34" rx="6"/>
+    <rect x="470" y="230" width="52" height="34" rx="6"/>
+    <rect x="530" y="230" width="52" height="34" rx="6"/>
+    <rect x="170" y="275" width="64" height="34" rx="6"/>
+    <rect x="242" y="275" width="52" height="34" rx="6"/>
+    <rect x="302" y="275" width="52" height="34" rx="6"/>
+    <rect x="362" y="275" width="52" height="34" rx="6"/>
+    <rect x="422" y="275" width="52" height="34" rx="6"/>
+    <rect x="482" y="275" width="100" height="34" rx="6"/>
+    <rect x="170" y="320" width="80" height="34" rx="6"/>
+    <rect x="258" y="320" width="250" height="34" rx="6"/>
+    <rect x="516" y="320" width="66" height="34" rx="6"/>
+  </g>
+</svg>

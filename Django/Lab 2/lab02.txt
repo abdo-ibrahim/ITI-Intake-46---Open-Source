@@ -1,0 +1,14 @@
+
+1- create database with name marketplace
+2- connect project to mysql
+3- create model for product
+       id, name,stock, image  (use media files),  price , description,
+       created_at, updated_at
+
+4- create model for category
+each category has (id, name, logo, created_at, updated_at)
+
+5- perform all crud operations for product
+
+6- in show page of category display all products related to this category
+

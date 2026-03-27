@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block title %}Delete {{ category.name }} | MarketPlace{% endblock %} {% block content %}
+<div class="container error-shell fade-in">
+  <section class="error-card p-4 p-lg-5 text-center">
+    <h1 class="h3 mb-2">Delete Category</h1>
+    <p class="text-secondary mb-4">Are you sure you want to delete <strong>{{ category.name }}</strong>?</p>
+
+    <form method="post" class="d-flex justify-content-center gap-2 flex-wrap">
+      {% csrf_token %}
+      <button type="submit" class="btn btn-show">Yes, Delete</button>
+      <a href="{% url 'categories:show' category.id %}" class="btn-ghost">Cancel</a>
+    </form>
+  </section>
+</div>
+{% endblock %}

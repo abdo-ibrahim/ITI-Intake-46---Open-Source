@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% block title %}Edit {{ category.name }} | MarketPlace{% endblock %} {% block content %}
+<div class="container fade-in">
+  <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
+    <h1 class="h3 mb-0">Edit Category</h1>
+    <a href="{% url 'categories:show' category.id %}" class="btn-ghost">Back</a>
+  </div>
+
+  <div class="info-card p-4">
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label" for="name">Name</label>
+          <input class="form-control" id="name" name="name" type="text" value="{{ category.name }}" required />
+        </div>
+        <div class="col-md-6">
+          <label class="form-label" for="logo">Replace Logo</label>
+          <input class="form-control" id="logo" name="logo" type="file" accept="image/*" />
+        </div>
+      </div>
+
+      <div class="mt-4 d-flex gap-2 flex-wrap">
+        <button type="submit" class="btn btn-show">Save Changes</button>
+        <a href="{% url 'categories:show' category.id %}" class="btn-ghost">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

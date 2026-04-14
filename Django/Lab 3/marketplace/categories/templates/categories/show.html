@@ -1,0 +1,44 @@
+{% extends 'base.html' %} {% load static %} {% block title %}{{ category.name }} | Category Details{% endblock %} {% block content %}
+<div class="container fade-in">
+  <div class="row g-4">
+    <div class="col-lg-4">
+      <div class="info-card p-4 h-100">
+        {% if category.logo %}
+        <img src="{{ category.logo.url }}" alt="{{ category.name }}" class="detail-image mb-3" />
+        {% else %}
+        <img src="{% static 'images/mouse.svg' %}" alt="{{ category.name }}" class="detail-image mb-3" />
+        {% endif %}
+        <h1 class="h4 mb-2">{{ category.name }}</h1>
+        <p class="text-secondary mb-3">Category ID: {{ category.id }}</p>
+        <div class="d-flex gap-2 flex-wrap">
+          <a href="{% url 'categories:edit' category.id %}" class="btn btn-show">Edit</a>
+          <a href="{% url 'categories:delete' category.id %}" class="btn-ghost">Delete</a>
+          <a href="{% url 'categories:index' %}" class="btn-ghost">Back</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <div class="info-card p-4 h-100">
+        <h2 class="h5 mb-3">Products In This Category</h2>
+        <div class="row g-3">
+          {% for product in products %}
+          <div class="col-md-6">
+            <article class="product-card p-3">
+              <h3 class="h6 mb-2">{{ product.name }}</h3>
+              <p class="price-tag mb-1">${{ product.price }}</p>
+              <p class="text-secondary mb-3">Stock: {{ product.stock }}</p>
+              <a href="{% url 'products:show' product.id %}" class="btn btn-show">Open Product</a>
+            </article>
+          </div>
+          {% empty %}
+          <div class="col-12">
+            <p class="text-secondary mb-0">No products related to this category yet.</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

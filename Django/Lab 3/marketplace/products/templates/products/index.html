@@ -1,0 +1,53 @@
+{% extends 'base.html' %} {% load static %} {% block title %}Products | MarketPlace{% endblock %} {% block content %}
+<div class="container">
+  <section class="hero-panel fade-in d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3">
+    <div>
+      <h1 class="display-6 fw-bold mb-2">Manage Products</h1>
+      <p>Create, update, and explore your marketplace products.</p>
+    </div>
+    <a href="{% url 'products:create' %}" class="btn btn-show">Add Product</a>
+  </section>
+
+  <section class="fade-in" style="animation-delay: 0.1s">
+    <h2 class="section-title">All Products</h2>
+    <p class="section-subtitle">Click any product card to open details or use actions for edit/delete.</p>
+
+    <div class="row g-4">
+      {% for product in products %}
+      <div class="col-md-6 col-lg-4">
+        <article class="product-card">
+          {% if product.image %}
+          <img src="{{ product.image.url }}" alt="{{ product.name }}" class="w-100" />
+          {% else %}
+          <img src="{% static 'images/laptop.svg' %}" alt="{{ product.name }}" class="w-100" />
+          {% endif %}
+          <div class="p-3 p-lg-4">
+            <h3 class="h5 mb-2">{{ product.name }}</h3>
+            <p class="price-tag mb-2">${{ product.price }}</p>
+            <p class="mb-2 text-secondary">Stock: {{ product.stock }}</p>
+            <p class="mb-3 text-secondary">
+              Category: {% if product.category %}
+              <a href="{% url 'categories:show' product.category.id %}">{{ product.category.name }}</a>
+              {% else %} Unassigned {% endif %}
+            </p>
+            <div class="d-flex gap-2 flex-wrap">
+              <a href="{% url 'products:show' product.id %}" class="btn btn-show">Details</a>
+              <a href="{% url 'products:edit' product.id %}" class="btn-ghost">Edit</a>
+              <a href="{% url 'products:delete' product.id %}" class="btn-ghost">Delete</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      {% empty %}
+      <div class="col-12">
+        <div class="error-card p-4 text-center">
+          <h3 class="h5 mb-2">No products yet</h3>
+          <p class="text-secondary mb-3">Start by adding your first product.</p>
+          <a href="{% url 'products:create' %}" class="btn btn-show">Create Product</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

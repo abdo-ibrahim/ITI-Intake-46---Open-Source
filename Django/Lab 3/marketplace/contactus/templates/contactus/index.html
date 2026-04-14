@@ -1,0 +1,49 @@
+{% extends 'base.html' %} {% block title %}Contact Us | MarketPlace{% endblock %} {% block content %}
+<div class="container fade-in">
+  <section class="hero-panel mb-4">
+    <h1 class="display-6 fw-bold mb-2">Let’s Start A Conversation</h1>
+    <p>Questions, feedback, or partnership ideas, our team will reply quickly.</p>
+  </section>
+
+  <div class="row g-4 justify-content-center">
+    <div class="col-lg-4">
+      <div class="info-card p-4 p-lg-5 h-100">
+        <h2 class="h5 mb-3">Reach Us</h2>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> hello@marketplace.com</li>
+          <li><strong>Phone:</strong> +1 555 123 000</li>
+          <li><strong>Address:</strong> 27 Commerce St, Downtown</li>
+          <li><strong>Hours:</strong> Mon - Sat, 9:00 AM - 7:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-8">
+      <div class="info-card p-4 p-lg-5">
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your full name" />
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com" />
+            </div>
+            <div class="col-12">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="How can we help?" />
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Type your message"></textarea>
+            </div>
+            <div class="col-12 d-grid d-md-flex justify-content-md-end">
+              <button type="submit" class="btn btn-show">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

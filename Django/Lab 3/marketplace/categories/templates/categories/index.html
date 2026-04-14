@@ -1,0 +1,42 @@
+{% extends 'base.html' %} {% load static %} {% block title %}Categories | MarketPlace{% endblock %} {% block content %}
+<div class="container">
+  <section class="hero-panel fade-in d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3">
+    <div>
+      <h1 class="display-6 fw-bold mb-2">Manage Categories</h1>
+      <p>Create and organize categories for your products.</p>
+    </div>
+    <a href="{% url 'categories:create' %}" class="btn btn-show">Add Category</a>
+  </section>
+
+  <div class="row g-4">
+    {% for category in categories %}
+    <div class="col-md-6 col-lg-4">
+      <article class="product-card p-3">
+        {% if category.logo %}
+        <img src="{{ category.logo.url }}" alt="{{ category.name }}" class="w-100" />
+        {% else %}
+        <img src="{% static 'images/mouse.svg' %}" alt="{{ category.name }}" class="w-100" />
+        {% endif %}
+        <div class="pt-3">
+          <h3 class="h5 mb-2">{{ category.name }}</h3>
+          <p class="text-secondary mb-3">Products: {{ category.products.count }}</p>
+          <div class="d-flex gap-2 flex-wrap">
+            <a href="{% url 'categories:show' category.id %}" class="btn btn-show">Details</a>
+            <a href="{% url 'categories:edit' category.id %}" class="btn-ghost">Edit</a>
+            <a href="{% url 'categories:delete' category.id %}" class="btn-ghost">Delete</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    {% empty %}
+    <div class="col-12">
+      <div class="error-card p-4 text-center">
+        <h3 class="h5 mb-2">No categories yet</h3>
+        <p class="text-secondary mb-3">Create your first category now.</p>
+        <a href="{% url 'categories:create' %}" class="btn btn-show">Create Category</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

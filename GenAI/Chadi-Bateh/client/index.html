@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chadi-Bateh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#0a0f1f",
+              panel: "#0d1428",
+              accent: "#38bdf8",
+              accentSoft: "#7dd3fc",
+              pulse: "#6366f1",
+            },
+            fontFamily: {
+              sans: ["Sora", "ui-sans-serif", "system-ui"],
+              mono: ["JetBrains Mono", "ui-monospace", "SFMono-Regular"],
+            },
+            boxShadow: {
+              glow: "0 0 0 1px rgba(56, 189, 248, 0.18), 0 20px 80px rgba(56, 189, 248, 0.15)",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="min-h-screen bg-ink text-slate-100 antialiased">
+    <div class="page-gradient"></div>
+
+    <div class="relative mx-auto flex h-screen w-full max-w-[1600px] gap-4 p-3 md:p-5">
+      <aside class="glass-panel flex w-[94px] flex-col overflow-hidden md:w-[310px]">
+        <div class="border-b border-white/10 p-4">
+          <div class="flex items-center justify-between">
+            <h1 class="text-xl font-semibold tracking-wide">Chadi-Bateh</h1>
+            <button id="newChatBtn" class="rounded-xl border border-white/15 bg-white/5 px-3 py-2 text-xs font-semibold uppercase tracking-wider transition hover:bg-white/10">New</button>
+          </div>
+          <p class="mt-2 hidden text-xs text-slate-400 md:block">Premium AI workspace with memory and multimodal tools.</p>
+        </div>
+
+        <div class="flex-1 overflow-y-auto p-3" id="chatList"></div>
+      </aside>
+
+      <main class="glass-panel flex min-h-0 flex-1 flex-col overflow-hidden">
+        <header class="border-b border-white/10 p-3 md:p-4">
+          <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            <div>
+              <p class="text-sm text-slate-300">Model and capability controls</p>
+              <h2 class="text-lg font-semibold text-white">Conversation Studio</h2>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-2">
+              <label class="field-wrap">
+                <span class="field-label">Model</span>
+                <select id="modelSelect" class="field-select">
+                  <option value="gpt-4o-mini">gpt-4o-mini</option>
+                  <option value="gpt-4o">gpt-4o</option>
+                  <option value="gpt-4.1-mini">gpt-4.1-mini</option>
+                </select>
+              </label>
+
+              <label class="field-wrap">
+                <span class="field-label">Mode</span>
+                <select id="modeSelect" class="field-select">
+                  <option value="text">Text Chat</option>
+                  <option value="vision">Vision</option>
+                  <option value="file">File Input</option>
+                  <option value="image">Image Generation</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </header>
+
+        <section id="chatWindow" class="relative flex-1 overflow-y-auto p-4 md:p-6">
+          <div id="messages" class="space-y-4"></div>
+        </section>
+
+        <footer class="border-t border-white/10 bg-panel/40 p-3 md:p-4">
+          <div id="replyPreview" class="mb-2 hidden rounded-xl border border-cyan-300/20 bg-cyan-300/10 px-3 py-2 text-sm"></div>
+          <div id="filePreview" class="mb-2 hidden rounded-xl border border-blue-300/20 bg-blue-300/10 px-3 py-2 text-sm"></div>
+
+          <div class="flex flex-col gap-3">
+            <textarea
+              id="messageInput"
+              rows="2"
+              class="w-full resize-none rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-100 outline-none transition placeholder:text-slate-500 focus:border-cyan-300/40 focus:ring-2 focus:ring-cyan-300/20"
+              placeholder="Type your message..."></textarea>
+
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <div class="flex items-center gap-2">
+                <input id="fileInput" type="file" class="hidden" />
+                <button id="attachBtn" class="btn-secondary">Attach</button>
+                <button id="regenBtn" class="btn-secondary">Regenerate</button>
+              </div>
+
+              <button id="sendBtn" class="btn-primary">Send Message</button>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <div id="toastRoot" class="pointer-events-none fixed bottom-5 right-5 z-50 flex w-[320px] flex-col gap-2"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

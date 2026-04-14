@@ -1,0 +1,19 @@
+
+
+1- create APIs for products and category all crud  without viewsets
+you can use modelSerializers
+
+
+Category API CRUD
+GET /api/categories/ : list all categories
+POST /api/categories/ : create category
+GET /api/categories/<id>/ : retrieve one category
+PUT /api/categories/<id>/ : update category
+DELETE /api/categories/<id>/ : delete category
+
+Product API CRUD
+GET /api/products/ : list all products
+POST /api/products/ : create product
+GET /api/products/<id>/ : retrieve one product
+PUT /api/products/<id>/ : update product
+DELETE /api/products/<id>/ : delete produc

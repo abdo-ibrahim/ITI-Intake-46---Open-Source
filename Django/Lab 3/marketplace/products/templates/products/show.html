@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% load static %} {% block title %}{{ product.name }} | MarketPlace{% endblock %} {% block content %}
+<div class="container fade-in">
+  <div class="row g-4 align-items-stretch">
+    <div class="col-lg-6">
+      <div class="detail-card p-3 h-100">
+        {% if product.image %}
+        <img src="{{ product.image.url }}" alt="{{ product.name }}" class="detail-image" />
+        {% else %}
+        <img src="{% static 'images/laptop.svg' %}" alt="{{ product.name }}" class="detail-image" />
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="info-card p-4 p-lg-5 h-100 d-flex flex-column">
+        <h1 class="h2 mb-3">{{ product.name }}</h1>
+        <p class="fs-4 fw-bold text-primary mb-3">${{ product.price }}</p>
+        <div class="mb-3">
+          <span class="meta-pill">ID: {{ product.id }}</span>
+          <span class="meta-pill">Stock: {{ product.stock }}</span>
+          <span class="meta-pill"> Category: {% if product.category %} {{ product.category.name }} {% else %} Unassigned {% endif %} </span>
+        </div>
+        <p class="text-secondary mb-4">{{ product.description }}</p>
+        <div class="mt-auto">
+          <a href="{% url 'products:index' %}" class="btn btn-show">Back To Products</a>
+          <a href="{% url 'products:edit' product.id %}" class="btn-ghost ms-2">Edit</a>
+          <a href="{% url 'products:delete' product.id %}" class="btn-ghost ms-2">Delete</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

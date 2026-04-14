@@ -1,0 +1,13 @@
+{% extends 'base.html' %} {% block title %}Product Not Found | MarketPlace{% endblock %} {% block content %}
+<div class="container error-shell fade-in">
+  <section class="error-card p-4 p-lg-5 text-center">
+    <div class="error-icon mb-3">404</div>
+    <h1 class="h2 mb-2">Product Not Found</h1>
+    <p class="text-secondary mb-4">The item you requested does not exist or may have been removed from our catalog.</p>
+    <div class="d-flex flex-wrap justify-content-center gap-2">
+      <a href="{% url 'products:index' %}" class="btn btn-show">Back To Products</a>
+      <a href="{% url 'contactus:index' %}" class="btn-ghost">Contact Support</a>
+    </div>
+  </section>
+</div>
+{% endblock %}

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Career Advisor</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f2f4f7;
+      }
+
+      .container {
+        width: 80%;
+        max-width: 1000px;
+        height: 90vh;
+        margin: 20px auto;
+        background: white;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      .header {
+        background: #8b1e2d;
+        color: white;
+        padding: 18px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .chat {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      /* ===== messages ===== */
+      .msg {
+        padding: 12px 16px;
+        border-radius: 14px;
+        max-width: 60%;
+        line-height: 1.4;
+        font-size: 16px;
+      }
+
+      .user {
+        background: #dbeafe;
+        align-self: flex-end;
+        text-align: right;
+        border-bottom-right-radius: 4px;
+      }
+
+      /* bot (left side) */
+      .bot {
+        background: #f1f1f1;
+        align-self: flex-start;
+        text-align: left;
+        border-bottom-left-radius: 4px;
+      }
+
+      .input-area {
+        display: flex;
+        padding: 15px;
+        border-top: 1px solid #ddd;
+        background: #fff;
+      }
+
+      input {
+        flex: 1;
+        padding: 12px;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+        outline: none;
+        font-size: 15px;
+      }
+
+      button {
+        margin-left: 10px;
+        padding: 12px 18px;
+        background: #8b1e2d;
+        color: white;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      button:hover {
+        background: #721724;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">Career Advisor - MaharaTech</div>
+
+      <div id="chat" class="chat"></div>
+
+      <div class="input-area">
+        <input id="input" placeholder="Ask your question..." />
+        <button onclick="send()">Send</button>
+      </div>
+    </div>
+
+    <script>
+      async function send() {
+        const input = document.getElementById("input");
+        const chat = document.getElementById("chat");
+
+        const text = input.value;
+        if (!text) return;
+
+        // user message (right)
+        chat.innerHTML += `<div class="msg user">${text}</div>`;
+        input.value = "";
+
+        // bot typing placeholder
+        const botPlaceholder = document.createElement("div");
+        botPlaceholder.className = "msg bot";
+        botPlaceholder.innerText = "typing...";
+        chat.appendChild(botPlaceholder);
+
+        chat.scrollTop = chat.scrollHeight;
+
+        const res = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: text }),
+        });
+
+        const data = await res.json();
+
+        botPlaceholder.innerText = data.reply;
+        chat.scrollTop = chat.scrollHeight;
+      }
+      const input = document.getElementById("input");
+
+      input.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          send();
+        }
+      });
+    </script>
+  </body>
+</html>

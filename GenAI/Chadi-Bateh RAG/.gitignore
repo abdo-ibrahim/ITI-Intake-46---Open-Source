@@ -1,0 +1,7 @@
+node_modules/
+.env
+uploads/
+hash_doc/
+chroma_db/
+*.log
+.DS_Store

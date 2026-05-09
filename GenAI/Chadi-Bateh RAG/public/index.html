@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Advisor - MaharaTech RAG System</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        display: flex;
+        height: 90vh;
+      }
+      /* Sidebar */
+      .sidebar {
+        width: 320px;
+        background: #2c3e50;
+        color: white;
+        display: flex;
+        flex-direction: column;
+      }
+      .sidebar-header {
+        padding: 20px;
+        background: #34495e;
+        border-bottom: 1px solid #3d566e;
+      }
+      .sidebar-header h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .sidebar-header p {
+        font-size: 12px;
+        opacity: 0.8;
+      }
+      .upload-area {
+        padding: 20px;
+        flex: 1;
+      }
+      .upload-box {
+        border: 2px dashed #5dade2;
+        border-radius: 10px;
+        padding: 30px 20px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s;
+        background: #34495e;
+      }
+      .upload-box:hover {
+        border-color: #3498db;
+        background: #3d566e;
+        transform: translateY(-2px);
+      }
+      .upload-box input {
+        display: none;
+      }
+      .file-info {
+        margin-top: 15px;
+        padding: 10px;
+        background: #34495e;
+        border-radius: 8px;
+        font-size: 12px;
+        word-break: break-all;
+        max-height: 200px;
+        overflow-y: auto;
+      }
+      .file-item {
+        background: #2c3e50;
+        padding: 8px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border-left: 3px solid #5dade2;
+      }
+      .clear-btn {
+        width: calc(100% - 40px);
+        margin: 20px;
+        padding: 12px;
+        background: #e74c3c;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      /* Chat Area */
+      .main-chat {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background: #f8f9fa;
+      }
+      .chat-header {
+        background: #8b1e2d;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .chat-messages {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .message {
+        padding: 12px 16px;
+        border-radius: 12px;
+        max-width: 75%;
+        line-height: 1.6;
+        position: relative;
+        animation: fadeIn 0.3s ease;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .user-message {
+        background: #8b1e2d;
+        color: white;
+        align-self: flex-end;
+        border-bottom-right-radius: 2px;
+      }
+      .bot-message {
+        background: white;
+        color: #333;
+        align-self: flex-start;
+        border-bottom-left-radius: 2px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+
+      /* Typing Indicator */
+      .typing {
+        padding: 12px;
+        align-self: flex-start;
+        display: flex;
+        gap: 4px;
+      }
+      .typing span {
+        width: 8px;
+        height: 8px;
+        background: #bbb;
+        border-radius: 50%;
+        animation: bounce 1.4s infinite;
+      }
+      .typing span:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      .typing span:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+      @keyframes bounce {
+        0%,
+        80%,
+        100% {
+          transform: scale(0);
+        }
+        40% {
+          transform: scale(1);
+        }
+      }
+
+      /* Input Area */
+      .input-area {
+        display: flex;
+        padding: 20px;
+        background: white;
+        border-top: 1px solid #eee;
+        gap: 10px;
+      }
+      .input-area input {
+        flex: 1;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        outline: none;
+      }
+      .input-area button {
+        padding: 12px 24px;
+        background: #8b1e2d;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      .status {
+        padding: 8px 20px;
+        font-size: 11px;
+        color: #888;
+        background: #f0f0f0;
+        border-top: 1px solid #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <h2>📁 إدارة المستندات</h2>
+          <p>ارفع ملفات الـ Knowledge Base لتدريب البوت</p>
+        </div>
+        <div class="upload-area">
+          <div class="upload-box" onclick="document.getElementById('fileInput').click()">
+            <div style="font-size: 40px">📤</div>
+            <div>اضغط هنا لرفع الملف</div>
+            <div style="font-size: 10px; margin-top: 5px; opacity: 0.7">TXT Only (Max 10MB)</div>
+            <input type="file" id="fileInput" accept=".txt" />
+          </div>
+          <div id="fileInfo" class="file-info" style="display: none">
+            <div style="font-weight: bold; margin-bottom: 8px">📄 الملفات الحالية:</div>
+            <div id="fileList"></div>
+          </div>
+        </div>
+        <button class="clear-btn" onclick="clearDocs()">🗑️ مسح كل البيانات</button>
+      </div>
+
+      <div class="main-chat">
+        <div class="chat-header">
+          <h1>🎓 Career Advisor - مهارة تك</h1>
+          <p>اسأل عن الكورسات، التسجيل، والشهادات</p>
+        </div>
+        <div id="chatMessages" class="chat-messages">
+          <div class="message bot-message">أهلاً بك! أنا مساعدك الذكي في منصة مهارة تك. كيف يمكنني مساعدتك اليوم؟</div>
+        </div>
+        <div class="status" id="status">✅ النظام جاهز</div>
+        <div class="input-area">
+          <input type="text" id="userInput" placeholder="اكتب سؤالك هنا..." dir="auto" />
+          <button onclick="send()">إرسال</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const chat = document.getElementById("chatMessages");
+      const status = document.getElementById("status");
+
+      async function send() {
+        const input = document.getElementById("userInput");
+        const text = input.value.trim();
+        if (!text) return;
+
+        // 1. أظهر رسالة المستخدم
+        chat.innerHTML += `<div class="message user-message">${text}</div>`;
+        input.value = "";
+        chat.scrollTop = chat.scrollHeight;
+
+        // 2. أظهر علامة التحميل (Typing)
+        const typing = document.createElement("div");
+        typing.className = "typing";
+        typing.innerHTML = "<span></span><span></span><span></span>";
+        chat.appendChild(typing);
+        chat.scrollTop = chat.scrollHeight;
+
+        try {
+          // 3. نرسل الطلب للسيرفر
+          const res = await fetch("/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ message: text }),
+          });
+
+          const data = await res.json();
+          console.log("Server Response:", data); // عشان تتأكد الرد راجع إزاي
+
+          typing.remove(); // شيل علامة التحميل
+
+          if (data.reply) {
+            // 4. أظهر رد البوت
+            chat.innerHTML += `<div class="message bot-message">${data.reply.replace(/\n/g, "<br>")}</div>`;
+          } else {
+            chat.innerHTML += `<div class="message bot-message">⚠️ السيرفر رد بس مفيش نص (reply).</div>`;
+          }
+        } catch (e) {
+          console.error("Fetch Error:", e);
+          typing.remove();
+          chat.innerHTML += `<div class="message bot-message">❌ فشل الاتصال بالسيرفر. تأكد من تشغيله.</div>`;
+        }
+        chat.scrollTop = chat.scrollHeight;
+      }
+
+      document.getElementById("fileInput").addEventListener("change", async (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        status.innerText = "⏳ جاري معالجة الملف وتقسيمه...";
+        const formData = new FormData();
+        formData.append("file", file);
+
+        try {
+          const res = await fetch("/upload", { method: "POST", body: formData });
+          const data = await res.json();
+          if (res.ok) {
+            document.getElementById("fileInfo").style.display = "block";
+            document.getElementById("fileList").innerHTML += `<div class="file-item">📄 ${file.name} (${data.chunksCount} chunks)</div>`;
+            status.innerText = "✅ تم فهرسة الملف بنجاح";
+          }
+        } catch (e) {
+          status.innerText = "❌ فشل رفع الملف";
+        }
+      });
+
+      async function clearDocs() {
+        if (!confirm("هل أنت متأكد من حذف قاعدة البيانات؟")) return;
+        try {
+          await fetch("/clear", { method: "DELETE" });
+          location.reload();
+        } catch (e) {
+          alert("حدث خطأ أثناء المسح");
+        }
+      }
+
+      // إرسال عند الضغط على Enter
+      document.getElementById("userInput").onkeydown = (e) => {
+        if (e.key === "Enter") send();
+      };
+    </script>
+  </body>
+</html>

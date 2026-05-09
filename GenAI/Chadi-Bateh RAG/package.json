@@ -1,0 +1,22 @@
+{
+  "name": "chadi-bateh-rag",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/textsplitters": "^1.0.1",
+    "chromadb": "^3.4.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "node-fetch": "^3.3.2"
+  }
+}

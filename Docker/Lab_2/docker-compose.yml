@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  nginx:
+    image: nginx
+    container_name: compose-nginx
+    ports:
+      - "8080:80"
+
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:latest
+    container_name: compose-mysql
+
+    environment:
+      MYSQL_ROOT_PASSWORD: P4sSw0rd0!
+
+    ports:
+      - "3306:3306"

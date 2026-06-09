@@ -1,0 +1,12 @@
+<% content_for :title, "Editing editor" %>
+
+<h1>Editing editor</h1>
+
+<%= render "form", editor: @editor %>
+
+<br>
+
+<div>
+  <%= link_to "Show this editor", @editor %> |
+  <%= link_to "Back to editors", editors_path %>
+</div>

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @editor %>
+
+<div>
+  <%= link_to "Edit this editor", edit_editor_path(@editor) %> |
+  <%= link_to "Back to editors", editors_path %>
+
+  <%= button_to "Destroy this editor", @editor, method: :delete %>
+</div>

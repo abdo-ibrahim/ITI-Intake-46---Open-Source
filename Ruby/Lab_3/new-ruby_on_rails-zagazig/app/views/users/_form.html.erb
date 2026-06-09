@@ -1,0 +1,41 @@
+<%= form_with model: user do |f| %>
+  <% if user.errors.any? %>
+    <div style="color: red; border: 1px solid red; padding: 10px; margin-bottom: 20px;">
+      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+      <ul>
+        <% user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div style="margin-bottom: 10px;">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div style="margin-bottom: 10px;">
+    <%= f.label :dob, "Date of Birth" %>
+    <%= f.date_field :dob %>
+  </div>
+
+  <div style="margin-bottom: 10px;">
+    <%= f.label :email %>
+    <%= f.email_field :email %>
+  </div>
+
+  <div style="margin-bottom: 10px;">
+    <%= f.label :phone_number, "Phone Number" %>
+    <%= f.telephone_field :phone_number %>
+  </div>
+
+  <div style="margin-bottom: 10px;">
+    <%= f.label :address %>
+    <%= f.text_field :address %>
+  </div>
+
+  <div>
+    <%= f.submit "Save" %>
+  </div>
+<% end %>

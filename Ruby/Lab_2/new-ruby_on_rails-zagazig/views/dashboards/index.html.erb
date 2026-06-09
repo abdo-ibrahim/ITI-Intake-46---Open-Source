@@ -1,0 +1,17 @@
+<h1>All System Dashboards</h1>
+
+<% if @dashboards.any? %>
+  <ul>
+    <% @dashboards.each do |dashboard| %>
+      <li>
+        <strong><%= dashboard.name %></strong> (Widgets: <%= dashboard.widgets_count %>)
+        | <%= link_to "Show", dashboard_path(dashboard) %>
+      </li>
+      <hr>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No dashboards found in the database yet.</p>
+<% end %>
+
+<%= link_to "Create New Dashboard", new_dashboard_path %>

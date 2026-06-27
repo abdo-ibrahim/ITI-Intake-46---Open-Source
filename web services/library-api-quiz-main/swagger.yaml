@@ -1,0 +1,248 @@
+openapi: 3.0.0
+info:
+  title: Library API Quiz
+  version: 1.0.0
+  description: A RESTful API for a library management system.
+servers:
+  - url: http://localhost:3000
+paths:
+  /authors:
+    get:
+      summary: List all authors
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create author
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                bio:
+                  type: string
+              required:
+                - name
+      responses:
+        '201':
+          description: Created
+  /authors/{id}:
+    get:
+      summary: Get one author
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+    patch:
+      summary: Update author
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                bio:
+                  type: string
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+    delete:
+      summary: Delete author
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Not Found
+  /authors/{id}/books:
+    get:
+      summary: List books by this author
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+  /books:
+    get:
+      summary: List all books
+      parameters:
+        - in: query
+          name: author_id
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create book
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                year:
+                  type: integer
+                author_id:
+                  type: integer
+              required:
+                - title
+                - author_id
+      responses:
+        '201':
+          description: Created
+        '404':
+          description: Author Not Found
+  /books/{id}:
+    get:
+      summary: Get one book
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+    patch:
+      summary: Update book
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                year:
+                  type: integer
+                author_id:
+                  type: integer
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+    delete:
+      summary: Delete book
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Not Found
+  /loans:
+    get:
+      summary: List all loans
+      parameters:
+        - in: query
+          name: returned
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Check out a book
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                book_id:
+                  type: integer
+                borrower_name:
+                  type: string
+              required:
+                - book_id
+                - borrower_name
+      responses:
+        '201':
+          description: Created
+        '404':
+          description: Book Not Found
+        '409':
+          description: Conflict
+  /loans/{id}:
+    get:
+      summary: Get one loan
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+  /loans/{id}/return:
+    patch:
+      summary: Return a book
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+        '409':
+          description: Conflict

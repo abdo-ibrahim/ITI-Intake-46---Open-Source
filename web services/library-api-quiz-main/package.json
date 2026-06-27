@@ -1,0 +1,18 @@
+{
+  "name": "library-api-quiz",
+  "version": "1.0.0",
+  "description": "RESTful API design quiz — Library Management System",
+  "main": "src/index.js",
+  "scripts": {
+    "seed": "node db/seed.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

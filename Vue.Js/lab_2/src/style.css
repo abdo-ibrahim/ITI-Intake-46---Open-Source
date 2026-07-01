@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply m-0 min-h-screen bg-slate-50 text-slate-900;
+  }
+
+  #app {
+    @apply min-h-screen;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply border-none rounded-lg px-4 py-2 font-semibold text-white bg-gradient-to-r from-sky-500 to-blue-600 cursor-pointer transition duration-150 hover:-translate-y-0.5 hover:brightness-105 disabled:opacity-65 disabled:cursor-not-allowed disabled:translate-y-0;
+  }
+
+  .btn-error {
+    @apply border-none rounded-lg px-4 py-2 font-semibold text-white bg-red-500 cursor-pointer transition duration-150 hover:-translate-y-0.5 hover:brightness-105 disabled:opacity-65 disabled:cursor-not-allowed disabled:translate-y-0;
+  }
+}
